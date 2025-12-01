@@ -45,10 +45,15 @@ const M = { sum_kwh: ["Energi", "GWh", 1e6], sum_kwh_shore_power: ["Landstrøm",
 const GT = ["gt1, 0-399", "gt2, 400-999", "gt3, 1000-2999", "gt4, 3000-4999", "gt5, 5000-9999", "gt6, 10000-24999", "gt7, 25000-49999", "gt8, 50000-99999", "gt9, >=100 000"];
 const GTL = ["<400", "4–1k", "1–3k", "3–5k", "5–10k", "10–25k", "25–50k", "50–100k", ">100k"];
 
+const VOYAGE = { domestic: "Innenriks", international_in: "Fra utland", international_out: "Til utland", berthed: "Ved kai", transit: "Gjennomfart", ncs_facility_proximate: "Offshore" };
+const PHASE = { "Node (berth)": "Ved kai", Cruise: "Seilas", Maneuver: "Manøver", Anchor: "Ankring", Fishing: "Fiske", Aquacultur: "Havbruk", "Dynamic positioning offshore": "DP offshore" };
+
 function Skipsfart({ data }) {
   const [year, setYear] = useState(2024);
   const [m, setM] = useState("sum_kwh");
   const [county, setCounty] = useState("all");
+  const [voyage, setVoyage] = useState("all");
+  const [phase, setPhase] = useState("all");
   const f = data?.filters || {};
   const [label, unit, div] = M[m];
 
@@ -56,6 +61,8 @@ function Skipsfart({ data }) {
     if (!data?.data) return { rows: [], cols: {}, total: 0 };
     let r = data.data.filter(d => d.year === year);
     if (county !== "all") r = r.filter(d => d.county_name === county);
+    if (voyage !== "all") r = r.filter(d => d.voyage_type === voyage);
+    if (phase !== "all") r = r.filter(d => d.phase === phase);
 
     const agg = {};
     r.forEach(d => {
@@ -69,22 +76,31 @@ function Skipsfart({ data }) {
     const cols = {};
     GT.forEach(g => { cols[g] = rows.reduce((s, r) => s + (r.c[g] || 0), 0); });
     return { rows, cols, total: rows.reduce((s, r) => s + r.s, 0) };
-  }, [data, year, m, county, div]);
+  }, [data, year, m, county, voyage, phase, div]);
+
+  const hasFilters = county !== "all" || voyage !== "all" || phase !== "all";
 
   return (
     <div>
-      {/* Inline controls */}
-      <p className="text-sm text-gray-600 mb-4">
+      {/* Controls */}
+      <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600 mb-4">
         <select value={year} onChange={e => setYear(+e.target.value)} className="bg-transparent font-medium text-gray-900">
           {(f.years || []).map(y => <option key={y}>{y}</option>)}
         </select>
-        {" · "}
         <select value={m} onChange={e => setM(e.target.value)} className="bg-transparent">
           {Object.entries(M).map(([k, [l]]) => <option key={k} value={k}>{l}</option>)}
         </select>
-        {" · "}
-        <Select value={county} onChange={setCounty} options={f.counties || []} all="Hele Norge" />
-      </p>
+        <Select value={county} onChange={setCounty} options={f.counties || []} all="Alle fylker" />
+        <select value={voyage} onChange={e => setVoyage(e.target.value)} className="bg-transparent text-gray-500">
+          <option value="all">Alle reisetyper</option>
+          {(f.voyage_types || []).map(v => <option key={v} value={v}>{VOYAGE[v] || v}</option>)}
+        </select>
+        <select value={phase} onChange={e => setPhase(e.target.value)} className="bg-transparent text-gray-500">
+          <option value="all">Alle faser</option>
+          {(f.phases || []).map(p => <option key={p} value={p}>{PHASE[p] || p}</option>)}
+        </select>
+        {hasFilters && <button onClick={() => { setCounty("all"); setVoyage("all"); setPhase("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
+      </div>
 
       {/* Total */}
       <p className="text-2xl tabular-nums mb-3">{n(total, 0)} <span className="text-sm text-gray-500">{unit} {label.toLowerCase()}</span></p>
@@ -127,7 +143,7 @@ function Nett({ data }) {
   const [q, setQ] = useState("");
   const [fylke, setFylke] = useState("all");
   const [kommune, setKommune] = useState("all");
-  const [sort, setSort] = useState("score");
+  const [sort, setSort] = useState("ledig");
   const [dir, setDir] = useState("desc");
 
   const { rows, fylker, kommuner, stats } = useMemo(() => {
@@ -138,12 +154,10 @@ function Nett({ data }) {
         const ledig = l.available_consumption || 0;
         const prod = l.available_production || 0;
         const overskudd = prod < 0 ? Math.abs(prod) : 0;
-        // Score: høyere = bedre for landstrøm (ledig kapasitet + bonus for overskudd)
-        const score = ledig + (overskudd > 0 ? Math.min(overskudd * 0.5, 50) : 0);
         return {
           name: l.name, kommune: l.kommune || "–", fylke: l.fylke || "–",
           nett: o.publisher || id.toUpperCase(),
-          ledig, overskudd, reservert: l.reserved_consumption || 0, score
+          ledig, overskudd, reservert: l.reserved_consumption || 0
         };
       })
     );
@@ -223,38 +237,36 @@ function Nett({ data }) {
         <p className="text-xs text-gray-500 mb-2">{fStats.n} stasjoner · {n(fStats.ledig)} MW ledig</p>
       )}
 
-      {/* Table - focused columns */}
+      {/* Table */}
       <table className="w-full text-sm">
         <thead className="text-xs">
           <tr className="border-b border-gray-200">
             <Th col="name" left>Stasjon</Th>
             <Th col="kommune" left>Kommune</Th>
-            <Th col="nett" left>Nett</Th>
-            <Th col="ledig">Ledig</Th>
+            <Th col="fylke" left>Fylke</Th>
+            <Th col="nett" left>Nettselskap</Th>
+            <Th col="ledig">Ledig MW</Th>
             <Th col="overskudd">Overskudd</Th>
-            <Th col="score">Egnethet</Th>
           </tr>
         </thead>
         <tbody className="tabular-nums">
-          {filtered.slice(0, 80).map((r, i) => (
+          {filtered.slice(0, 100).map((r, i) => (
             <tr key={i} className={i % 2 ? "bg-gray-50/50" : ""}>
               <td className="py-1 px-1 text-gray-800">{r.name}</td>
-              <td className="py-1 px-1 text-gray-500">{r.kommune}</td>
-              <td className="py-1 px-1 text-gray-400 text-xs">{r.nett}</td>
+              <td className="py-1 px-1 text-gray-600">{r.kommune}</td>
+              <td className="py-1 px-1 text-gray-500">{r.fylke}</td>
+              <td className="py-1 px-1 text-gray-400">{r.nett}</td>
               <td className={`py-1 px-1 text-right ${r.ledig >= 10 ? "text-emerald-700 font-medium" : r.ledig >= 5 ? "text-emerald-600" : r.ledig > 0 ? "text-gray-600" : "text-gray-300"}`}>
-                {r.ledig > 0 ? n(r.ledig, 0) : "–"}
+                {r.ledig > 0 ? n(r.ledig, 1) : "–"}
               </td>
               <td className={`py-1 px-1 text-right ${r.overskudd > 0 ? "text-blue-600" : "text-gray-300"}`}>
-                {r.overskudd > 0 ? `+${n(r.overskudd, 0)}` : "–"}
-              </td>
-              <td className="py-1 px-1 text-right">
-                {r.score >= 20 ? "●●●" : r.score >= 10 ? "●●" : r.score >= 5 ? "●" : <span className="text-gray-300">○</span>}
+                {r.overskudd > 0 ? n(r.overskudd, 0) : "–"}
               </td>
             </tr>
           ))}
         </tbody>
       </table>
-      {filtered.length > 80 && <p className="text-xs text-gray-400 mt-2">Viser 80 av {filtered.length}</p>}
+      {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length}. Bruk filtre for å begrense.</p>}
 
       {/* Compact legend */}
       <p className="text-xs text-gray-400 mt-4">
@@ -271,7 +283,7 @@ function Nett({ data }) {
 // ============================================
 
 export default function App() {
-  const [tab, setTab] = useState("nett");
+  const [tab, setTab] = useState("skip");
   const [maru, setMaru] = useState(null);
   const [grid, setGrid] = useState(null);
   const [ok, setOk] = useState(false);
@@ -292,12 +304,12 @@ export default function App() {
       </header>
 
       <nav className="flex gap-4 mb-5 text-sm">
-        <button onClick={() => setTab("nett")} className={tab === "nett" ? "font-medium" : "text-gray-400"}>Nettkapasitet</button>
         <button onClick={() => setTab("skip")} className={tab === "skip" ? "font-medium" : "text-gray-400"}>Skipsfart</button>
+        <button onClick={() => setTab("nett")} className={tab === "nett" ? "font-medium" : "text-gray-400"}>Nettkapasitet</button>
       </nav>
 
-      {tab === "nett" && grid && <Nett data={grid} />}
       {tab === "skip" && maru && <Skipsfart data={maru} />}
+      {tab === "nett" && grid && <Nett data={grid} />}
 
       <footer className="mt-8 pt-4 border-t border-gray-100 text-xs text-gray-400">
         Data: <a href="https://wattapp.no" className="hover:text-gray-600">WattApp/Elhub</a> · <a href="https://github.com/Kystverket/maru" className="hover:text-gray-600">Kystverket MarU</a>
