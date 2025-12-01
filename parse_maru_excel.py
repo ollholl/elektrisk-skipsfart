@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Script to parse MarU Excel files and convert to JSON for the dashboard.
+Parse MarU Excel files and create granular JSON for dashboard.
+Aggregates at: year × vessel_type × gt_group × phase × voyage_type × county
 """
 import json
 import os
@@ -8,11 +9,10 @@ from pathlib import Path
 from datetime import datetime
 
 try:
-    import pandas as pd
+    import pandas as pd  # type: ignore
 except ImportError:
-    print("Installing pandas and openpyxl...")
     os.system("pip install pandas openpyxl")
-    import pandas as pd
+    import pandas as pd  # type: ignore
 
 def load_all_years(maru_dir="data/maru"):
     """Load and combine all years of MarU data."""
@@ -29,144 +29,87 @@ def load_all_years(maru_dir="data/maru"):
     print(f"\nTotal records: {len(combined):,}")
     return combined
 
-def create_dashboard_data(df):
-    """Create aggregated data structures for the dashboard."""
+def create_granular_data(df):
+    """Create granular aggregated data for the dashboard."""
+    
+    # Define grouping dimensions
+    dims = ['year', 'vessel_type', 'gt_group', 'phase', 'voyage_type', 'county_name']
+    
+    # Define measures to aggregate
+    measures = {
+        'sum_kwh': 'sum',
+        'sum_kwh_shore_power': 'sum',
+        'sum_kwh_battery': 'sum',
+        'sum_fuel_mdo_equivalent_tonnes': 'sum',
+        'sum_co2_tonnes': 'sum',
+        'sum_co2e_tonnes': 'sum',
+        'sum_nox_tonnes': 'sum',
+        'sum_sox_tonnes': 'sum',
+        'sum_pm10_tonnes': 'sum',
+        'sum_seconds': 'sum',
+        'distance_kilometers': 'sum',
+    }
+    
+    print("Creating granular aggregation...")
+    
+    # Main granular data: all dimensions
+    granular = df.groupby(dims, dropna=False).agg(measures).reset_index()
+    granular = granular.fillna({'county_name': 'Ukjent'})
+    
+    print(f"Granular records: {len(granular):,}")
     
     # Get unique values for filters
-    years = sorted(df['year'].unique().tolist())
-    months = sorted(df['year_month'].unique().tolist())
+    years = sorted(df['year'].dropna().unique().tolist())
     vessel_types = sorted(df['vessel_type'].dropna().unique().tolist())
     gt_groups = sorted(df['gt_group'].dropna().unique().tolist())
     phases = sorted(df['phase'].dropna().unique().tolist())
     voyage_types = sorted(df['voyage_type'].dropna().unique().tolist())
     counties = sorted(df['county_name'].dropna().unique().tolist())
-    municipalities = sorted(df['municipality_name'].dropna().unique().tolist())
     
-    # Aggregate by year, vessel_type, gt_group
-    agg_by_type_size = df.groupby(['year', 'vessel_type', 'gt_group']).agg({
-        'sum_kwh': 'sum',
-        'sum_kwh_shore_power': 'sum',
-        'sum_kwh_battery': 'sum',
-        'sum_fuel_mdo_equivalent_tonnes': 'sum',
-        'sum_co2_tonnes': 'sum',
-        'sum_co2e_tonnes': 'sum',
-        'sum_nox_tonnes': 'sum',
-        'sum_sox_tonnes': 'sum',
-        'sum_pm10_tonnes': 'sum',
-        'sum_seconds': 'sum',
-        'distance_kilometers': 'sum',
-    }).reset_index()
-    
-    # Aggregate by year, vessel_type
-    agg_by_type = df.groupby(['year', 'vessel_type']).agg({
-        'sum_kwh': 'sum',
-        'sum_kwh_shore_power': 'sum',
-        'sum_kwh_battery': 'sum',
-        'sum_fuel_mdo_equivalent_tonnes': 'sum',
-        'sum_co2_tonnes': 'sum',
-        'sum_co2e_tonnes': 'sum',
-        'sum_nox_tonnes': 'sum',
-        'sum_sox_tonnes': 'sum',
-        'sum_pm10_tonnes': 'sum',
-        'sum_seconds': 'sum',
-        'distance_kilometers': 'sum',
-    }).reset_index()
-    
-    # Aggregate by year, county
-    agg_by_county = df.groupby(['year', 'county_name']).agg({
-        'sum_kwh': 'sum',
-        'sum_kwh_shore_power': 'sum',
-        'sum_co2_tonnes': 'sum',
-        'sum_nox_tonnes': 'sum',
-    }).reset_index()
-    
-    # Aggregate by year, phase
-    agg_by_phase = df.groupby(['year', 'phase']).agg({
-        'sum_kwh': 'sum',
-        'sum_kwh_shore_power': 'sum',
-        'sum_co2_tonnes': 'sum',
-    }).reset_index()
-    
-    # Aggregate by year, voyage_type
-    agg_by_voyage = df.groupby(['year', 'voyage_type']).agg({
-        'sum_kwh': 'sum',
-        'sum_co2_tonnes': 'sum',
-    }).reset_index()
-    
-    # Year totals
-    year_totals = df.groupby('year').agg({
-        'sum_kwh': 'sum',
-        'sum_kwh_shore_power': 'sum',
-        'sum_kwh_battery': 'sum',
-        'sum_fuel_mdo_equivalent_tonnes': 'sum',
-        'sum_co2_tonnes': 'sum',
-        'sum_co2e_tonnes': 'sum',
-        'sum_nox_tonnes': 'sum',
-        'sum_sox_tonnes': 'sum',
-        'sum_pm10_tonnes': 'sum',
-        'distance_kilometers': 'sum',
-    }).reset_index()
+    # Year totals for quick reference
+    year_totals = df.groupby('year').agg(measures).reset_index()
     
     return {
         'metadata': {
             'generated_at': datetime.now().isoformat(),
-            'description': 'MarU Maritime Emissions Data - Aggregated for Dashboard',
-            'source': 'Kystverket MarU Model',
-            'years_covered': years,
-            'total_records': len(df),
+            'description': 'MarU Maritime Emissions - Granular Data',
+            'source': 'Kystverket MarU',
+            'total_raw_records': len(df),
+            'aggregated_records': len(granular),
         },
         'filters': {
             'years': years,
-            'months': months,
             'vessel_types': vessel_types,
             'gt_groups': gt_groups,
             'phases': phases,
             'voyage_types': voyage_types,
             'counties': counties,
-            'municipalities': municipalities[:100],  # Limit for file size
         },
-        'by_type_and_size': agg_by_type_size.to_dict(orient='records'),
-        'by_type': agg_by_type.to_dict(orient='records'),
-        'by_county': agg_by_county.to_dict(orient='records'),
-        'by_phase': agg_by_phase.to_dict(orient='records'),
-        'by_voyage_type': agg_by_voyage.to_dict(orient='records'),
+        'data': granular.to_dict(orient='records'),
         'year_totals': year_totals.to_dict(orient='records'),
     }
 
 def main():
-    """Main function to process MarU data."""
     print("Loading MarU Excel files...")
     df = load_all_years()
     
-    print("\nColumn names:")
-    print(list(df.columns))
+    print("\nCreating granular dashboard data...")
+    dashboard_data = create_granular_data(df)
     
-    print("\nCreating dashboard data...")
-    dashboard_data = create_dashboard_data(df)
-    
-    # Save to JSON
     output_path = Path("data/maru/maru_dashboard_data.json")
     print(f"\nSaving to {output_path}...")
     
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(dashboard_data, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(dashboard_data, f, ensure_ascii=False, indent=2, default=str)
     
-    print(f"\nDone! Data saved to {output_path}")
+    # Also copy to dashboard
+    dashboard_public = Path("dashboard/public/maru_data.json")
+    with open(dashboard_public, 'w', encoding='utf-8') as f:
+        json.dump(dashboard_data, f, ensure_ascii=False, indent=2, default=str)
     
-    # Print summary
-    print("\n" + "="*60)
-    print("SUMMARY")
-    print("="*60)
-    print(f"Years: {dashboard_data['metadata']['years_covered']}")
-    print(f"Vessel types: {len(dashboard_data['filters']['vessel_types'])}")
-    print(f"GT groups: {dashboard_data['filters']['gt_groups']}")
-    print(f"Counties: {len(dashboard_data['filters']['counties'])}")
-    print(f"Phases: {dashboard_data['filters']['phases']}")
-    print(f"Voyage types: {dashboard_data['filters']['voyage_types']}")
-    
-    print("\nYear totals (Energy MWh):")
-    for row in dashboard_data['year_totals']:
-        print(f"  {row['year']}: {row['sum_kwh']:,.0f} MWh (Shore power: {row['sum_kwh_shore_power']:,.0f} MWh)")
+    file_size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"\nDone! File size: {file_size_mb:.1f} MB")
+    print(f"Aggregated records: {dashboard_data['metadata']['aggregated_records']:,}")
 
 if __name__ == "__main__":
     main()

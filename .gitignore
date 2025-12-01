@@ -38,14 +38,17 @@ ENV/
 Thumbs.db
 
 # Project specific
-# Keep data files but ignore large temporary files
 *.tmp
 *.log
 
-# External cloned repositories (reference only, not committed)
-external/
+# Large data files (keep locally, don't commit)
+data/maru/*.xlsx
+data/maru/*.pdf
+
+# External cloned repositories
+external/kystverket-maru/
+external/klimatiltak-2025/
 
 # Dashboard build artifacts
 dashboard/node_modules/
 dashboard/dist/
-
