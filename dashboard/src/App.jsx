@@ -214,13 +214,13 @@ function Nett({ data }) {
     <div>
       {/* Summary */}
       <div className="flex gap-6 text-sm mb-4">
-        <div><span className="text-2xl tabular-nums">{n(stats.n)}</span> <span className="text-gray-500">stasjoner</span></div>
+        <div><span className="text-2xl tabular-nums">{n(stats.n)}</span> <span className="text-gray-500">områder</span></div>
         <div><span className="text-2xl tabular-nums text-emerald-700">{n(stats.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
       </div>
 
       {/* Filters - sentence style */}
       <p className="text-sm mb-3">
-        <input value={q} onChange={e => setQ(e.target.value)} placeholder="Søk stasjon..."
+        <input value={q} onChange={e => setQ(e.target.value)} placeholder="Søk område..."
           className="border-b border-gray-300 focus:border-gray-500 outline-none w-40 mr-3" />
         <Select value={fylke} onChange={v => { setFylke(v); setKommune("all"); }} options={fylker} all="Alle fylker" />
         {" · "}
@@ -232,14 +232,14 @@ function Nett({ data }) {
 
       {/* Filtered result */}
       {isFiltered && (
-        <p className="text-xs text-gray-500 mb-2">{fStats.n} stasjoner · {n(fStats.ledig)} MW ledig</p>
+        <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {n(fStats.ledig)} MW ledig</p>
       )}
 
       {/* Table */}
       <table className="w-full text-sm">
         <thead className="text-xs">
           <tr className="border-b border-gray-200">
-            <Th col="name" left>Stasjon</Th>
+            <Th col="name" left>Område</Th>
             <Th col="kommune" left>Kommune</Th>
             <Th col="fylke" left>Fylke</Th>
             <Th col="nett" left>Nettselskap</Th>
@@ -264,7 +264,7 @@ function Nett({ data }) {
           ))}
         </tbody>
       </table>
-      {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length}. Bruk filtre for å begrense.</p>}
+      {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length} områder. Bruk filtre for å begrense.</p>}
 
       {/* Compact legend */}
       <p className="text-xs text-gray-400 mt-4">
