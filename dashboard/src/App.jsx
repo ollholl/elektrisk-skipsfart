@@ -296,7 +296,7 @@ export default function App() {
   return (
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">
       <header className="mb-5">
-        <h1 className="text-base font-medium">Elektrisk Skipsfart</h1>
+        <h1 className="text-base font-medium">Den Elektriske Kysten</h1>
         <p className="text-sm text-gray-500">Skipsfart og nettkapasitet i Norge</p>
       </header>
 
