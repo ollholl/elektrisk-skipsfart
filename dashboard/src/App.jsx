@@ -150,23 +150,16 @@ function Nett({ data }) {
     if (!data?.grid_operators) return { rows: [], fylker: [], kommuner: [], stats: {} };
 
     const rows = Object.entries(data.grid_operators).flatMap(([id, o]) =>
-      (o.locations || []).map(l => {
-        const ledig = l.available_consumption || 0;
-        const prod = l.available_production || 0;
-        const overskudd = prod < 0 ? Math.abs(prod) : 0;
-        return {
-          name: l.name, kommune: l.kommune || "–", fylke: l.fylke || "–",
-          nett: o.publisher || id.toUpperCase(),
-          ledig, overskudd, reservert: l.reserved_consumption || 0
-        };
-      })
+      (o.locations || []).map(l => ({
+        name: l.name, kommune: l.kommune || "–", fylke: l.fylke || "–",
+        nett: o.publisher || id.toUpperCase(),
+        ledig: l.available_consumption || 0
+      }))
     );
 
     const stats = {
       n: rows.length,
       ledig: rows.reduce((s, r) => s + r.ledig, 0),
-      medKapasitet: rows.filter(r => r.ledig >= 5).length,
-      medOverskudd: rows.filter(r => r.overskudd > 0).length,
     };
 
     return {
@@ -244,7 +237,6 @@ function Nett({ data }) {
             <Th col="fylke" left>Fylke</Th>
             <Th col="nett" left>Nettselskap</Th>
             <Th col="ledig">Ledig MW</Th>
-            <Th col="overskudd">Overskudd MW</Th>
           </tr>
         </thead>
         <tbody className="tabular-nums">
@@ -257,9 +249,6 @@ function Nett({ data }) {
               <td className={`py-1 px-1 text-right ${r.ledig >= 10 ? "text-emerald-700 font-medium" : r.ledig >= 5 ? "text-emerald-600" : r.ledig > 0 ? "text-gray-600" : "text-gray-300"}`}>
                 {r.ledig > 0 ? n(r.ledig, 1) : "–"}
               </td>
-              <td className={`py-1 px-1 text-right ${r.overskudd > 0 ? "text-blue-600" : "text-gray-300"}`}>
-                {r.overskudd > 0 ? n(r.overskudd, 0) : "–"}
-              </td>
             </tr>
           ))}
         </tbody>
@@ -268,8 +257,7 @@ function Nett({ data }) {
 
       {/* Compact legend */}
       <p className="text-xs text-gray-400 mt-4">
-        <span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk · 
-        <span className="text-blue-600 ml-1">Overskudd</span> = overskuddsproduksjon i området (gunstig for forbruk)
+        <span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk (f.eks. landstrøm)
       </p>
     </div>
   );
