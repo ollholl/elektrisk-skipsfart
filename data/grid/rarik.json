@@ -1,0 +1,115 @@
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:25233921-4e56-4714-809a-a7187d0e7c07",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:8a313812-847e-453e-9acb-ca18f7d047f6",
+        "geometry": {
+          "coordinates": [
+            -21.717952820095462,
+            64.55552714285741
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vatnshamrar",
+          "owner": "Rarik",
+          "description": "Gera má ráð fyrir því að aflþörf muni aukast til muna í Borgarfirði vegna orkuskipta. Sökum þess má gera ráð fyrir því að stækka þurfi spenna í aðveitustöðinni til þess að svara eftirspurn.",
+          "shortDescription": "Núverandi umframgeta á Vatnshömrum.",
+          "capacityDate": "2025-12-01T18:27:04.6036133+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": 0
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:1968dd1d-9cd7-4bca-b657-23479b5553b1",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T18:27:04.603Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T18:27:04.603Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09RarikMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetRarikMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:3c6a3286-7576-45e3-8947-162082787131",
+        "dcterms:title": "Rarik"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "000000001",
+    "dcterms:rightHolder": "Rarik",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:fbf2db4d-6819-4a10-bd6d-e7de316806c1",
+        "dcterms:title": "Rarik-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]

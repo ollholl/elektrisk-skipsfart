@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2025-12-01T18:09:34.902944",
+    "generated_at": "2025-12-01T19:29:04.096132",
     "description": "Index of Norwegian electrical grid capacity data with municipality info",
-    "total_files": 29,
-    "total_features": 734
+    "total_files": 34,
+    "total_features": 855
   },
   "grid_operators": {
     "arva": {
@@ -1721,6 +1721,85 @@
           "reserved_consumption": 0,
           "kommune": "Molde",
           "fylke": "Møre og Romsdal"
+        }
+      ]
+    },
+    "elmea": {
+      "file": "elmea.json",
+      "feature_count": 6,
+      "publisher": "Elmea",
+      "locations": [
+        {
+          "name": "Kleppstad",
+          "coordinates": [
+            14.28212,
+            68.262286
+          ],
+          "available_consumption": 2,
+          "available_production": -16,
+          "reserved_consumption": 8,
+          "kommune": "Vågan",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Svolvær",
+          "coordinates": [
+            14.5316334103727,
+            68.2250714440954
+          ],
+          "available_consumption": 67,
+          "available_production": -108,
+          "reserved_consumption": 14,
+          "kommune": "Vågan",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Kvitfossen",
+          "coordinates": [
+            14.6535041375732,
+            68.327174698213
+          ],
+          "available_consumption": 11,
+          "available_production": -14,
+          "reserved_consumption": 2,
+          "kommune": "Vågan",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Fygle",
+          "coordinates": [
+            13.6377748847007,
+            68.1491472199792
+          ],
+          "available_consumption": 46,
+          "available_production": -95,
+          "reserved_consumption": 6,
+          "kommune": "Vestvågøy",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Solbjørn",
+          "coordinates": [
+            13.1616040209509,
+            68.0059617022361
+          ],
+          "available_consumption": 19,
+          "available_production": -19,
+          "reserved_consumption": 0,
+          "kommune": "Flakstad",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Værøy",
+          "coordinates": [
+            12.71911243,
+            67.65751751
+          ],
+          "available_consumption": 11,
+          "available_production": -28,
+          "reserved_consumption": 10,
+          "kommune": "Værøy",
+          "fylke": "Nordland"
         }
       ]
     },
@@ -6175,6 +6254,709 @@
           "reserved_consumption": 0,
           "kommune": "Flå",
           "fylke": "Buskerud"
+        }
+      ]
+    },
+    "glitrenettsor": {
+      "file": "glitrenettsor.json",
+      "feature_count": 58,
+      "publisher": "GlitreNettSor",
+      "locations": [
+        {
+          "name": "AKLAND",
+          "coordinates": [
+            9.04726619411428,
+            58.7279206248378
+          ],
+          "available_consumption": 1,
+          "available_production": 0,
+          "reserved_consumption": 0,
+          "kommune": "Risør",
+          "fylke": "Agder"
+        },
+        {
+          "name": "AUGLAND",
+          "coordinates": [
+            7.9279523811236,
+            58.207679265671
+          ],
+          "available_consumption": 5,
+          "available_production": -16,
+          "reserved_consumption": 1,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "AUSTADVIKA",
+          "coordinates": [
+            6.67404103545264,
+            58.3011194767522
+          ],
+          "available_consumption": 0,
+          "available_production": -14,
+          "reserved_consumption": 0,
+          "kommune": "Flekkefjord",
+          "fylke": "Agder"
+        },
+        {
+          "name": "AUSTERDALEN",
+          "coordinates": [
+            7.04066845630378,
+            58.3381027352371
+          ],
+          "available_consumption": 28,
+          "available_production": -34,
+          "reserved_consumption": 0,
+          "kommune": "Kvinesdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BARBU",
+          "coordinates": [
+            8.76512722207815,
+            58.4678208706979
+          ],
+          "available_consumption": 8,
+          "available_production": -32,
+          "reserved_consumption": 0,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BIRKELAND",
+          "coordinates": [
+            8.23304376141989,
+            58.3417978452708
+          ],
+          "available_consumption": 2,
+          "available_production": -14,
+          "reserved_consumption": 1,
+          "kommune": "Birkenes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BJELLAND",
+          "coordinates": [
+            7.5282052758962,
+            58.4058449514917
+          ],
+          "available_consumption": 10,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BJORBEKK",
+          "coordinates": [
+            8.70002690452946,
+            58.4445981237719
+          ],
+          "available_consumption": 4,
+          "available_production": -45,
+          "reserved_consumption": 5,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BJORENDAL",
+          "coordinates": [
+            8.80124311850698,
+            58.4970485273204
+          ],
+          "available_consumption": 0,
+          "available_production": -22,
+          "reserved_consumption": 325,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BREIVE",
+          "coordinates": [
+            7.28036171675491,
+            59.5762754953701
+          ],
+          "available_consumption": 2,
+          "available_production": -9,
+          "reserved_consumption": 0,
+          "kommune": "Bykle",
+          "fylke": "Agder"
+        },
+        {
+          "name": "BROKKE",
+          "coordinates": [
+            7.50998192178683,
+            59.1242198267879
+          ],
+          "available_consumption": 9,
+          "available_production": -10,
+          "reserved_consumption": 1,
+          "kommune": "Valle",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ELVEGATEN",
+          "coordinates": [
+            7.99848810352087,
+            58.1516673521785
+          ],
+          "available_consumption": 14,
+          "available_production": -45,
+          "reserved_consumption": 3,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ENGENE",
+          "coordinates": [
+            8.68825532175755,
+            58.4016160523826
+          ],
+          "available_consumption": 0,
+          "available_production": -22,
+          "reserved_consumption": 1,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ERTSMYRA",
+          "coordinates": [
+            6.75484390147279,
+            58.6716558681282
+          ],
+          "available_consumption": 25,
+          "available_production": -35,
+          "reserved_consumption": 0,
+          "kommune": "Sirdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "EVJE",
+          "coordinates": [
+            7.80975734801449,
+            58.5826024149354
+          ],
+          "available_consumption": 14,
+          "available_production": -32,
+          "reserved_consumption": 2,
+          "kommune": "Evje og Hornnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "EYDEHAVN",
+          "coordinates": [
+            8.87198254108145,
+            58.4985302351434
+          ],
+          "available_consumption": 2,
+          "available_production": -20,
+          "reserved_consumption": 0,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "FJÆRE",
+          "coordinates": [
+            8.59211610549151,
+            58.3686968515836
+          ],
+          "available_consumption": 9,
+          "available_production": -45,
+          "reserved_consumption": 1,
+          "kommune": "Grimstad",
+          "fylke": "Agder"
+        },
+        {
+          "name": "FRIKSTAD",
+          "coordinates": [
+            8.11904168676463,
+            58.1397698318764
+          ],
+          "available_consumption": 11,
+          "available_production": -45,
+          "reserved_consumption": 0,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "FROLAND",
+          "coordinates": [
+            8.62556202294468,
+            58.5109630895562
+          ],
+          "available_consumption": 0,
+          "available_production": -6,
+          "reserved_consumption": 0,
+          "kommune": "Froland",
+          "fylke": "Agder"
+        },
+        {
+          "name": "GARTNERLØKKA",
+          "coordinates": [
+            7.98775304992438,
+            58.1471740087181
+          ],
+          "available_consumption": 13,
+          "available_production": -45,
+          "reserved_consumption": 2,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "GJERSTAD",
+          "coordinates": [
+            9.08840767856919,
+            58.8150582878164
+          ],
+          "available_consumption": 0,
+          "available_production": -22,
+          "reserved_consumption": 10,
+          "kommune": "Gjerstad",
+          "fylke": "Agder"
+        },
+        {
+          "name": "GRIMSTAD VEST",
+          "coordinates": [
+            8.53467301574656,
+            58.3466904012536
+          ],
+          "available_consumption": 3,
+          "available_production": -45,
+          "reserved_consumption": 6,
+          "kommune": "Grimstad",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HALSHAUG",
+          "coordinates": [
+            7.45487752761213,
+            58.0345707550854
+          ],
+          "available_consumption": 7,
+          "available_production": -45,
+          "reserved_consumption": 2,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HANNEVIKA",
+          "coordinates": [
+            7.95731812630178,
+            58.1365531629197
+          ],
+          "available_consumption": 9,
+          "available_production": -38,
+          "reserved_consumption": 2,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HARTEVATN",
+          "coordinates": [
+            7.36046375581795,
+            59.5209823549075
+          ],
+          "available_consumption": 7,
+          "available_production": -19,
+          "reserved_consumption": 1,
+          "kommune": "Bykle",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HAVIK",
+          "coordinates": [
+            6.83717283897233,
+            58.0989090486733
+          ],
+          "available_consumption": 3,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Farsund",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HEKNI",
+          "coordinates": [
+            7.54670357017805,
+            58.995133177084
+          ],
+          "available_consumption": 0,
+          "available_production": -3,
+          "reserved_consumption": 1,
+          "kommune": "Bygland",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HOLEN",
+          "coordinates": [
+            7.25035369321658,
+            59.3462376093434
+          ],
+          "available_consumption": 3,
+          "available_production": -7,
+          "reserved_consumption": 0,
+          "kommune": "Bykle",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HOLT",
+          "coordinates": [
+            8.875840162033,
+            58.618547006208
+          ],
+          "available_consumption": 1,
+          "available_production": -22,
+          "reserved_consumption": 1,
+          "kommune": "Tvedestrand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "HØGEFOSS",
+          "coordinates": [
+            8.52002467349868,
+            58.9491657364365
+          ],
+          "available_consumption": 8,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Nissedal",
+          "fylke": "Telemark"
+        },
+        {
+          "name": "IVELAND",
+          "coordinates": [
+            7.8944589895043,
+            58.3903319908911
+          ],
+          "available_consumption": 1,
+          "available_production": -7,
+          "reserved_consumption": 1,
+          "kommune": "Iveland",
+          "fylke": "Agder"
+        },
+        {
+          "name": "KJOS",
+          "coordinates": [
+            7.95136203366001,
+            58.1117856714407
+          ],
+          "available_consumption": 5,
+          "available_production": -45,
+          "reserved_consumption": 1,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "KROSSEN",
+          "coordinates": [
+            7.95602989008207,
+            58.1563565814373
+          ],
+          "available_consumption": 10,
+          "available_production": -36,
+          "reserved_consumption": 1,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "KRØGENES",
+          "coordinates": [
+            8.81885682466057,
+            58.4732191175479
+          ],
+          "available_consumption": 5,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "KULIA",
+          "coordinates": [
+            7.86703533729169,
+            58.1821508794694
+          ],
+          "available_consumption": 8,
+          "available_production": -45,
+          "reserved_consumption": 3,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "KVINEN",
+          "coordinates": [
+            7.08764291569751,
+            58.9312167319378
+          ],
+          "available_consumption": 7,
+          "available_production": -18,
+          "reserved_consumption": 1,
+          "kommune": "Sirdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LAUDAL",
+          "coordinates": [
+            7.51301063308974,
+            58.2452836440585
+          ],
+          "available_consumption": 0,
+          "available_production": -10,
+          "reserved_consumption": 0,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LEIRE",
+          "coordinates": [
+            7.76944902852772,
+            58.0871875047047
+          ],
+          "available_consumption": 1,
+          "available_production": -45,
+          "reserved_consumption": 6,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LOGNA",
+          "coordinates": [
+            7.50998535874111,
+            58.7637141751567
+          ],
+          "available_consumption": 2,
+          "available_production": 0,
+          "reserved_consumption": 0,
+          "kommune": "Åseral",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LUMBER",
+          "coordinates": [
+            7.96368737660061,
+            58.1237961896369
+          ],
+          "available_consumption": 12,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LUND",
+          "coordinates": [
+            8.01686234585188,
+            58.1621958465751
+          ],
+          "available_consumption": 17,
+          "available_production": -72,
+          "reserved_consumption": 2,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "LYNGDAL",
+          "coordinates": [
+            7.0871727958683,
+            58.1574359537503
+          ],
+          "available_consumption": 0,
+          "available_production": -45,
+          "reserved_consumption": 38,
+          "kommune": "Lyngdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "MIKKELSMYR",
+          "coordinates": [
+            7.47999521167693,
+            58.0290724219731
+          ],
+          "available_consumption": 0,
+          "available_production": -22,
+          "reserved_consumption": 4,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "MOEN",
+          "coordinates": [
+            8.35132632906523,
+            58.2623345868513
+          ],
+          "available_consumption": 4,
+          "available_production": -46,
+          "reserved_consumption": 7,
+          "kommune": "Lillesand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "RAMSLANDSVÅGEN",
+          "coordinates": [
+            7.11807195715163,
+            58.0375419698896
+          ],
+          "available_consumption": 3,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "RISØR",
+          "coordinates": [
+            9.22244563987921,
+            58.7229805029127
+          ],
+          "available_consumption": 4,
+          "available_production": -22,
+          "reserved_consumption": 1,
+          "kommune": "Risør",
+          "fylke": "Agder"
+        },
+        {
+          "name": "SKJERKA",
+          "coordinates": [
+            7.37519615791854,
+            58.554351551285
+          ],
+          "available_consumption": 7,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Åseral",
+          "fylke": "Agder"
+        },
+        {
+          "name": "SØYLAND",
+          "coordinates": [
+            6.63931246031768,
+            58.2979753475975
+          ],
+          "available_consumption": 6,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Flekkefjord",
+          "fylke": "Agder"
+        },
+        {
+          "name": "TIMENES",
+          "coordinates": [
+            8.1196505702541,
+            58.1780208679684
+          ],
+          "available_consumption": 0,
+          "available_production": -45,
+          "reserved_consumption": 13,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "TJØRHOM",
+          "coordinates": [
+            6.82214491000788,
+            58.8793113794435
+          ],
+          "available_consumption": 7,
+          "available_production": -18,
+          "reserved_consumption": 0,
+          "kommune": "Sirdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "TORBJØRNSBU",
+          "coordinates": [
+            8.74680008740064,
+            58.4655364358012
+          ],
+          "available_consumption": 8,
+          "available_production": -43,
+          "reserved_consumption": 3,
+          "kommune": "Arendal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "VALLEMOEN",
+          "coordinates": [
+            7.31667773357453,
+            58.0891857972564
+          ],
+          "available_consumption": 5,
+          "available_production": -22,
+          "reserved_consumption": 2,
+          "kommune": "Lindesnes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "VANSE",
+          "coordinates": [
+            6.69028461137195,
+            58.1049498643726
+          ],
+          "available_consumption": 2,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Farsund",
+          "fylke": "Agder"
+        },
+        {
+          "name": "VEGUSDAL",
+          "coordinates": [
+            8.18349563322873,
+            58.5470626975398
+          ],
+          "available_consumption": 12,
+          "available_production": -6,
+          "reserved_consumption": 0,
+          "kommune": "Birkenes",
+          "fylke": "Agder"
+        },
+        {
+          "name": "VENNESLA",
+          "coordinates": [
+            7.97293867745243,
+            58.261409046378
+          ],
+          "available_consumption": 3,
+          "available_production": -24,
+          "reserved_consumption": 0,
+          "kommune": "Vennesla",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ØIE",
+          "coordinates": [
+            6.89216972007888,
+            58.2794286168567
+          ],
+          "available_consumption": 1,
+          "available_production": -3,
+          "reserved_consumption": 0,
+          "kommune": "Kvinesdal",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ÅLEFJÆR",
+          "coordinates": [
+            8.02423705529539,
+            58.2373424531328
+          ],
+          "available_consumption": 4,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Kristiansand",
+          "fylke": "Agder"
+        },
+        {
+          "name": "ÅMLI",
+          "coordinates": [
+            8.48335899553956,
+            58.7570113593646
+          ],
+          "available_consumption": 8,
+          "available_production": -3,
+          "reserved_consumption": 0,
+          "kommune": "Åmli",
+          "fylke": "Agder"
         }
       ]
     },
@@ -29539,6 +30321,181 @@
         }
       ]
     },
+    "noranett": {
+      "file": "noranett.json",
+      "feature_count": 14,
+      "publisher": "Noranett",
+      "locations": [
+        {
+          "name": "Evenesmark",
+          "coordinates": [
+            16.74595383,
+            68.49697428
+          ],
+          "available_consumption": 2,
+          "available_production": -10,
+          "reserved_consumption": 3,
+          "kommune": "Evenes",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Niingen",
+          "coordinates": [
+            17.02831892,
+            68.53702987
+          ],
+          "available_consumption": 0,
+          "available_production": -6,
+          "reserved_consumption": 5,
+          "kommune": "Evenes",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Tjeldsund",
+          "coordinates": [
+            16.43404049,
+            68.56302706
+          ],
+          "available_consumption": 0,
+          "available_production": -7,
+          "reserved_consumption": 4,
+          "kommune": "Dielddanuorri",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Ramsund",
+          "coordinates": [
+            16.51969045,
+            68.49646003
+          ],
+          "available_consumption": 0,
+          "available_production": 0,
+          "reserved_consumption": 0,
+          "kommune": "Dielddanuorri",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Lødingen",
+          "coordinates": [
+            15.98102139,
+            68.41779527
+          ],
+          "available_consumption": 0,
+          "available_production": -15,
+          "reserved_consumption": 6,
+          "kommune": "Lødingen",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Kanstadbotn",
+          "coordinates": [
+            15.88240573,
+            68.50681556
+          ],
+          "available_consumption": 0,
+          "available_production": -8,
+          "reserved_consumption": 4,
+          "kommune": "Lødingen",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Heggen",
+          "coordinates": [
+            16.52183819,
+            68.79560377
+          ],
+          "available_consumption": 12,
+          "available_production": -50,
+          "reserved_consumption": 2,
+          "kommune": "Harstad",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Møkkland",
+          "coordinates": [
+            16.43816518,
+            68.80912012
+          ],
+          "available_consumption": 8,
+          "available_production": -30,
+          "reserved_consumption": 3,
+          "kommune": "Harstad",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Medkila",
+          "coordinates": [
+            16.5454942,
+            68.77099824
+          ],
+          "available_consumption": 13,
+          "available_production": -36,
+          "reserved_consumption": 0,
+          "kommune": "Harstad",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Blomjoten",
+          "coordinates": [
+            16.51227879,
+            68.71409725
+          ],
+          "available_consumption": 2,
+          "available_production": -12,
+          "reserved_consumption": 2,
+          "kommune": "Harstad",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Kvitnes",
+          "coordinates": [
+            16.5980845,
+            68.62882448
+          ],
+          "available_consumption": 0,
+          "available_production": -9,
+          "reserved_consumption": 0,
+          "kommune": "Dielddanuorri",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Kvandal",
+          "coordinates": [
+            17.61176998,
+            68.57700558
+          ],
+          "available_consumption": 11,
+          "available_production": -7,
+          "reserved_consumption": 0,
+          "kommune": "Narvik",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Boltås",
+          "coordinates": [
+            16.66410909,
+            68.5306393
+          ],
+          "available_consumption": 22,
+          "available_production": -30,
+          "reserved_consumption": 0,
+          "kommune": "Dielddanuorri",
+          "fylke": "Troms"
+        },
+        {
+          "name": "Gåre",
+          "coordinates": [
+            16.253689,
+            68.758259
+          ],
+          "available_consumption": 6,
+          "available_production": -20,
+          "reserved_consumption": 3,
+          "kommune": "Kvæfjord",
+          "fylke": "Troms"
+        }
+      ]
+    },
     "norgesnett": {
       "file": "norgesnett.json",
       "feature_count": 0,
@@ -29550,6 +30507,25 @@
       "feature_count": 0,
       "publisher": "Rakkestad Energi",
       "locations": []
+    },
+    "rarik": {
+      "file": "rarik.json",
+      "feature_count": 1,
+      "publisher": "Rarik",
+      "locations": [
+        {
+          "name": "Vatnshamrar",
+          "coordinates": [
+            -21.717952820095462,
+            64.55552714285741
+          ],
+          "available_consumption": 6,
+          "available_production": 0,
+          "reserved_consumption": 0,
+          "kommune": null,
+          "fylke": null
+        }
+      ]
     },
     "romsdalsnett": {
       "file": "romsdalsnett.json",
@@ -41205,6 +42181,517 @@
           "reserved_consumption": 0,
           "kommune": null,
           "fylke": null
+        }
+      ]
+    },
+    "tensio-tn": {
+      "file": "tensio-tn.json",
+      "feature_count": 42,
+      "publisher": "TENSIO-TN",
+      "locations": [
+        {
+          "name": "Bratli",
+          "coordinates": [
+            11.2238347,
+            64.3056683
+          ],
+          "available_consumption": 1,
+          "available_production": -9,
+          "reserved_consumption": 0,
+          "kommune": "Namsos",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Daltrøa",
+          "coordinates": [
+            11.5036973,
+            64.4759253
+          ],
+          "available_consumption": 5,
+          "available_production": -45,
+          "reserved_consumption": 0,
+          "kommune": "Namsos",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Eidum",
+          "coordinates": [
+            11.003996,
+            63.44883
+          ],
+          "available_consumption": 6,
+          "available_production": -36,
+          "reserved_consumption": 0,
+          "kommune": "Stjørdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Follafoss",
+          "coordinates": [
+            11.101814,
+            63.9865717
+          ],
+          "available_consumption": 3,
+          "available_production": -10,
+          "reserved_consumption": 0,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Fosdalen",
+          "coordinates": [
+            11.2224957,
+            64.0821572
+          ],
+          "available_consumption": 0,
+          "available_production": -27,
+          "reserved_consumption": 6,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Frosta",
+          "coordinates": [
+            10.843121,
+            63.602185
+          ],
+          "available_consumption": 0,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Frosta",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Funna",
+          "coordinates": [
+            11.7411931,
+            63.4332069
+          ],
+          "available_consumption": 2,
+          "available_production": -6,
+          "reserved_consumption": 0,
+          "kommune": "Meråker",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Følling",
+          "coordinates": [
+            11.5603138,
+            64.1080581
+          ],
+          "available_consumption": 1,
+          "available_production": -13,
+          "reserved_consumption": 0,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Heir",
+          "coordinates": [
+            11.3447855,
+            63.7442437
+          ],
+          "available_consumption": 5,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Levanger",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Høylandet",
+          "coordinates": [
+            12.257461,
+            64.59443
+          ],
+          "available_consumption": 5,
+          "available_production": -13,
+          "reserved_consumption": 0,
+          "kommune": "Høylandet",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Jøa",
+          "coordinates": [
+            11.3029095,
+            64.6729827
+          ],
+          "available_consumption": 4,
+          "available_production": -9,
+          "reserved_consumption": 0,
+          "kommune": "Namsos",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Lauvsnes",
+          "coordinates": [
+            10.919316,
+            64.498552
+          ],
+          "available_consumption": 6,
+          "available_production": -11,
+          "reserved_consumption": 0,
+          "kommune": "Flatanger",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Leksvik",
+          "coordinates": [
+            10.5855293,
+            63.6829674
+          ],
+          "available_consumption": 2,
+          "available_production": -12,
+          "reserved_consumption": 0,
+          "kommune": "Indre Fosen",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Levanger",
+          "coordinates": [
+            11.2916982,
+            63.7399679
+          ],
+          "available_consumption": 0,
+          "available_production": -45,
+          "reserved_consumption": 1,
+          "kommune": "Levanger",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Meråker",
+          "coordinates": [
+            11.764709,
+            63.404355
+          ],
+          "available_consumption": 0,
+          "available_production": -16,
+          "reserved_consumption": 4,
+          "kommune": "Meråker",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Mosvik",
+          "coordinates": [
+            10.8686459,
+            63.726228
+          ],
+          "available_consumption": 2,
+          "available_production": -13,
+          "reserved_consumption": 0,
+          "kommune": "Inderøy",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Mælafoss/Sutterø",
+          "coordinates": [
+            10.9090948,
+            63.488972
+          ],
+          "available_consumption": 0,
+          "available_production": -45,
+          "reserved_consumption": 6,
+          "kommune": "Stjørdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Namsos",
+          "coordinates": [
+            11.5648587,
+            64.4728926
+          ],
+          "available_consumption": 10,
+          "available_production": -45,
+          "reserved_consumption": 2,
+          "kommune": "Namsos",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Nedre Fiskumfoss",
+          "coordinates": [
+            12.4548492,
+            64.544929
+          ],
+          "available_consumption": 1,
+          "available_production": -1,
+          "reserved_consumption": 0,
+          "kommune": "Grong",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Nordli",
+          "coordinates": [
+            13.6026688,
+            64.4663322
+          ],
+          "available_consumption": 4,
+          "available_production": -10,
+          "reserved_consumption": 0,
+          "kommune": "Lierne",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Ormsetfoss",
+          "coordinates": [
+            10.687778,
+            63.845173
+          ],
+          "available_consumption": 4,
+          "available_production": -8,
+          "reserved_consumption": 0,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Røra",
+          "coordinates": [
+            11.4034927,
+            63.8625554
+          ],
+          "available_consumption": 2,
+          "available_production": -27,
+          "reserved_consumption": 0,
+          "kommune": "Inderøy",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Rørvik",
+          "coordinates": [
+            11.2666423,
+            64.8859336
+          ],
+          "available_consumption": 0,
+          "available_production": -40,
+          "reserved_consumption": 14,
+          "kommune": "Nærøysund",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Røyrvikfoss",
+          "coordinates": [
+            13.5621803,
+            64.8862518
+          ],
+          "available_consumption": 1,
+          "available_production": -3,
+          "reserved_consumption": 0,
+          "kommune": "Raarvihke",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Salsbruket",
+          "coordinates": [
+            11.8722001,
+            64.8051346
+          ],
+          "available_consumption": 5,
+          "available_production": -6,
+          "reserved_consumption": 3,
+          "kommune": "Nærøysund",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Saltbotn",
+          "coordinates": [
+            11.717287,
+            64.9026356
+          ],
+          "available_consumption": 0,
+          "available_production": -13,
+          "reserved_consumption": 1,
+          "kommune": "Nærøysund",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Skogmo",
+          "coordinates": [
+            12.0183141,
+            64.5073598
+          ],
+          "available_consumption": 0,
+          "available_production": -14,
+          "reserved_consumption": 0,
+          "kommune": "Overhalla",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Skogn",
+          "coordinates": [
+            11.1807596,
+            63.6821032
+          ],
+          "available_consumption": 3,
+          "available_production": -22,
+          "reserved_consumption": 2,
+          "kommune": "Levanger",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Skorovatn",
+          "coordinates": [
+            13.1413176,
+            64.6477584
+          ],
+          "available_consumption": 6,
+          "available_production": -2,
+          "reserved_consumption": 0,
+          "kommune": "Raarvihke",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Snåsa",
+          "coordinates": [
+            12.281928,
+            64.2631695
+          ],
+          "available_consumption": 2,
+          "available_production": -8,
+          "reserved_consumption": 0,
+          "kommune": "Snåase",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Steinkjer",
+          "coordinates": [
+            11.4988781,
+            64.0255569
+          ],
+          "available_consumption": 9,
+          "available_production": -41,
+          "reserved_consumption": 0,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Strand",
+          "coordinates": [
+            11.4642337,
+            64.8092778
+          ],
+          "available_consumption": 4,
+          "available_production": -13,
+          "reserved_consumption": 0,
+          "kommune": "Nærøysund",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Sørsileiret",
+          "coordinates": [
+            11.4964877,
+            64.0095879
+          ],
+          "available_consumption": 2,
+          "available_production": -49,
+          "reserved_consumption": 3,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Tunnsjø",
+          "coordinates": [
+            13.6382977,
+            64.6938937
+          ],
+          "available_consumption": 1,
+          "available_production": -1,
+          "reserved_consumption": 0,
+          "kommune": "Lierne",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Tunnsjødal",
+          "coordinates": [
+            12.8352522,
+            64.7032811
+          ],
+          "available_consumption": 3,
+          "available_production": -36,
+          "reserved_consumption": 11,
+          "kommune": "Namsskogan",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Verdal",
+          "coordinates": [
+            11.490375,
+            63.792083
+          ],
+          "available_consumption": 9,
+          "available_production": -45,
+          "reserved_consumption": 1,
+          "kommune": "Verdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Vuku",
+          "coordinates": [
+            11.6846001,
+            63.7691911
+          ],
+          "available_consumption": 1,
+          "available_production": -14,
+          "reserved_consumption": 0,
+          "kommune": "Verdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Øireina",
+          "coordinates": [
+            10.9421611,
+            63.4662346
+          ],
+          "available_consumption": 0,
+          "available_production": -36,
+          "reserved_consumption": 2,
+          "kommune": "Stjørdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Ørin",
+          "coordinates": [
+            11.4629497,
+            63.7838749
+          ],
+          "available_consumption": 0,
+          "available_production": -36,
+          "reserved_consumption": 4,
+          "kommune": "Verdal",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Østerås",
+          "coordinates": [
+            11.4650982,
+            63.9615041
+          ],
+          "available_consumption": 5,
+          "available_production": -22,
+          "reserved_consumption": 0,
+          "kommune": "Steinkjer",
+          "fylke": "Trøndelag"
+        },
+        {
+          "name": "Årsandøy",
+          "coordinates": [
+            12.1845112,
+            65.0370047
+          ],
+          "available_consumption": 0,
+          "available_production": -11,
+          "reserved_consumption": 4,
+          "kommune": "Bindal",
+          "fylke": "Nordland"
+        },
+        {
+          "name": "Åsen",
+          "coordinates": [
+            11.0520326,
+            63.6085792
+          ],
+          "available_consumption": 3,
+          "available_production": -14,
+          "reserved_consumption": 0,
+          "kommune": "Levanger",
+          "fylke": "Trøndelag"
         }
       ]
     },

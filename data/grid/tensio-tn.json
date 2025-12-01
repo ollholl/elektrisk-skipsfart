@@ -1,0 +1,1267 @@
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:59b5f857-5573-11ef-9b06-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6561ab2e-1466-4474-9f36-979eff00f677",
+        "geometry": {
+          "coordinates": [
+            11.2238347,
+            64.3056683
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Bratli",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -9,
+          "kommune": "Namsos",
+          "kommune_nr": "5007",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f858-5573-11ef-9860-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2c29720f-7bf2-44ae-8387-f570d9b2ca2d",
+        "geometry": {
+          "coordinates": [
+            11.5036973,
+            64.4759253
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Daltrøa",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -45,
+          "kommune": "Namsos",
+          "kommune_nr": "5007",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f859-5573-11ef-b82a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6ed31d30-72ef-481a-8abe-3f47553c511a",
+        "geometry": {
+          "coordinates": [
+            11.003996,
+            63.44883
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Eidum",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -36,
+          "kommune": "Stjørdal",
+          "kommune_nr": "5035",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85a-5573-11ef-aaf9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:34cdae90-409b-4837-a2fb-8908f918e695",
+        "geometry": {
+          "coordinates": [
+            11.101814,
+            63.9865717
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Follafoss",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 3,
+          "availableProd": -10,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85b-5573-11ef-9f75-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4672d8ab-adaa-4613-91c0-3e3b0cd68003",
+        "geometry": {
+          "coordinates": [
+            11.2224957,
+            64.0821572
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Fosdalen",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 6,
+          "availableCons": 0,
+          "availableProd": -27,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85c-5573-11ef-a181-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1c7df51e-a2db-42a5-8512-f327f50b0887",
+        "geometry": {
+          "coordinates": [
+            10.843121,
+            63.602185
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Frosta",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -22,
+          "kommune": "Frosta",
+          "kommune_nr": "5036",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85d-5573-11ef-9d91-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:ed9aba12-c053-4a88-854a-39fde1712726",
+        "geometry": {
+          "coordinates": [
+            11.7411931,
+            63.4332069
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Funna",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -6,
+          "kommune": "Meråker",
+          "kommune_nr": "5034",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85e-5573-11ef-a605-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7dd24b01-58e8-4756-a253-4ffffbbbccaf",
+        "geometry": {
+          "coordinates": [
+            11.5603138,
+            64.1080581
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Følling",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -13,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f85f-5573-11ef-9f83-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5a84ba5c-8330-4b5c-8702-3b9b34b6ac6e",
+        "geometry": {
+          "coordinates": [
+            11.3447855,
+            63.7442437
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Heir",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -22,
+          "kommune": "Levanger",
+          "kommune_nr": "5037",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b5f860-5573-11ef-b092-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:45948d88-aae8-4a00-a265-662c912e88bb",
+        "geometry": {
+          "coordinates": [
+            12.257461,
+            64.59443
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Høylandet",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -13,
+          "kommune": "Høylandet",
+          "kommune_nr": "5046",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f66-5573-11ef-b018-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7bfd70bd-8f8f-42e3-949e-84fc1a194f43",
+        "geometry": {
+          "coordinates": [
+            11.3029095,
+            64.6729827
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Jøa",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 4,
+          "availableProd": -9,
+          "kommune": "Namsos",
+          "kommune_nr": "5007",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f67-5573-11ef-80d6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5bcfd526-aad1-40b1-854b-5f084f2991a5",
+        "geometry": {
+          "coordinates": [
+            10.919316,
+            64.498552
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Lauvsnes",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -11,
+          "kommune": "Flatanger",
+          "kommune_nr": "5049",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f68-5573-11ef-b0b3-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6df157b2-4cd5-4211-af3b-2305eac626da",
+        "geometry": {
+          "coordinates": [
+            10.5855293,
+            63.6829674
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Leksvik",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -12,
+          "kommune": "Indre Fosen",
+          "kommune_nr": "5054",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f69-5573-11ef-b565-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:54bb8204-e3a1-423c-a888-5ee44657810d",
+        "geometry": {
+          "coordinates": [
+            11.2916982,
+            63.7399679
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Levanger",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 0,
+          "availableProd": -45,
+          "kommune": "Levanger",
+          "kommune_nr": "5037",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6a-5573-11ef-839a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:51704a1a-75a8-46dc-9719-7b670b0ead7d",
+        "geometry": {
+          "coordinates": [
+            11.764709,
+            63.404355
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Meråker",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 0,
+          "availableProd": -16,
+          "kommune": "Meråker",
+          "kommune_nr": "5034",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6b-5573-11ef-a5a0-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:61b1f484-7a78-4f6a-9bb1-ee00487a5900",
+        "geometry": {
+          "coordinates": [
+            10.8686459,
+            63.726228
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Mosvik",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -13,
+          "kommune": "Inderøy",
+          "kommune_nr": "5053",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6c-5573-11ef-a4ae-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:38643f04-1655-4ccb-9af8-a390ef981f45",
+        "geometry": {
+          "coordinates": [
+            10.9090948,
+            63.488972
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Mælafoss/Sutterø",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 6,
+          "availableCons": 0,
+          "availableProd": -45,
+          "kommune": "Stjørdal",
+          "kommune_nr": "5035",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6d-5573-11ef-b672-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:34caa650-6ba3-432f-a407-a43806236591",
+        "geometry": {
+          "coordinates": [
+            11.5648587,
+            64.4728926
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Namsos",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 10,
+          "availableProd": -45,
+          "kommune": "Namsos",
+          "kommune_nr": "5007",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6e-5573-11ef-8b14-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6a8cd339-31ce-4fb5-8179-93134d2e8933",
+        "geometry": {
+          "coordinates": [
+            12.4548492,
+            64.544929
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Nedre Fiskumfoss",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -1,
+          "kommune": "Grong",
+          "kommune_nr": "5045",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f6f-5573-11ef-ab3d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:18a5008d-ce62-4c3d-a842-fbe7ad5262fd",
+        "geometry": {
+          "coordinates": [
+            13.6026688,
+            64.4663322
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Nordli",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 4,
+          "availableProd": -10,
+          "kommune": "Lierne",
+          "kommune_nr": "5042",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f70-5573-11ef-9d81-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3f908125-0b60-4c4e-a049-f8c9460c23db",
+        "geometry": {
+          "coordinates": [
+            10.687778,
+            63.845173
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ormsetfoss",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 4,
+          "availableProd": -8,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f71-5573-11ef-974e-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:68a7971a-bcc6-410a-bb97-262b6e75c694",
+        "geometry": {
+          "coordinates": [
+            11.4034927,
+            63.8625554
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Røra",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -27,
+          "kommune": "Inderøy",
+          "kommune_nr": "5053",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f72-5573-11ef-9a3c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:60db21ed-9802-41ab-aaf0-d6b5ce33dcb0",
+        "geometry": {
+          "coordinates": [
+            11.2666423,
+            64.8859336
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Rørvik",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 14,
+          "availableCons": 0,
+          "availableProd": -40,
+          "kommune": "Nærøysund",
+          "kommune_nr": "5060",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f73-5573-11ef-b1a6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3716fb96-3948-4b44-baed-dd69c8bfa4cd",
+        "geometry": {
+          "coordinates": [
+            13.5621803,
+            64.8862518
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Røyrvikfoss",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -3,
+          "kommune": "Raarvihke",
+          "kommune_nr": "5043",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f74-5573-11ef-9b67-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:19a7a68b-8b4d-40e6-9704-4209e21ce94d",
+        "geometry": {
+          "coordinates": [
+            11.8722001,
+            64.8051346
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Salsbruket",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 5,
+          "availableProd": -6,
+          "kommune": "Nærøysund",
+          "kommune_nr": "5060",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f75-5573-11ef-9334-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2f535f24-8db5-4af8-89d0-313312b53492",
+        "geometry": {
+          "coordinates": [
+            11.717287,
+            64.9026356
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Saltbotn",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 0,
+          "availableProd": -13,
+          "kommune": "Nærøysund",
+          "kommune_nr": "5060",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f76-5573-11ef-ab4e-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:550cf382-5786-4b53-974e-8c9f9f360022",
+        "geometry": {
+          "coordinates": [
+            12.0183141,
+            64.5073598
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Skogmo",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -14,
+          "kommune": "Overhalla",
+          "kommune_nr": "5047",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f77-5573-11ef-8e55-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6a8b618e-f9ac-4771-b619-e3c7243f14fc",
+        "geometry": {
+          "coordinates": [
+            11.1807596,
+            63.6821032
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Skogn",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 3,
+          "availableProd": -22,
+          "kommune": "Levanger",
+          "kommune_nr": "5037",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b61f78-5573-11ef-8d6e-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0d3d182b-a20f-499d-b147-2ea198d931b4",
+        "geometry": {
+          "coordinates": [
+            13.1413176,
+            64.6477584
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Skorovatn",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -2,
+          "kommune": "Raarvihke",
+          "kommune_nr": "5043",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64673-5573-11ef-bfc5-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4113d288-b70a-480a-ac6d-ea4b193ee0a6",
+        "geometry": {
+          "coordinates": [
+            12.281928,
+            64.2631695
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Snåsa",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -8,
+          "kommune": "Snåase",
+          "kommune_nr": "5041",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64674-5573-11ef-badb-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2b77b4d9-7d22-40aa-8566-faff58279aa0",
+        "geometry": {
+          "coordinates": [
+            11.4988781,
+            64.0255569
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Steinkjer",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 9,
+          "availableProd": -41,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64675-5573-11ef-a6c4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7dce8aad-4296-4871-81d4-e6fe3b120ffe",
+        "geometry": {
+          "coordinates": [
+            11.4642337,
+            64.8092778
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Strand",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 4,
+          "availableProd": -13,
+          "kommune": "Nærøysund",
+          "kommune_nr": "5060",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64676-5573-11ef-b167-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5b63407b-4c4c-4f33-8230-a01947e46c6a",
+        "geometry": {
+          "coordinates": [
+            11.4964877,
+            64.0095879
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sørsileiret",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 2,
+          "availableProd": -49,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64677-5573-11ef-b2c1-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:26ee4c51-160f-440a-91c4-f83399d434b2",
+        "geometry": {
+          "coordinates": [
+            13.6382977,
+            64.6938937
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tunnsjø",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -1,
+          "kommune": "Lierne",
+          "kommune_nr": "5042",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64678-5573-11ef-919e-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2c03182e-e25b-4f30-b8b2-4bdd11cfb80c",
+        "geometry": {
+          "coordinates": [
+            12.8352522,
+            64.7032811
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tunnsjødal",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 11,
+          "availableCons": 3,
+          "availableProd": -36,
+          "kommune": "Namsskogan",
+          "kommune_nr": "5044",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b64679-5573-11ef-a959-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:48aae5ff-9a8f-4848-8579-7d54dea50cf4",
+        "geometry": {
+          "coordinates": [
+            11.490375,
+            63.792083
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Verdal",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 9,
+          "availableProd": -45,
+          "kommune": "Verdal",
+          "kommune_nr": "5038",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467a-5573-11ef-a860-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:02116ada-88d6-4cf3-8d78-f0012790ee02",
+        "geometry": {
+          "coordinates": [
+            11.6846001,
+            63.7691911
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vuku",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -14,
+          "kommune": "Verdal",
+          "kommune_nr": "5038",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467b-5573-11ef-b98d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4aa69b3a-986c-4b81-9bc9-cec2d8dc7e0f",
+        "geometry": {
+          "coordinates": [
+            10.9421611,
+            63.4662346
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Øireina",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 0,
+          "availableProd": -36,
+          "kommune": "Stjørdal",
+          "kommune_nr": "5035",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467c-5573-11ef-9969-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5cde4bfb-d6ee-4383-b0b8-0d082389c31c",
+        "geometry": {
+          "coordinates": [
+            11.4629497,
+            63.7838749
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ørin",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 0,
+          "availableProd": -36,
+          "kommune": "Verdal",
+          "kommune_nr": "5038",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467d-5573-11ef-827f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:58476a51-15b9-4926-b55a-c79b7a771c73",
+        "geometry": {
+          "coordinates": [
+            11.4650982,
+            63.9615041
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Østerås",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -22,
+          "kommune": "Steinkjer",
+          "kommune_nr": "5006",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467e-5573-11ef-8bf4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:53d91db0-cd98-45d8-8792-bed7b8fce0d1",
+        "geometry": {
+          "coordinates": [
+            12.1845112,
+            65.0370047
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Årsandøy",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 0,
+          "availableProd": -11,
+          "kommune": "Bindal",
+          "kommune_nr": "1811",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59b6467f-5573-11ef-bd77-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:321f8f58-77ca-40d5-bdc8-66ab0d5e753a",
+        "geometry": {
+          "coordinates": [
+            11.0520326,
+            63.6085792
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Åsen",
+          "owner": "TENSIO-TN",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:53.3723099+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 3,
+          "availableProd": -14,
+          "kommune": "Levanger",
+          "kommune_nr": "5037",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:cbeb1234-60f8-4655-8976-23a3a4cdaa00",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T18:26:53.372Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T18:26:53.372Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09TENSIO-TNMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetTENSIO-TNMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:02dfeff0-d178-4fb5-8218-838f032b1270",
+        "dcterms:title": "TENSIO-TN"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "988807648",
+    "dcterms:rightHolder": "TENSIO-TN",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:c3070286-6df4-4660-96bc-495254f1b5d0",
+        "dcterms:title": "TENSIO-TN-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]

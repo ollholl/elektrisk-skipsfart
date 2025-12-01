@@ -1,0 +1,483 @@
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:59a9d0d7-5573-11ef-8c64-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6a06f792-fcfc-4d2b-ba41-c746c2e841f3",
+        "geometry": {
+          "coordinates": [
+            16.74595383,
+            68.49697428
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Evenesmark",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 2,
+          "availableProd": -10,
+          "kommune": "Evenes",
+          "kommune_nr": "1853",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0d8-5573-11ef-8fa2-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:690c6073-828f-4f41-9301-996c62b91a97",
+        "geometry": {
+          "coordinates": [
+            17.02831892,
+            68.53702987
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Niingen",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 5,
+          "availableCons": 0,
+          "availableProd": -6,
+          "kommune": "Evenes",
+          "kommune_nr": "1853",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0d9-5573-11ef-ba1b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:234113f7-5bcb-41ea-8277-ca324ffca543",
+        "geometry": {
+          "coordinates": [
+            16.43404049,
+            68.56302706
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tjeldsund",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 0,
+          "availableProd": -7,
+          "kommune": "Dielddanuorri",
+          "kommune_nr": "5512",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0da-5573-11ef-aed6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5bf7f6a1-8354-4e9f-9bce-23660809e719",
+        "geometry": {
+          "coordinates": [
+            16.51969045,
+            68.49646003
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ramsund",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": 0,
+          "kommune": "Dielddanuorri",
+          "kommune_nr": "5512",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0db-5573-11ef-a038-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:45ab87ca-b658-4a2c-b079-bb323ef312fc",
+        "geometry": {
+          "coordinates": [
+            15.98102139,
+            68.41779527
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Lødingen",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 6,
+          "availableCons": 0,
+          "availableProd": -15,
+          "kommune": "Lødingen",
+          "kommune_nr": "1851",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0dc-5573-11ef-9a0b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:67fc4bb1-9fbd-470d-8ecd-b91a7fb2317c",
+        "geometry": {
+          "coordinates": [
+            15.88240573,
+            68.50681556
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kanstadbotn",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 0,
+          "availableProd": -8,
+          "kommune": "Lødingen",
+          "kommune_nr": "1851",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0dd-5573-11ef-b722-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:73101d70-24f1-4ef4-a9bb-28185ad2bc36",
+        "geometry": {
+          "coordinates": [
+            16.52183819,
+            68.79560377
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Heggen",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 12,
+          "availableProd": -50,
+          "kommune": "Harstad",
+          "kommune_nr": "5503",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0de-5573-11ef-b411-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:582fb3b2-f180-495a-b55a-721c6663be21",
+        "geometry": {
+          "coordinates": [
+            16.43816518,
+            68.80912012
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Møkkland",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 8,
+          "availableProd": -30,
+          "kommune": "Harstad",
+          "kommune_nr": "5503",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0df-5573-11ef-b41a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2065841f-1a7e-43d9-bbea-6f4aa485887c",
+        "geometry": {
+          "coordinates": [
+            16.5454942,
+            68.77099824
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Medkila",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 13,
+          "availableProd": -36,
+          "kommune": "Harstad",
+          "kommune_nr": "5503",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0e0-5573-11ef-b851-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2ccc4a64-a177-4795-9db1-00cc9cd47faf",
+        "geometry": {
+          "coordinates": [
+            16.51227879,
+            68.71409725
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Blomjoten",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 2,
+          "availableProd": -12,
+          "kommune": "Harstad",
+          "kommune_nr": "5503",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0e1-5573-11ef-ba10-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:76822b4f-c6eb-458b-97f2-9d24b535ce12",
+        "geometry": {
+          "coordinates": [
+            16.5980845,
+            68.62882448
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kvitnes",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -9,
+          "kommune": "Dielddanuorri",
+          "kommune_nr": "5512",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9d0e2-5573-11ef-82b7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:32fb71de-9f52-4b49-8308-bbd65181bf23",
+        "geometry": {
+          "coordinates": [
+            17.61176998,
+            68.57700558
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kvandal",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 11,
+          "availableProd": -7,
+          "kommune": "Narvik",
+          "kommune_nr": "1806",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9fb55-5573-11ef-8a1c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:e10f619c-946a-4b77-9939-09e335149b21",
+        "geometry": {
+          "coordinates": [
+            16.66410909,
+            68.5306393
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Boltås",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 22,
+          "availableProd": -30,
+          "kommune": "Dielddanuorri",
+          "kommune_nr": "5512",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:59a9fb56-5573-11ef-8cfe-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1fde397b-0d5d-4bb6-b351-31f3db02ee70",
+        "geometry": {
+          "coordinates": [
+            16.253689,
+            68.758259
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Gåre",
+          "owner": "Noranett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T18:26:23.5910623+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 6,
+          "availableProd": -20,
+          "kommune": "Kvæfjord",
+          "kommune_nr": "5510",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:aea8a3f1-a453-4154-b846-2fddf1c1b959",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T18:26:23.591Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T18:26:23.591Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09NoranettMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetNoranettMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:3b63cdcd-4b3a-4ec9-b8dd-a8b8cf8bc3b6",
+        "dcterms:title": "Noranett"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "985411131",
+    "dcterms:rightHolder": "Noranett",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:4e258987-58e1-4a17-a00e-c76bfe6bed25",
+        "dcterms:title": "Noranett-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]
