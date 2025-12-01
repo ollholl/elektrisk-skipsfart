@@ -212,12 +212,10 @@ function Nett({ data }) {
 
   return (
     <div>
-      {/* Key insight - what matters */}
-      <div className="mb-4 p-3 bg-gray-50 rounded text-sm">
-        <span className="text-2xl tabular-nums font-light">{stats.medKapasitet}</span>
-        <span className="text-gray-600"> stasjoner med ≥5 MW ledig kapasitet</span>
-        <span className="text-gray-400"> · </span>
-        <span className="text-gray-500">{stats.medOverskudd} har overskuddskraft</span>
+      {/* Summary */}
+      <div className="flex gap-6 text-sm mb-4">
+        <div><span className="text-2xl tabular-nums">{n(stats.n)}</span> <span className="text-gray-500">stasjoner</span></div>
+        <div><span className="text-2xl tabular-nums text-emerald-700">{n(stats.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
       </div>
 
       {/* Filters - sentence style */}
@@ -246,7 +244,7 @@ function Nett({ data }) {
             <Th col="fylke" left>Fylke</Th>
             <Th col="nett" left>Nettselskap</Th>
             <Th col="ledig">Ledig MW</Th>
-            <Th col="overskudd">Overskudd</Th>
+            <Th col="overskudd">Overskudd MW</Th>
           </tr>
         </thead>
         <tbody className="tabular-nums">
@@ -299,7 +297,7 @@ export default function App() {
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">
       <header className="mb-5">
         <h1 className="text-base font-medium">Elektrisk Skipsfart</h1>
-        <p className="text-sm text-gray-500">Skipstrafikk og nettkapasitet i Norge</p>
+        <p className="text-sm text-gray-500">Skipsfart og nettkapasitet i Norge</p>
       </header>
 
       <nav className="flex gap-4 mb-5 text-sm">
