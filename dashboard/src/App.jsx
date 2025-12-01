@@ -48,6 +48,19 @@ function SearchSelect({ value, onChange, options, placeholder, allLabel = "Alle"
   );
 }
 
+// Sortable column header
+function SortHeader({ label, field, sortBy, sortDir, onSort }) {
+  const active = sortBy === field;
+  return (
+    <th 
+      onClick={() => onSort(field)} 
+      className={`text-right font-normal px-2 py-1 cursor-pointer hover:bg-gray-50 whitespace-nowrap ${active ? "text-gray-900" : "text-gray-500"}`}
+    >
+      {label} {active && (sortDir === "desc" ? "↓" : "↑")}
+    </th>
+  );
+}
+
 // ============================================
 // MARU TAB
 // ============================================
@@ -96,7 +109,6 @@ function MaruTab({ data }) {
 
   return (
     <div className="space-y-4">
-      {/* Controls */}
       <div className="flex flex-wrap gap-4 text-sm text-gray-600">
         <select value={year} onChange={e => setYear(+e.target.value)} className="bg-transparent font-medium text-gray-900">
           {(f.years || []).map(y => <option key={y}>{y}</option>)}
@@ -115,10 +127,8 @@ function MaruTab({ data }) {
         <SearchSelect value={county} onChange={setCounty} options={f.counties || []} placeholder="Søk..." allLabel="Alle fylker" />
       </div>
 
-      {/* Key figure */}
       <div className="text-3xl tabular-nums">{n(total, 0)} <span className="text-base text-gray-500">{m.unit}</span></div>
 
-      {/* Table */}
       <table className="w-full text-sm">
         <thead><tr className="text-xs text-gray-400">
           <th className="text-left font-normal py-1">Skipstype \ GT</th>
@@ -145,203 +155,156 @@ function MaruTab({ data }) {
 }
 
 // ============================================
-// GRID TAB - with power balance
+// GRID TAB - Simple sortable table
 // ============================================
 
 function GridTab({ data }) {
   const [search, setSearch] = useState("");
   const [fylke, setFylke] = useState("all");
   const [kommune, setKommune] = useState("all");
-  const [expanded, setExpanded] = useState(new Set());
-  const [expandedK, setExpandedK] = useState(new Set());
+  const [sortBy, setSortBy] = useState("ledig");
+  const [sortDir, setSortDir] = useState("desc");
 
-  const { locs, fylker, kommuner, totals, byGeo } = useMemo(() => {
-    if (!data?.grid_operators) return { locs: [], fylker: [], kommuner: [], totals: {}, byGeo: {} };
+  const { stations, fylker, kommuner, totals } = useMemo(() => {
+    if (!data?.grid_operators) return { stations: [], fylker: [], kommuner: [], totals: {} };
 
-    const locs = Object.entries(data.grid_operators).flatMap(([id, o]) =>
+    const stations = Object.entries(data.grid_operators).flatMap(([id, o]) =>
       (o.locations || []).map(l => ({ 
-        ...l, 
+        name: l.name,
+        kommune: l.kommune || "–",
+        fylke: l.fylke || "–",
         nettselskap: o.publisher || id.toUpperCase(),
-        // Calculate balance: positive = net consumer capacity, negative = net producer
-        forbruk: l.available_consumption || 0,
-        produksjon: Math.abs(l.available_production || 0),
+        ledig: l.available_consumption || 0,
         reservert: l.reserved_consumption || 0,
+        produksjon: Math.abs(l.available_production || 0),
       }))
     );
 
     const totals = {
-      n: locs.length,
-      forbruk: locs.reduce((s, l) => s + l.forbruk, 0),
-      produksjon: locs.reduce((s, l) => s + l.produksjon, 0),
-      reservert: locs.reduce((s, l) => s + l.reservert, 0),
+      n: stations.length,
+      ledig: stations.reduce((s, l) => s + l.ledig, 0),
+      reservert: stations.reduce((s, l) => s + l.reservert, 0),
+      produksjon: stations.reduce((s, l) => s + l.produksjon, 0),
     };
 
-    const byGeo = {};
-    locs.forEach(l => {
-      const f = l.fylke || "Ukjent", k = l.kommune || "Ukjent";
-      if (!byGeo[f]) byGeo[f] = { kommuner: {}, forbruk: 0, produksjon: 0, n: 0 };
-      if (!byGeo[f].kommuner[k]) byGeo[f].kommuner[k] = { stasjoner: [], forbruk: 0, produksjon: 0 };
-      byGeo[f].kommuner[k].stasjoner.push(l);
-      byGeo[f].kommuner[k].forbruk += l.forbruk;
-      byGeo[f].kommuner[k].produksjon += l.produksjon;
-      byGeo[f].forbruk += l.forbruk;
-      byGeo[f].produksjon += l.produksjon;
-      byGeo[f].n++;
-    });
-
-    Object.values(byGeo).forEach(f => Object.values(f.kommuner).forEach(k => 
-      k.stasjoner.sort((a, b) => b.forbruk - a.forbruk)
-    ));
-
     return { 
-      locs, 
-      fylker: [...new Set(locs.map(l => l.fylke).filter(Boolean))].sort(),
-      kommuner: [...new Set(locs.map(l => l.kommune).filter(Boolean))].sort(),
-      totals, byGeo 
+      stations, 
+      fylker: [...new Set(stations.map(l => l.fylke).filter(f => f !== "–"))].sort(),
+      kommuner: [...new Set(stations.map(l => l.kommune).filter(k => k !== "–"))].sort(),
+      totals 
     };
   }, [data]);
 
-  const filteredGeo = useMemo(() => {
-    const result = {};
-    const s = search.toLowerCase();
-    Object.entries(byGeo).forEach(([fN, fD]) => {
-      if (fylke !== "all" && fN !== fylke) return;
-      const fK = {};
-      Object.entries(fD.kommuner).forEach(([kN, kD]) => {
-        if (kommune !== "all" && kN !== kommune) return;
-        let st = kD.stasjoner;
-        if (search) st = st.filter(x => x.name?.toLowerCase().includes(s) || x.nettselskap?.toLowerCase().includes(s));
-        if (st.length) fK[kN] = { stasjoner: st, forbruk: st.reduce((a,b) => a + b.forbruk, 0), produksjon: st.reduce((a,b) => a + b.produksjon, 0) };
-      });
-      if (Object.keys(fK).length) result[fN] = { kommuner: fK, 
-        forbruk: Object.values(fK).reduce((a,b) => a + b.forbruk, 0),
-        produksjon: Object.values(fK).reduce((a,b) => a + b.produksjon, 0),
-        n: Object.values(fK).reduce((a,b) => a + b.stasjoner.length, 0) };
+  const filtered = useMemo(() => {
+    let f = stations;
+    if (search) { 
+      const s = search.toLowerCase(); 
+      f = f.filter(l => l.name?.toLowerCase().includes(s) || l.kommune?.toLowerCase().includes(s) || l.nettselskap?.toLowerCase().includes(s)); 
+    }
+    if (fylke !== "all") f = f.filter(l => l.fylke === fylke);
+    if (kommune !== "all") f = f.filter(l => l.kommune === kommune);
+    
+    // Sort
+    f = [...f].sort((a, b) => {
+      const aVal = a[sortBy] ?? "";
+      const bVal = b[sortBy] ?? "";
+      if (typeof aVal === "number") return sortDir === "desc" ? bVal - aVal : aVal - bVal;
+      return sortDir === "desc" ? bVal.localeCompare(aVal) : aVal.localeCompare(bVal);
     });
-    return result;
-  }, [byGeo, fylke, kommune, search]);
+    
+    return f;
+  }, [stations, search, fylke, kommune, sortBy, sortDir]);
 
-  const toggle = (set, setFn, id) => setFn(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n; });
-
-  // Balance indicator: shows if area is net producer or consumer
-  const Balance = ({ forbruk, produksjon }) => {
-    const diff = forbruk - produksjon;
-    if (Math.abs(diff) < 1) return null;
-    return <span className={`text-xs ${diff > 0 ? "text-amber-600" : "text-emerald-600"}`}>
-      {diff > 0 ? "↑" : "↓"}{n(Math.abs(diff))}
-    </span>;
+  const handleSort = (field) => {
+    if (sortBy === field) {
+      setSortDir(d => d === "desc" ? "asc" : "desc");
+    } else {
+      setSortBy(field);
+      setSortDir("desc");
+    }
   };
+
+  const filteredTotals = useMemo(() => ({
+    n: filtered.length,
+    ledig: filtered.reduce((s, l) => s + l.ledig, 0),
+    reservert: filtered.reduce((s, l) => s + l.reservert, 0),
+    produksjon: filtered.reduce((s, l) => s + l.produksjon, 0),
+  }), [filtered]);
+
+  const isFiltered = search || fylke !== "all" || kommune !== "all";
 
   return (
     <div className="space-y-4">
-      {/* Key figures - Tufte: integrated, comparable */}
-      <div className="grid grid-cols-4 gap-4 text-sm py-3 border-b border-gray-100">
-        <div>
-          <div className="text-2xl tabular-nums">{n(totals.n)}</div>
-          <div className="text-xs text-gray-400">stasjoner</div>
-        </div>
-        <div>
-          <div className="text-2xl tabular-nums text-emerald-700">{n(totals.forbruk)}</div>
-          <div className="text-xs text-gray-400">MW forbruk ledig</div>
-        </div>
-        <div>
-          <div className="text-2xl tabular-nums text-blue-700">{n(totals.produksjon)}</div>
-          <div className="text-xs text-gray-400">MW produksjon ledig</div>
-        </div>
-        <div>
-          <div className="text-2xl tabular-nums text-gray-400">{n(totals.reservert)}</div>
-          <div className="text-xs text-gray-400">MW reservert</div>
-        </div>
+      {/* Summary */}
+      <div className="flex gap-6 text-sm border-b border-gray-100 pb-3">
+        <div><span className="text-2xl tabular-nums">{n(isFiltered ? filteredTotals.n : totals.n)}</span> <span className="text-gray-500">stasjoner</span></div>
+        <div><span className="text-2xl tabular-nums">{n(isFiltered ? filteredTotals.ledig : totals.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
+        <div><span className="text-2xl tabular-nums text-gray-400">{n(isFiltered ? filteredTotals.reservert : totals.reservert)}</span> <span className="text-gray-400">reservert</span></div>
       </div>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-4 text-sm items-baseline">
-        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Søk stasjon..."
-          className="border-b border-gray-300 focus:border-gray-500 outline-none py-1 w-40 bg-transparent" />
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Søk stasjon, kommune, nettselskap..."
+          className="border-b border-gray-300 focus:border-gray-500 outline-none py-1 w-64 bg-transparent" />
         <SearchSelect value={fylke} onChange={v => { setFylke(v); setKommune("all"); }} options={fylker} placeholder="Søk fylke..." allLabel="Alle fylker" />
         <SearchSelect value={kommune} onChange={setKommune} 
-          options={kommuner.filter(k => fylke === "all" || locs.some(l => l.kommune === k && l.fylke === fylke))} 
+          options={kommuner.filter(k => fylke === "all" || stations.some(l => l.kommune === k && l.fylke === fylke))} 
           placeholder="Søk kommune..." allLabel="Alle kommuner" />
-        {(search || fylke !== "all" || kommune !== "all") && 
-          <button onClick={() => { setSearch(""); setFylke("all"); setKommune("all"); }} className="text-gray-400 hover:text-gray-600">×</button>}
+        {isFiltered && <button onClick={() => { setSearch(""); setFylke("all"); setKommune("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
+      </div>
+
+      {/* Table */}
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="text-xs border-b border-gray-200">
+              <th onClick={() => handleSort("name")} className={`text-left font-normal px-2 py-2 cursor-pointer hover:bg-gray-50 ${sortBy === "name" ? "text-gray-900" : "text-gray-500"}`}>
+                Stasjon {sortBy === "name" && (sortDir === "desc" ? "↓" : "↑")}
+              </th>
+              <th onClick={() => handleSort("kommune")} className={`text-left font-normal px-2 py-2 cursor-pointer hover:bg-gray-50 ${sortBy === "kommune" ? "text-gray-900" : "text-gray-500"}`}>
+                Kommune {sortBy === "kommune" && (sortDir === "desc" ? "↓" : "↑")}
+              </th>
+              <th onClick={() => handleSort("fylke")} className={`text-left font-normal px-2 py-2 cursor-pointer hover:bg-gray-50 ${sortBy === "fylke" ? "text-gray-900" : "text-gray-500"}`}>
+                Fylke {sortBy === "fylke" && (sortDir === "desc" ? "↓" : "↑")}
+              </th>
+              <th onClick={() => handleSort("nettselskap")} className={`text-left font-normal px-2 py-2 cursor-pointer hover:bg-gray-50 ${sortBy === "nettselskap" ? "text-gray-900" : "text-gray-500"}`}>
+                Nettselskap {sortBy === "nettselskap" && (sortDir === "desc" ? "↓" : "↑")}
+              </th>
+              <SortHeader label="Ledig MW" field="ledig" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
+              <SortHeader label="Reservert" field="reservert" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
+              <SortHeader label="Produksjon" field="produksjon" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
+            </tr>
+          </thead>
+          <tbody className="tabular-nums">
+            {filtered.slice(0, 100).map((s, i) => (
+              <tr key={i} className={i % 2 ? "bg-gray-50" : ""}>
+                <td className="px-2 py-1 text-gray-900">{s.name}</td>
+                <td className="px-2 py-1 text-gray-600">{s.kommune}</td>
+                <td className="px-2 py-1 text-gray-500">{s.fylke}</td>
+                <td className="px-2 py-1 text-gray-500">{s.nettselskap}</td>
+                <td className={`px-2 py-1 text-right ${s.ledig > 10 ? "text-emerald-700 font-medium" : s.ledig > 0 ? "text-gray-700" : "text-gray-300"}`}>
+                  {n(s.ledig, 1)}
+                </td>
+                <td className={`px-2 py-1 text-right ${s.reservert > 0 ? "text-amber-600" : "text-gray-300"}`}>
+                  {s.reservert > 0 ? n(s.reservert, 1) : "–"}
+                </td>
+                <td className={`px-2 py-1 text-right ${s.produksjon > 10 ? "text-blue-600" : "text-gray-400"}`}>
+                  {s.produksjon > 0 ? n(s.produksjon, 1) : "–"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        {filtered.length > 100 && (
+          <div className="text-xs text-gray-400 mt-2 px-2">Viser 100 av {filtered.length} stasjoner. Bruk filter for å begrense.</div>
+        )}
       </div>
 
       {/* Legend */}
-      <div className="text-xs text-gray-400 flex gap-4">
-        <span><span className="text-emerald-600">Forbruk</span> = ledig kapasitet for nytt forbruk</span>
-        <span><span className="text-blue-600">Prod</span> = ledig kapasitet for ny produksjon</span>
-      </div>
-
-      {/* Controls */}
-      <div className="text-xs text-gray-400 space-x-2">
-        <button onClick={() => { setExpanded(new Set(Object.keys(filteredGeo))); setExpandedK(new Set(Object.values(filteredGeo).flatMap(f => Object.keys(f.kommuner)))); }} 
-          className="hover:text-gray-600">Vis alle</button>
-        <button onClick={() => { setExpanded(new Set()); setExpandedK(new Set()); }} className="hover:text-gray-600">Skjul</button>
-      </div>
-
-      {/* Geographic hierarchy */}
-      <div className="space-y-0.5">
-        {Object.entries(filteredGeo).sort(([,a],[,b]) => b.forbruk - a.forbruk).map(([fN, fD]) => (
-          <div key={fN}>
-            <button onClick={() => toggle(expanded, setExpanded, fN)} 
-              className="w-full flex items-baseline gap-2 py-1 hover:bg-gray-50 -mx-1 px-1 rounded text-left">
-              <span className="text-gray-400 text-xs w-3">{expanded.has(fN) ? "−" : "+"}</span>
-              <span className="font-medium">{fN}</span>
-              <span className="text-gray-400 text-xs">{fD.n}</span>
-              <span className="flex-1" />
-              <span className="tabular-nums text-sm">
-                <span className="text-emerald-700">{n(fD.forbruk)}</span>
-                <span className="text-gray-300 mx-1">/</span>
-                <span className="text-blue-700">{n(fD.produksjon)}</span>
-              </span>
-              <Balance forbruk={fD.forbruk} produksjon={fD.produksjon} />
-            </button>
-
-            {expanded.has(fN) && (
-              <div className="ml-3 border-l border-gray-100 pl-2">
-                {Object.entries(fD.kommuner).sort(([,a],[,b]) => b.forbruk - a.forbruk).map(([kN, kD]) => (
-                  <div key={kN}>
-                    <button onClick={() => toggle(expandedK, setExpandedK, kN)}
-                      className="w-full flex items-baseline gap-2 py-0.5 hover:bg-gray-50 -mx-1 px-1 rounded text-left text-sm">
-                      <span className="text-gray-300 text-xs w-3">{expandedK.has(kN) ? "−" : "+"}</span>
-                      <span className="text-gray-700">{kN}</span>
-                      <span className="text-gray-400 text-xs">{kD.stasjoner.length}</span>
-                      <span className="flex-1" />
-                      <span className="tabular-nums text-xs">
-                        <span className="text-emerald-600">{n(kD.forbruk)}</span>
-                        <span className="text-gray-300 mx-1">/</span>
-                        <span className="text-blue-600">{n(kD.produksjon)}</span>
-                      </span>
-                    </button>
-
-                    {expandedK.has(kN) && (
-                      <div className="ml-4 border-l border-gray-50 pl-2 text-xs py-1">
-                        <table className="w-full">
-                          <thead><tr className="text-gray-400">
-                            <th className="text-left font-normal">Stasjon</th>
-                            <th className="text-left font-normal">Nett</th>
-                            <th className="text-right font-normal">Forbruk</th>
-                            <th className="text-right font-normal">Prod</th>
-                          </tr></thead>
-                          <tbody className="tabular-nums">
-                            {kD.stasjoner.map((s, i) => (
-                              <tr key={i}>
-                                <td className="py-0.5 text-gray-700">{s.name}</td>
-                                <td className="text-gray-400">{s.nettselskap}</td>
-                                <td className={`text-right ${s.forbruk > 10 ? "text-emerald-700 font-medium" : "text-gray-400"}`}>{n(s.forbruk, 1)}</td>
-                                <td className={`text-right ${s.produksjon > 10 ? "text-blue-700" : "text-gray-400"}`}>{n(s.produksjon, 1)}</td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
+      <div className="text-xs text-gray-400 space-x-4">
+        <span><span className="text-emerald-700">■</span> Ledig = kapasitet for nytt forbruk</span>
+        <span><span className="text-amber-600">■</span> Reservert = allerede booket</span>
+        <span><span className="text-blue-600">■</span> Produksjon = kapasitet for ny kraftproduksjon</span>
       </div>
     </div>
   );
@@ -367,7 +330,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-5xl mx-auto px-6 py-6">
+      <div className="max-w-6xl mx-auto px-6 py-6">
         <header className="mb-6">
           <h1 className="text-lg font-medium text-gray-900">Elektrisk Skipsfart</h1>
           <p className="text-sm text-gray-500">Maritim energibehov · Nettkapasitet</p>
