@@ -270,9 +270,8 @@ function Nett({ data }) {
 
       {/* Compact legend */}
       <p className="text-xs text-gray-400 mt-4">
-        <span className="text-emerald-600">Ledig</span> = MW for nytt forbruk · 
-        <span className="text-blue-600 ml-1">Overskudd</span> = overskuddsproduksjon i området · 
-        <span className="ml-1">Egnethet</span> = samlet vurdering for landstrøm
+        <span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk · 
+        <span className="text-blue-600 ml-1">Overskudd</span> = overskuddsproduksjon i området (gunstig for forbruk)
       </p>
     </div>
   );
@@ -300,7 +299,7 @@ export default function App() {
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">
       <header className="mb-5">
         <h1 className="text-base font-medium">Elektrisk Skipsfart</h1>
-        <p className="text-sm text-gray-500">Nettkapasitet for landstrøm · Maritim energibehov</p>
+        <p className="text-sm text-gray-500">Skipstrafikk og nettkapasitet i Norge</p>
       </header>
 
       <nav className="flex gap-4 mb-5 text-sm">
