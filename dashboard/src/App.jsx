@@ -198,30 +198,31 @@ function MaruTab({ data }) {
 
 function GridTab({ data }) {
   const [search, setSearch] = useState("");
-  const [sortBy, setSortBy] = useState("capacity");
-  const [filterKommune, setFilterKommune] = useState("all");
   const [filterFylke, setFilterFylke] = useState("all");
+  const [filterKommune, setFilterKommune] = useState("all");
+  const [filterOperator, setFilterOperator] = useState("all");
+  const [expandedOps, setExpandedOps] = useState(new Set());
 
   const { operators, allLocations, totals, kommuner, fylker } = useMemo(() => {
     if (!data?.grid_operators) return { operators: [], allLocations: [], totals: {}, kommuner: [], fylker: [] };
 
-    const ops = Object.entries(data.grid_operators).map(([id, op]) => ({
-      id,
-      name: op.publisher || id.toUpperCase(),
-      count: op.feature_count,
-      locations: op.locations || [],
-      totalCapacity: (op.locations || []).reduce((s, l) => s + (l.available_consumption || 0), 0),
-    }));
+    const ops = Object.entries(data.grid_operators)
+      .map(([id, op]) => ({
+        id,
+        name: op.publisher || id.toUpperCase(),
+        count: op.feature_count,
+        locations: (op.locations || []).sort((a, b) => (b.available_consumption || 0) - (a.available_consumption || 0)),
+        totalCapacity: (op.locations || []).reduce((s, l) => s + (l.available_consumption || 0), 0),
+        totalReserved: (op.locations || []).reduce((s, l) => s + (l.reserved_consumption || 0), 0),
+      }))
+      .sort((a, b) => b.totalCapacity - a.totalCapacity);
 
     const allLocations = ops.flatMap((op) =>
-      op.locations.map((loc) => ({ ...loc, operator: op.name }))
+      op.locations.map((loc) => ({ ...loc, operator: op.name, operatorId: op.id }))
     );
 
-    // Get unique kommuner and fylker
     const kommuneSet = new Set(allLocations.map(l => l.kommune).filter(Boolean));
     const fylkeSet = new Set(allLocations.map(l => l.fylke).filter(Boolean));
-    const kommuner = [...kommuneSet].sort();
-    const fylker = [...fylkeSet].sort();
 
     const totals = {
       locations: allLocations.length,
@@ -230,14 +231,27 @@ function GridTab({ data }) {
       totalReserved: allLocations.reduce((s, l) => s + (l.reserved_consumption || 0), 0),
     };
 
-    return { operators: ops, allLocations, totals, kommuner, fylker };
+    return { 
+      operators: ops, 
+      allLocations, 
+      totals, 
+      kommuner: [...kommuneSet].sort(), 
+      fylker: [...fylkeSet].sort() 
+    };
   }, [data]);
 
-  const filteredLocations = useMemo(() => {
+  // Filter locations
+  const filteredBySearch = useMemo(() => {
+    if (!search && filterFylke === "all" && filterKommune === "all") return allLocations;
+    
     let locs = allLocations;
     if (search) {
       const s = search.toLowerCase();
-      locs = locs.filter((l) => l.name?.toLowerCase().includes(s) || l.operator?.toLowerCase().includes(s) || l.kommune?.toLowerCase().includes(s));
+      locs = locs.filter((l) => 
+        l.name?.toLowerCase().includes(s) || 
+        l.operator?.toLowerCase().includes(s) || 
+        l.kommune?.toLowerCase().includes(s)
+      );
     }
     if (filterFylke !== "all") {
       locs = locs.filter((l) => l.fylke === filterFylke);
@@ -245,15 +259,30 @@ function GridTab({ data }) {
     if (filterKommune !== "all") {
       locs = locs.filter((l) => l.kommune === filterKommune);
     }
-    if (sortBy === "capacity") {
-      locs = [...locs].sort((a, b) => (b.available_consumption || 0) - (a.available_consumption || 0));
-    } else if (sortBy === "name") {
-      locs = [...locs].sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-    } else if (sortBy === "kommune") {
-      locs = [...locs].sort((a, b) => (a.kommune || "").localeCompare(b.kommune || ""));
-    }
     return locs;
-  }, [allLocations, search, sortBy, filterFylke, filterKommune]);
+  }, [allLocations, search, filterFylke, filterKommune]);
+
+  // Group by operator
+  const operatorsWithFiltered = useMemo(() => {
+    return operators.map(op => {
+      const locs = filteredBySearch.filter(l => l.operatorId === op.id);
+      return { ...op, filteredLocations: locs, filteredCapacity: locs.reduce((s, l) => s + (l.available_consumption || 0), 0) };
+    }).filter(op => filterOperator === "all" || op.id === filterOperator);
+  }, [operators, filteredBySearch, filterOperator]);
+
+  const toggleOp = (id) => {
+    setExpandedOps(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
+
+  const expandAll = () => setExpandedOps(new Set(operators.map(o => o.id)));
+  const collapseAll = () => setExpandedOps(new Set());
+
+  const filteredTotal = filteredBySearch.reduce((s, l) => s + (l.available_consumption || 0), 0);
 
   return (
     <div>
@@ -261,7 +290,7 @@ function GridTab({ data }) {
       <div className="grid grid-cols-4 gap-4 mb-6 py-4 border-y border-gray-100">
         <div>
           <div className="text-2xl font-light tabular-nums">{nb(totals.locations)}</div>
-          <div className="text-xs text-gray-500">Lokasjoner</div>
+          <div className="text-xs text-gray-500">Lokasjoner totalt</div>
         </div>
         <div>
           <div className="text-2xl font-light tabular-nums">{nb(totals.operators)}</div>
@@ -269,11 +298,11 @@ function GridTab({ data }) {
         </div>
         <div>
           <div className="text-2xl font-light tabular-nums">{nb(totals.totalCapacity)}</div>
-          <div className="text-xs text-gray-500">MW tilgjengelig</div>
+          <div className="text-xs text-gray-500">MW tilgjengelig totalt</div>
         </div>
         <div>
           <div className="text-2xl font-light tabular-nums">{nb(totals.totalReserved)}</div>
-          <div className="text-xs text-gray-500">MW reservert</div>
+          <div className="text-xs text-gray-500">MW reservert totalt</div>
         </div>
       </div>
 
@@ -288,6 +317,14 @@ function GridTab({ data }) {
             placeholder="Søk stasjon, nettselskap, kommune..."
             className="w-full border border-gray-300 rounded px-3 py-1.5"
           />
+        </div>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Nettselskap</label>
+          <select value={filterOperator} onChange={(e) => setFilterOperator(e.target.value)}
+            className="border border-gray-300 rounded px-2 py-1.5 bg-white">
+            <option value="all">Alle ({operators.length})</option>
+            {operators.map((op) => <option key={op.id} value={op.id}>{op.name} ({op.count})</option>)}
+          </select>
         </div>
         <div>
           <label className="block text-xs text-gray-500 mb-1">Fylke</label>
@@ -306,52 +343,77 @@ function GridTab({ data }) {
               .map((k) => <option key={k} value={k}>{k}</option>)}
           </select>
         </div>
-        <div>
-          <label className="block text-xs text-gray-500 mb-1">Sorter</label>
-          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}
-            className="border border-gray-300 rounded px-2 py-1.5 bg-white">
-            <option value="capacity">Kapasitet</option>
-            <option value="kommune">Kommune</option>
-            <option value="name">Navn</option>
-          </select>
-        </div>
-        {(filterFylke !== "all" || filterKommune !== "all") && (
-          <button onClick={() => { setFilterFylke("all"); setFilterKommune("all"); }}
+        {(filterFylke !== "all" || filterKommune !== "all" || filterOperator !== "all" || search) && (
+          <button onClick={() => { setFilterFylke("all"); setFilterKommune("all"); setFilterOperator("all"); setSearch(""); }}
             className="text-xs text-blue-600 hover:underline">Nullstill</button>
         )}
       </div>
 
-      {/* Table */}
-      <div className="overflow-x-auto">
-        <table className="w-full text-xs border-collapse">
-          <thead>
-            <tr className="border-b-2 border-gray-300">
-              <th className="text-left py-2 pr-3 font-semibold text-gray-700">Stasjon</th>
-              <th className="text-left py-2 px-3 font-semibold text-gray-700">Kommune</th>
-              <th className="text-left py-2 px-3 font-semibold text-gray-700">Nettselskap</th>
-              <th className="text-right py-2 px-3 font-semibold text-gray-700">Tilgj. (MW)</th>
-              <th className="text-right py-2 px-3 font-semibold text-gray-700">Reserv. (MW)</th>
-              <th className="text-right py-2 pl-3 font-semibold text-gray-700">Prod. (MW)</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredLocations.slice(0, 100).map((loc, i) => (
-              <tr key={`${loc.operator}-${loc.name}-${i}`} className={i % 2 ? "bg-gray-50" : ""}>
-                <td className="py-1.5 pr-3 text-gray-800">{loc.name}</td>
-                <td className="py-1.5 px-3 text-gray-600">{loc.kommune || "–"}</td>
-                <td className="py-1.5 px-3 text-gray-500">{loc.operator}</td>
-                <td className={`py-1.5 px-3 text-right tabular-nums ${(loc.available_consumption || 0) > 10 ? "text-green-700 font-medium" : "text-gray-600"}`}>
-                  {nb(loc.available_consumption || 0, 1)}
-                </td>
-                <td className="py-1.5 px-3 text-right tabular-nums text-gray-600">{nb(loc.reserved_consumption || 0, 1)}</td>
-                <td className="py-1.5 pl-3 text-right tabular-nums text-gray-600">{nb(loc.available_production || 0, 1)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        {filteredLocations.length > 100 && (
-          <div className="text-xs text-gray-400 mt-2">Viser 100 av {filteredLocations.length} lokasjoner</div>
-        )}
+      {/* Filtered summary */}
+      {(search || filterFylke !== "all" || filterKommune !== "all") && (
+        <div className="mb-4 text-sm text-gray-600">
+          Viser <span className="font-medium">{filteredBySearch.length}</span> lokasjoner med 
+          <span className="font-medium"> {nb(filteredTotal)} MW</span> tilgjengelig kapasitet
+        </div>
+      )}
+
+      {/* Expand/Collapse */}
+      <div className="flex gap-2 mb-3 text-xs">
+        <button onClick={expandAll} className="text-blue-600 hover:underline">Vis alle</button>
+        <span className="text-gray-300">|</span>
+        <button onClick={collapseAll} className="text-blue-600 hover:underline">Skjul alle</button>
+      </div>
+
+      {/* Operators with expandable lists */}
+      <div className="space-y-2">
+        {operatorsWithFiltered.filter(op => op.filteredLocations.length > 0).map((op) => (
+          <div key={op.id} className="border border-gray-200 rounded">
+            <button
+              onClick={() => toggleOp(op.id)}
+              className="w-full flex items-center justify-between px-3 py-2 bg-gray-50 hover:bg-gray-100 text-left"
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">{expandedOps.has(op.id) ? "▼" : "▶"}</span>
+                <span className="font-medium text-sm">{op.name}</span>
+                <span className="text-xs text-gray-500">({op.filteredLocations.length} stasjoner)</span>
+              </div>
+              <div className="text-sm tabular-nums">
+                <span className={op.filteredCapacity > 50 ? "text-green-700 font-medium" : "text-gray-600"}>
+                  {nb(op.filteredCapacity)} MW
+                </span>
+              </div>
+            </button>
+            
+            {expandedOps.has(op.id) && (
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs">
+                  <thead>
+                    <tr className="border-b border-gray-200 bg-gray-50">
+                      <th className="text-left py-1.5 px-3 font-medium text-gray-600">Stasjon</th>
+                      <th className="text-left py-1.5 px-3 font-medium text-gray-600">Kommune</th>
+                      <th className="text-right py-1.5 px-3 font-medium text-gray-600">Tilgj.</th>
+                      <th className="text-right py-1.5 px-3 font-medium text-gray-600">Reserv.</th>
+                      <th className="text-right py-1.5 px-3 font-medium text-gray-600">Prod.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {op.filteredLocations.map((loc, i) => (
+                      <tr key={`${loc.name}-${i}`} className={i % 2 ? "bg-gray-50" : "bg-white"}>
+                        <td className="py-1 px-3 text-gray-800">{loc.name}</td>
+                        <td className="py-1 px-3 text-gray-500">{loc.kommune || "–"}</td>
+                        <td className={`py-1 px-3 text-right tabular-nums ${(loc.available_consumption || 0) > 10 ? "text-green-700 font-medium" : "text-gray-600"}`}>
+                          {nb(loc.available_consumption || 0, 1)}
+                        </td>
+                        <td className="py-1 px-3 text-right tabular-nums text-gray-500">{nb(loc.reserved_consumption || 0, 1)}</td>
+                        <td className="py-1 px-3 text-right tabular-nums text-gray-500">{nb(loc.available_production || 0, 1)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );
