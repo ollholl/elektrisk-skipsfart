@@ -42,3 +42,6 @@ Thumbs.db
 *.tmp
 *.log
 
+# External cloned repositories (reference only, not committed)
+external/
+

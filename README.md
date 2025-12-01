@@ -13,6 +13,8 @@ This repository contains electrical grid capacity data for Norway, organized for
 │   │   ├── elvia.json
 │   │   └── ... (29 files total)
 │   └── grid_index.json          # Index and summary of all grid data
+├── external/                    # External cloned repositories (not committed)
+│   └── kystverket-maru/         # Kystverket MarU emissions model
 ├── analyze_grid_data.py         # Script to analyze and index grid data
 └── README.md                    # This file
 ```
@@ -149,12 +151,32 @@ Run the analysis script to regenerate the index:
 python analyze_grid_data.py
 ```
 
-## 🚢 Future Integration
+## 🚢 Kystverket Integration
 
 This grid data will be integrated with shipping (skipsfart) data from Kystverket to enable analysis of:
 - Electrical grid capacity near ports and shipping routes
 - Potential for shore power connections
 - Grid capacity for electric vessel charging
+
+**Kystverket Data Source**: [Kystverket MarU](https://github.com/Kystverket/maru) - Maritime Emissions Model
+
+### MarU Data Model
+
+| Table | Description |
+|-------|-------------|
+| `vessel_port_electric` | Vessel-specific shore power usage by municipality |
+| `vessel_type_port_electric` | Vessel type shore power usage by municipality |
+| `shore_power` | Geographic locations of shore power installations (H3 hex grid) |
+
+### MarU Phases
+- **n**: Node/berth (vessel at port)
+- **p**: Using shore power
+- **close_to_power**: Vessel within range of shore power installation
+
+### Clone MarU Repository
+```bash
+git clone https://github.com/Kystverket/maru.git external/kystverket-maru
+```
 
 ## 📝 Notes
 
