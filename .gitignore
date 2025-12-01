@@ -45,3 +45,7 @@ Thumbs.db
 # External cloned repositories (reference only, not committed)
 external/
 
+# Dashboard build artifacts
+dashboard/node_modules/
+dashboard/dist/
+
