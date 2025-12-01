@@ -1,1 +1,1659 @@
-[{"features":[{"id":"urn:uuid:58e0c660-5573-11ef-a97a-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1615fece-abd1-40ae-866d-166c7500f230","geometry":{"coordinates":[18.319949,68.86344932],"type":"Point"},"properties":{"name":"Bardu","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":1,"availableProd":-20}},{"id":"urn:uuid:58e0c661-5573-11ef-b69a-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:52b1244d-c4df-483e-9f00-2e894337f00c","geometry":{"coordinates":[18.589685,69.04377654],"type":"Point"},"properties":{"name":"Fossmoen (Bardusfoss kraftverk)","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":0,"availableProd":-70}},{"id":"urn:uuid:58e0c662-5573-11ef-a766-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:67c99d9d-91bb-4a8d-aac4-82b8a4b1fe0d","geometry":{"coordinates":[18.950619,69.66392483],"type":"Point"},"properties":{"name":"Charlottenlund","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-70}},{"id":"urn:uuid:58e0c663-5573-11ef-9b0c-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:5c238c61-0b02-4310-9d01-a54fd0e48dd3","geometry":{"coordinates":[19.57006,68.87541416],"type":"Point"},"properties":{"name":"Dividalen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":4,"availableProd":-5}},{"id":"urn:uuid:58e0c664-5573-11ef-ad00-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:09ad9746-02c8-43cb-83ae-4286088f1652","geometry":{"coordinates":[18.083634,69.22140123],"type":"Point"},"properties":{"name":"Finnfjordbotn","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":141,"availableCons":0,"availableProd":-25}},{"id":"urn:uuid:58e0c665-5573-11ef-b85c-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:39595d23-122f-4b3c-987e-53b59f20f3b0","geometry":{"coordinates":[18.978871,69.68745057],"type":"Point"},"properties":{"name":"Gimle","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-60}},{"id":"urn:uuid:58e0c666-5573-11ef-82e3-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0b205ed6-2950-429e-984e-212996b11f3a","geometry":{"coordinates":[20.918388,69.46045383],"type":"Point"},"properties":{"name":"Guolas","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":2,"availableProd":-10}},{"id":"urn:uuid:58e0c667-5573-11ef-83c6-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3ada982f-f1cd-4b62-b6ed-51f01f35be9d","geometry":{"coordinates":[18.973365,69.63952679],"type":"Point"},"properties":{"name":"Hungeren","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":30,"availableCons":0,"availableProd":-80}},{"id":"urn:uuid:58e0c668-5573-11ef-b633-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:38f56d5a-521d-47a3-b4a9-3008e6f04867","geometry":{"coordinates":[19.064735,69.6829072],"type":"Point"},"properties":{"name":"Kroken","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-40}},{"id":"urn:uuid:58e0c669-5573-11ef-9edc-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:345136fe-2bfa-4a85-b628-d22c40e332c5","geometry":{"coordinates":[18.881974,69.69822267],"type":"Point"},"properties":{"name":"Kvaløya","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-40}},{"id":"urn:uuid:58e0c66a-5573-11ef-99c9-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2747331b-c7e0-4955-8e51-462c390c2a2c","geometry":{"coordinates":[20.270979,69.58929882],"type":"Point"},"properties":{"name":"Lyngen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":16,"availableProd":-25}},{"id":"urn:uuid:58e0c66b-5573-11ef-ab6a-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4b40922c-6d0a-4600-873d-6074de167a05","geometry":{"coordinates":[18.885175,69.33701151],"type":"Point"},"properties":{"name":"Meistervik","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-14}},{"id":"urn:uuid:58e0c66c-5573-11ef-8262-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0da3046d-6347-4e4b-988c-05d19dd6519c","geometry":{"coordinates":[19.547486,69.21183778],"type":"Point"},"properties":{"name":"Nordkjosbotn","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-17}},{"id":"urn:uuid:58e0c66d-5573-11ef-b531-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:5a54a415-c860-46a0-b8fa-e78bce7d7769","geometry":{"coordinates":[18.57906,69.17479922],"type":"Point"},"properties":{"name":"Olsborg","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":3,"availableCons":6,"availableProd":-20}},{"id":"urn:uuid:58e0c66e-5573-11ef-b6f7-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:64d8f287-3699-4ccf-9cc6-30f1dbc94798","geometry":{"coordinates":[19.466581,69.94461792],"type":"Point"},"properties":{"name":"Ringvassøy","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-20}},{"id":"urn:uuid:58e0c66f-5573-11ef-80dc-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:592e2b18-7572-4f3a-a781-974a48f95164","geometry":{"coordinates":[17.866381,68.86612041],"type":"Point"},"properties":{"name":"Salangen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":6,"availableProd":-21}},{"id":"urn:uuid:58e0c670-5573-11ef-8f94-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4e1aad8b-1d96-40de-b165-7782b3e94c04","geometry":{"coordinates":[18.993626,69.54400943],"type":"Point"},"properties":{"name":"Sandvika","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-20}},{"id":"urn:uuid:58e0c671-5573-11ef-a6e4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2b007d9f-94e4-4217-9aeb-7de3f2a79b97","geometry":{"coordinates":[18.95335,69.65262],"type":"Point"},"properties":{"name":"Sentrum","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-50}},{"id":"urn:uuid:58e0c672-5573-11ef-8f67-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:15a758b8-4c20-4e80-a908-4ca4590a2aaf","geometry":{"coordinates":[17.950098,69.2495911],"type":"Point"},"properties":{"name":"Silsand","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-120}},{"id":"urn:uuid:58e0c673-5573-11ef-b88d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:7b18b17a-3e42-4c04-9b6a-f685ae2a17a6","geometry":{"coordinates":[20.358775,69.31517951],"type":"Point"},"properties":{"name":"Skibotn","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":13,"availableProd":-20}},{"id":"urn:uuid:58e0c674-5573-11ef-9ca6-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:061b2b0d-091c-4352-833e-fe2271218e73","geometry":{"coordinates":[17.173579,69.08704637],"type":"Point"},"properties":{"name":"Stonglandseidet","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-12}},{"id":"urn:uuid:58e0c675-5573-11ef-b247-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1e8f2292-f542-4f6b-96fb-e47c302ed791","geometry":{"coordinates":[19.243323,69.21012515],"type":"Point"},"properties":{"name":"Storsteinnes","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-30}},{"id":"urn:uuid:58e0c676-5573-11ef-b608-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3ee0df73-7563-4fd3-8518-d5cde4a2032d","geometry":{"coordinates":[18.94749,69.64485],"type":"Point"},"properties":{"name":"Strandveien","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":10,"availableCons":0,"availableProd":-85}},{"id":"urn:uuid:58e0c677-5573-11ef-a95c-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4f5df25f-a54d-41c8-9977-93580ffbe76e","geometry":{"coordinates":[17.320771,69.404487],"type":"Point"},"properties":{"name":"Straumsnes","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-17}},{"id":"urn:uuid:58e0c678-5573-11ef-8677-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3e14a7e0-c631-493c-bee0-aac1f5e39250","geometry":{"coordinates":[17.596009,69.258441],"type":"Point"},"properties":{"name":"Svanelvmo","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-7}},{"id":"urn:uuid:58e0c679-5573-11ef-93f9-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6f596dce-ede7-4b73-945c-d936947eab15","geometry":{"coordinates":[18.169994,69.158632],"type":"Point"},"properties":{"name":"Sørreisa","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-15}},{"id":"urn:uuid:58e0c67a-5573-11ef-9f6b-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:487bb119-5814-4145-be9a-2874b0de0660","geometry":{"coordinates":[19.821381,69.602999],"type":"Point"},"properties":{"name":"Ullsfjord","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":16,"availableProd":-25}},{"id":"urn:uuid:58e0c67b-5573-11ef-9ba6-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:5b6302c4-8267-4f6f-be61-d7ac34f9e678","geometry":{"coordinates":[19.287396,69.03544],"type":"Point"},"properties":{"name":"Øverbygd","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-10}},{"id":"urn:uuid:58e0c67c-5573-11ef-9cb4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:350733e2-3199-4d82-a2d0-115b800f0e6d","geometry":{"coordinates":[20.049959,70.095527],"type":"Point"},"properties":{"name":"Fakken","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-60}},{"id":"urn:uuid:58e0c67d-5573-11ef-aa97-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:515a91c2-c73f-4357-bebe-8bd229af90c0","geometry":{"coordinates":[18.072042,69.568904],"type":"Point"},"properties":{"name":"Brensholmen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-20}},{"id":"urn:uuid:58e0c67e-5573-11ef-a87d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1b050235-ac9c-4a17-9a15-ed0fa67f2323","geometry":{"coordinates":[19.002362,69.699659],"type":"Point"},"properties":{"name":"Varden","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-140}},{"id":"urn:uuid:58e0c67f-5573-11ef-9055-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:765d4932-266a-4c04-a7a0-89381bf58a02","geometry":{"coordinates":[18.083634,69.22140123],"type":"Point"},"properties":{"name":"Finnfjord AS","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":60,"availableCons":0,"availableProd":-120}},{"id":"urn:uuid:58e0c680-5573-11ef-81b7-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2980fe88-248b-4ea1-b54e-ddf6cd1d82bd","geometry":{"coordinates":[14.794278,66.934644],"type":"Point"},"properties":{"name":"Beiarn","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-9}},{"id":"urn:uuid:58e0c681-5573-11ef-b91f-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:72057b5a-a4b9-435d-8a9f-bbe3631465cf","geometry":{"coordinates":[14.424213,67.284044],"type":"Point"},"properties":{"name":"Bodin","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-47}},{"id":"urn:uuid:58e0c682-5573-11ef-a563-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:5d479748-1736-47ea-b748-d4e38e54a763","geometry":{"coordinates":[13.532725,66.787202],"type":"Point"},"properties":{"name":"Enga","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-10}},{"id":"urn:uuid:58e0c683-5573-11ef-8a90-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1de20793-2541-4bef-9974-8f7da53b73d4","geometry":{"coordinates":[15.419161,67.271176],"type":"Point"},"properties":{"name":"Fauske","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":13,"availableCons":0,"availableProd":-60}},{"id":"urn:uuid:58e0c684-5573-11ef-b0c2-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:233543ca-694c-448e-a473-891d5451cdad","geometry":{"coordinates":[14.684157,67.205108],"type":"Point"},"properties":{"name":"Gillesvåg","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-3}},{"id":"urn:uuid:58e0c685-5573-11ef-9bd3-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:efa7ebfd-b1cd-4115-a3dd-de7456206d87","geometry":{"coordinates":[14.38745,66.924863],"type":"Point"},"properties":{"name":"Govddesåga","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":5,"availableProd":-3}},{"id":"urn:uuid:58e0c686-5573-11ef-8af7-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4b5f4d95-d462-48fb-8a1b-cc93f5a11bdc","geometry":{"coordinates":[13.598618,66.748993],"type":"Point"},"properties":{"name":"Halsa","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":6,"availableCons":9,"availableProd":-30}},{"id":"urn:uuid:58e0c687-5573-11ef-972f-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:46f60f67-6eac-408d-8042-ce9a2e319a11","geometry":{"coordinates":[14.408499,67.294224],"type":"Point"},"properties":{"name":"Havna","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-60}},{"id":"urn:uuid:58e0c688-5573-11ef-8bfb-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2a3c3e63-b13a-4340-b44b-0602ef0ea3b3","geometry":{"coordinates":[14.738486,67.319638],"type":"Point"},"properties":{"name":"Hopen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-5}},{"id":"urn:uuid:58e0c689-5573-11ef-92c7-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1826a819-0785-435c-ba7c-dce4434dd912","geometry":{"coordinates":[14.32848,67.0672],"type":"Point"},"properties":{"name":"Kjelling","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-4}},{"id":"urn:uuid:58e0c68a-5573-11ef-a5d4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:036cec20-1aae-49bf-98f7-d710fda618a2","geometry":{"coordinates":[14.557037,67.294183],"type":"Point"},"properties":{"name":"Messiosen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":0,"availableProd":-60}},{"id":"urn:uuid:58e0c68b-5573-11ef-9f13-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:53447794-1754-40df-ad23-c051fa0b5df4","geometry":{"coordinates":[14.935887,67.132236],"type":"Point"},"properties":{"name":"Oldereid","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-5}},{"id":"urn:uuid:58e0c68c-5573-11ef-9c47-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:13046081-fa75-47b6-a5c2-bdd3989cccc7","geometry":{"coordinates":[14.39978,67.28242],"type":"Point"},"properties":{"name":"Rensåsen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-50}},{"id":"urn:uuid:58e0c68d-5573-11ef-9f83-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:7c1db7ac-0fdb-46f9-9d7d-2cdf539fa9d1","geometry":{"coordinates":[13.560984,66.645975],"type":"Point"},"properties":{"name":"Reppa","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":15,"availableCons":0,"availableProd":-4}},{"id":"urn:uuid:58e0c68e-5573-11ef-b0cd-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:734dd66d-ba17-420d-aa80-fe10a172c59d","geometry":{"coordinates":[15.387475,67.089644],"type":"Point"},"properties":{"name":"Rognan","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-27}},{"id":"urn:uuid:58e17667-5573-11ef-a910-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4c6ebb59-ba98-4699-98f4-af79b04a2b14","geometry":{"coordinates":[16.084486,67.130086],"type":"Point"},"properties":{"name":"Sandnes","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-15}},{"id":"urn:uuid:58e17668-5573-11ef-ac5d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6e90bc8d-1359-4594-a40b-6bd4ccac70df","geometry":{"coordinates":[16.07746,67.119743],"type":"Point"},"properties":{"name":"Sulitjelma","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":12,"availableCons":0,"availableProd":-14}},{"id":"urn:uuid:58e17669-5573-11ef-ba34-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:60fa0911-1d52-4248-ad38-f7301ec0b268","geometry":{"coordinates":[14.150513,66.971373],"type":"Point"},"properties":{"name":"Sundsfjord","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":47,"availableProd":-25}},{"id":"urn:uuid:58e1766a-5573-11ef-ab27-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0c3dee12-37e8-4d56-913d-ed77de713881","geometry":{"coordinates":[14.460894,67.283818],"type":"Point"},"properties":{"name":"Tjønndalen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":-59}},{"id":"urn:uuid:58e1766b-5573-11ef-b3fa-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0e827836-39de-47cd-9f8f-6733050f5a7f","geometry":{"coordinates":[15.554176,67.340485],"type":"Point"},"properties":{"name":"Valljord","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":16,"availableCons":0,"availableProd":-12}},{"id":"urn:uuid:58e1766c-5573-11ef-b821-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:011c5eee-5474-4848-9658-810d365dcf47","geometry":{"coordinates":[14.37948,67.27417],"type":"Point"},"properties":{"name":"Vestbyen","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":40,"availableCons":0,"availableProd":-40}},{"id":"urn:uuid:58e189b8-5573-11ef-98ea-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:793e53fc-4f68-4cb2-8464-2f579dec8a5f","geometry":{"coordinates":[13.205301,66.45455],"type":"Point"},"properties":{"name":"Øresvik","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":17,"availableCons":6,"availableProd":-40}},{"id":"urn:uuid:58e189b9-5573-11ef-8a57-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:eba65ab5-21a0-4221-a7bb-426c49334144","geometry":{"coordinates":[13.934524,66.817505],"type":"Point"},"properties":{"name":"Glomfjord - Meløy Nett","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":11,"availableProd":-25}},{"id":"urn:uuid:58e189ba-5573-11ef-a941-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:65440088-1029-496c-b49a-5cc8d5793dec","geometry":{"coordinates":[13.934524,66.817505],"type":"Point"},"properties":{"name":"Glomfjord - Glomfjord Industripark","owner":"ARVA","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:21:00.7970812+00:00","capacityUnit":"MW","reservedCons":20,"availableCons":16,"availableProd":-100}}],"@context":{"@version":1.1,"geojson":"https://purl.org/geojson/vocab#","feature":"geojson:Feature","featureCollection":"geojson:FeatureCollection","geometryCollection":"geojson:GeometryCollection","lineString":"geojson:LineString","multiLineString":"geojson:MultiLineString","multiPoint":"geojson:MultiPoint","multiPolygon":"geojson:MultiPolygon","point":"geojson:Point","polygon":"geojson:Polygon","bbox":{"@container":"@list","@id":"geojson:bbox"},"coordinates":{"@container":"@list","@id":"geojson:coordinates"},"features":{"@container":"@set","@id":"geojson:features"},"geometry":"geojson:geometry","properties":"geojson:properties","type":"@type","cim":"http://iec.ch/TC57/CIM100#","nc":"http://entsoe.eu/ns/nc#","rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","dcterms":"http://purl.org/dc/terms/","dct":"http://www.w3.org/ns/dcat#","prov":"http://www.w3.org/ns/prov#","wattapp":"https://wattapp.no"},"type":"FeatureCollection","@id":"urn:uuid:db3b2edb-cf22-4b7f-a8b1-23d0199973fa","_comment":"The identifier above referes to md:FullModel rdf:about","prov:generatedAt":[{"@value":"2025-12-01T14:21:00.797Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment2":"The time the distribution (instance file) was generated.","dcterms:created":[{"@value":"2025-12-01T14:21:00.797Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment3":"The time the dataset was issued/created.","dcterms:title":"DIGIN10-30-GridCapacity-GL-WattAppGenerated","dcterms:description":[{"@value":"Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09ARVAMAS1","@language":"en"},{"@value":"Stedsdata NettkapasitetARVAMAS1","@language":"no"}],"dcat:version":"1","dcterms:publisher":[{"@id":"urn:uuid:302a00e9-7fff-4bb4-8dd6-cf8917a5d3a7","dcterms:title":"ARVA"}],"dcterms:rights":"@2025 Copyright","dcterms:rightsHolder":"979151950","dcterms:rightHolder":"ARVA","dcterms:license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","dcterms:accessRights":"http://publications.europa.eu/resource/authority/access-right/PUBLIC","dcat:isVersionOf":"https://www.wattapp.no/","dcat:keyword":"GL","dcterms:locationPeriodOrJurisdiction":"http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway","dcterms:conformsTo":"http://entsoe.eu/CIM/GeographicalLocation/3/0","dcterms:references":[{"@id":"urn:uuid:32bccc58-bce4-4a9d-89ad-7d6dfe954e7f","dcterms:title":"ARVA-30-GridCapacity-GL-WattAppGenerated"}]}]
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:58e0c660-5573-11ef-a97a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1615fece-abd1-40ae-866d-166c7500f230",
+        "geometry": {
+          "coordinates": [
+            18.319949,
+            68.86344932
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Bardu",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -20,
+          "kommune": "Bardu",
+          "kommune_nr": "5520",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c661-5573-11ef-b69a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:52b1244d-c4df-483e-9f00-2e894337f00c",
+        "geometry": {
+          "coordinates": [
+            18.589685,
+            69.04377654
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Fossmoen (Bardusfoss kraftverk)",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 0,
+          "availableProd": -70,
+          "kommune": "Målselv",
+          "kommune_nr": "5524",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c662-5573-11ef-a766-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:67c99d9d-91bb-4a8d-aac4-82b8a4b1fe0d",
+        "geometry": {
+          "coordinates": [
+            18.950619,
+            69.66392483
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Charlottenlund",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -70,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c663-5573-11ef-9b0c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5c238c61-0b02-4310-9d01-a54fd0e48dd3",
+        "geometry": {
+          "coordinates": [
+            19.57006,
+            68.87541416
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Dividalen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 4,
+          "availableProd": -5,
+          "kommune": "Målselv",
+          "kommune_nr": "5524",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c664-5573-11ef-ad00-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:09ad9746-02c8-43cb-83ae-4286088f1652",
+        "geometry": {
+          "coordinates": [
+            18.083634,
+            69.22140123
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Finnfjordbotn",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 141,
+          "availableCons": 0,
+          "availableProd": -25,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c665-5573-11ef-b85c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:39595d23-122f-4b3c-987e-53b59f20f3b0",
+        "geometry": {
+          "coordinates": [
+            18.978871,
+            69.68745057
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Gimle",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -60,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c666-5573-11ef-82e3-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0b205ed6-2950-429e-984e-212996b11f3a",
+        "geometry": {
+          "coordinates": [
+            20.918388,
+            69.46045383
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Guolas",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -10,
+          "kommune": "Gáivuotna",
+          "kommune_nr": "5540",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c667-5573-11ef-83c6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3ada982f-f1cd-4b62-b6ed-51f01f35be9d",
+        "geometry": {
+          "coordinates": [
+            18.973365,
+            69.63952679
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hungeren",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 30,
+          "availableCons": 0,
+          "availableProd": -80,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c668-5573-11ef-b633-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:38f56d5a-521d-47a3-b4a9-3008e6f04867",
+        "geometry": {
+          "coordinates": [
+            19.064735,
+            69.6829072
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kroken",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -40,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c669-5573-11ef-9edc-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:345136fe-2bfa-4a85-b628-d22c40e332c5",
+        "geometry": {
+          "coordinates": [
+            18.881974,
+            69.69822267
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kvaløya",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -40,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66a-5573-11ef-99c9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2747331b-c7e0-4955-8e51-462c390c2a2c",
+        "geometry": {
+          "coordinates": [
+            20.270979,
+            69.58929882
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Lyngen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 16,
+          "availableProd": -25,
+          "kommune": "Lyngen",
+          "kommune_nr": "5536",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66b-5573-11ef-ab6a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4b40922c-6d0a-4600-873d-6074de167a05",
+        "geometry": {
+          "coordinates": [
+            18.885175,
+            69.33701151
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Meistervik",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -14,
+          "kommune": "Balsfjord",
+          "kommune_nr": "5532",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66c-5573-11ef-8262-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0da3046d-6347-4e4b-988c-05d19dd6519c",
+        "geometry": {
+          "coordinates": [
+            19.547486,
+            69.21183778
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Nordkjosbotn",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -17,
+          "kommune": "Balsfjord",
+          "kommune_nr": "5532",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66d-5573-11ef-b531-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5a54a415-c860-46a0-b8fa-e78bce7d7769",
+        "geometry": {
+          "coordinates": [
+            18.57906,
+            69.17479922
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Olsborg",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 6,
+          "availableProd": -20,
+          "kommune": "Målselv",
+          "kommune_nr": "5524",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66e-5573-11ef-b6f7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:64d8f287-3699-4ccf-9cc6-30f1dbc94798",
+        "geometry": {
+          "coordinates": [
+            19.466581,
+            69.94461792
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ringvassøy",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -20,
+          "kommune": "Karlsøy",
+          "kommune_nr": "5534",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c66f-5573-11ef-80dc-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:592e2b18-7572-4f3a-a781-974a48f95164",
+        "geometry": {
+          "coordinates": [
+            17.866381,
+            68.86612041
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Salangen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -21,
+          "kommune": "Salangen",
+          "kommune_nr": "5522",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c670-5573-11ef-8f94-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4e1aad8b-1d96-40de-b165-7782b3e94c04",
+        "geometry": {
+          "coordinates": [
+            18.993626,
+            69.54400943
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sandvika",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -20,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c671-5573-11ef-a6e4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2b007d9f-94e4-4217-9aeb-7de3f2a79b97",
+        "geometry": {
+          "coordinates": [
+            18.95335,
+            69.65262
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sentrum",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -50,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c672-5573-11ef-8f67-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:15a758b8-4c20-4e80-a908-4ca4590a2aaf",
+        "geometry": {
+          "coordinates": [
+            17.950098,
+            69.2495911
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Silsand",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -120,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c673-5573-11ef-b88d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7b18b17a-3e42-4c04-9b6a-f685ae2a17a6",
+        "geometry": {
+          "coordinates": [
+            20.358775,
+            69.31517951
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Skibotn",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 13,
+          "availableProd": -20,
+          "kommune": "Storfjord",
+          "kommune_nr": "5538",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c674-5573-11ef-9ca6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:061b2b0d-091c-4352-833e-fe2271218e73",
+        "geometry": {
+          "coordinates": [
+            17.173579,
+            69.08704637
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Stonglandseidet",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -12,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c675-5573-11ef-b247-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1e8f2292-f542-4f6b-96fb-e47c302ed791",
+        "geometry": {
+          "coordinates": [
+            19.243323,
+            69.21012515
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Storsteinnes",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -30,
+          "kommune": "Balsfjord",
+          "kommune_nr": "5532",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c676-5573-11ef-b608-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3ee0df73-7563-4fd3-8518-d5cde4a2032d",
+        "geometry": {
+          "coordinates": [
+            18.94749,
+            69.64485
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Strandveien",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 10,
+          "availableCons": 0,
+          "availableProd": -85,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c677-5573-11ef-a95c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4f5df25f-a54d-41c8-9977-93580ffbe76e",
+        "geometry": {
+          "coordinates": [
+            17.320771,
+            69.404487
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Straumsnes",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -17,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c678-5573-11ef-8677-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3e14a7e0-c631-493c-bee0-aac1f5e39250",
+        "geometry": {
+          "coordinates": [
+            17.596009,
+            69.258441
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Svanelvmo",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -7,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c679-5573-11ef-93f9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6f596dce-ede7-4b73-945c-d936947eab15",
+        "geometry": {
+          "coordinates": [
+            18.169994,
+            69.158632
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sørreisa",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -15,
+          "kommune": "Sørreisa",
+          "kommune_nr": "5526",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67a-5573-11ef-9f6b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:487bb119-5814-4145-be9a-2874b0de0660",
+        "geometry": {
+          "coordinates": [
+            19.821381,
+            69.602999
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ullsfjord",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 16,
+          "availableProd": -25,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67b-5573-11ef-9ba6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5b6302c4-8267-4f6f-be61-d7ac34f9e678",
+        "geometry": {
+          "coordinates": [
+            19.287396,
+            69.03544
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Øverbygd",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -10,
+          "kommune": "Målselv",
+          "kommune_nr": "5524",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67c-5573-11ef-9cb4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:350733e2-3199-4d82-a2d0-115b800f0e6d",
+        "geometry": {
+          "coordinates": [
+            20.049959,
+            70.095527
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Fakken",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -60,
+          "kommune": "Karlsøy",
+          "kommune_nr": "5534",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67d-5573-11ef-aa97-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:515a91c2-c73f-4357-bebe-8bd229af90c0",
+        "geometry": {
+          "coordinates": [
+            18.072042,
+            69.568904
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Brensholmen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -20,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67e-5573-11ef-a87d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1b050235-ac9c-4a17-9a15-ed0fa67f2323",
+        "geometry": {
+          "coordinates": [
+            19.002362,
+            69.699659
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Varden",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -140,
+          "kommune": "Tromsø",
+          "kommune_nr": "5501",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c67f-5573-11ef-9055-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:765d4932-266a-4c04-a7a0-89381bf58a02",
+        "geometry": {
+          "coordinates": [
+            18.083634,
+            69.22140123
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Finnfjord AS",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 60,
+          "availableCons": 0,
+          "availableProd": -120,
+          "kommune": "Senja",
+          "kommune_nr": "5530",
+          "fylke": "Troms",
+          "fylke_nr": "55"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c680-5573-11ef-81b7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2980fe88-248b-4ea1-b54e-ddf6cd1d82bd",
+        "geometry": {
+          "coordinates": [
+            14.794278,
+            66.934644
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Beiarn",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -9,
+          "kommune": "Beiarn",
+          "kommune_nr": "1839",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c681-5573-11ef-b91f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:72057b5a-a4b9-435d-8a9f-bbe3631465cf",
+        "geometry": {
+          "coordinates": [
+            14.424213,
+            67.284044
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Bodin",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -47,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c682-5573-11ef-a563-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:5d479748-1736-47ea-b748-d4e38e54a763",
+        "geometry": {
+          "coordinates": [
+            13.532725,
+            66.787202
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Enga",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -10,
+          "kommune": "Meløy",
+          "kommune_nr": "1837",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c683-5573-11ef-8a90-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1de20793-2541-4bef-9974-8f7da53b73d4",
+        "geometry": {
+          "coordinates": [
+            15.419161,
+            67.271176
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Fauske",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 13,
+          "availableCons": 0,
+          "availableProd": -60,
+          "kommune": "Fauske",
+          "kommune_nr": "1841",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c684-5573-11ef-b0c2-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:233543ca-694c-448e-a473-891d5451cdad",
+        "geometry": {
+          "coordinates": [
+            14.684157,
+            67.205108
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Gillesvåg",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -3,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c685-5573-11ef-9bd3-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:efa7ebfd-b1cd-4115-a3dd-de7456206d87",
+        "geometry": {
+          "coordinates": [
+            14.38745,
+            66.924863
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Govddesåga",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -3,
+          "kommune": "Beiarn",
+          "kommune_nr": "1839",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c686-5573-11ef-8af7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4b5f4d95-d462-48fb-8a1b-cc93f5a11bdc",
+        "geometry": {
+          "coordinates": [
+            13.598618,
+            66.748993
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Halsa",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 6,
+          "availableCons": 9,
+          "availableProd": -30,
+          "kommune": "Meløy",
+          "kommune_nr": "1837",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c687-5573-11ef-972f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:46f60f67-6eac-408d-8042-ce9a2e319a11",
+        "geometry": {
+          "coordinates": [
+            14.408499,
+            67.294224
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Havna",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -60,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c688-5573-11ef-8bfb-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2a3c3e63-b13a-4340-b44b-0602ef0ea3b3",
+        "geometry": {
+          "coordinates": [
+            14.738486,
+            67.319638
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hopen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -5,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c689-5573-11ef-92c7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1826a819-0785-435c-ba7c-dce4434dd912",
+        "geometry": {
+          "coordinates": [
+            14.32848,
+            67.0672
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kjelling",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -4,
+          "kommune": "Gildeskål",
+          "kommune_nr": "1838",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c68a-5573-11ef-a5d4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:036cec20-1aae-49bf-98f7-d710fda618a2",
+        "geometry": {
+          "coordinates": [
+            14.557037,
+            67.294183
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Messiosen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 0,
+          "availableProd": -60,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c68b-5573-11ef-9f13-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:53447794-1754-40df-ad23-c051fa0b5df4",
+        "geometry": {
+          "coordinates": [
+            14.935887,
+            67.132236
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Oldereid",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -5,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c68c-5573-11ef-9c47-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:13046081-fa75-47b6-a5c2-bdd3989cccc7",
+        "geometry": {
+          "coordinates": [
+            14.39978,
+            67.28242
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Rensåsen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -50,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c68d-5573-11ef-9f83-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7c1db7ac-0fdb-46f9-9d7d-2cdf539fa9d1",
+        "geometry": {
+          "coordinates": [
+            13.560984,
+            66.645975
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Reppa",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 15,
+          "availableCons": 0,
+          "availableProd": -4,
+          "kommune": "Rødøy",
+          "kommune_nr": "1836",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e0c68e-5573-11ef-b0cd-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:734dd66d-ba17-420d-aa80-fe10a172c59d",
+        "geometry": {
+          "coordinates": [
+            15.387475,
+            67.089644
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Rognan",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -27,
+          "kommune": "Saltdal",
+          "kommune_nr": "1840",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e17667-5573-11ef-a910-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4c6ebb59-ba98-4699-98f4-af79b04a2b14",
+        "geometry": {
+          "coordinates": [
+            16.084486,
+            67.130086
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sandnes",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -15,
+          "kommune": "Fauske",
+          "kommune_nr": "1841",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e17668-5573-11ef-ac5d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6e90bc8d-1359-4594-a40b-6bd4ccac70df",
+        "geometry": {
+          "coordinates": [
+            16.07746,
+            67.119743
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sulitjelma",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 12,
+          "availableCons": 0,
+          "availableProd": -14,
+          "kommune": "Fauske",
+          "kommune_nr": "1841",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e17669-5573-11ef-ba34-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:60fa0911-1d52-4248-ad38-f7301ec0b268",
+        "geometry": {
+          "coordinates": [
+            14.150513,
+            66.971373
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sundsfjord",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 47,
+          "availableProd": -25,
+          "kommune": "Gildeskål",
+          "kommune_nr": "1838",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e1766a-5573-11ef-ab27-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0c3dee12-37e8-4d56-913d-ed77de713881",
+        "geometry": {
+          "coordinates": [
+            14.460894,
+            67.283818
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tjønndalen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": -59,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e1766b-5573-11ef-b3fa-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0e827836-39de-47cd-9f8f-6733050f5a7f",
+        "geometry": {
+          "coordinates": [
+            15.554176,
+            67.340485
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Valljord",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 16,
+          "availableCons": 0,
+          "availableProd": -12,
+          "kommune": "Fauske",
+          "kommune_nr": "1841",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e1766c-5573-11ef-b821-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:011c5eee-5474-4848-9658-810d365dcf47",
+        "geometry": {
+          "coordinates": [
+            14.37948,
+            67.27417
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vestbyen",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 40,
+          "availableCons": 0,
+          "availableProd": -40,
+          "kommune": "Bodø",
+          "kommune_nr": "1804",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e189b8-5573-11ef-98ea-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:793e53fc-4f68-4cb2-8464-2f579dec8a5f",
+        "geometry": {
+          "coordinates": [
+            13.205301,
+            66.45455
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Øresvik",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 17,
+          "availableCons": 6,
+          "availableProd": -40,
+          "kommune": "Rødøy",
+          "kommune_nr": "1836",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e189b9-5573-11ef-8a57-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:eba65ab5-21a0-4221-a7bb-426c49334144",
+        "geometry": {
+          "coordinates": [
+            13.934524,
+            66.817505
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Glomfjord - Meløy Nett",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 11,
+          "availableProd": -25,
+          "kommune": "Meløy",
+          "kommune_nr": "1837",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      },
+      {
+        "id": "urn:uuid:58e189ba-5573-11ef-a941-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:65440088-1029-496c-b49a-5cc8d5793dec",
+        "geometry": {
+          "coordinates": [
+            13.934524,
+            66.817505
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Glomfjord - Glomfjord Industripark",
+          "owner": "ARVA",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:21:00.7970812+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 20,
+          "availableCons": 16,
+          "availableProd": -100,
+          "kommune": "Meløy",
+          "kommune_nr": "1837",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:db3b2edb-cf22-4b7f-a8b1-23d0199973fa",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T14:21:00.797Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T14:21:00.797Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09ARVAMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetARVAMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:302a00e9-7fff-4bb4-8dd6-cf8917a5d3a7",
+        "dcterms:title": "ARVA"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "979151950",
+    "dcterms:rightHolder": "ARVA",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:32bccc58-bce4-4a9d-89ad-7d6dfe954e7f",
+        "dcterms:title": "ARVA-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]

@@ -1,1 +1,315 @@
-[{"features":[{"id":"urn:uuid:ab321bdb-561e-11ef-b948-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:15ebe541-ffc4-490b-8b05-726eaf07796b","geometry":{"coordinates":[[[8.8300280230486123,59.411941272913623],[8.8712350707178018,59.451060236442942],[9.07910173339991,59.554228568250124],[9.16701010175808,59.504542665104935],[9.2146271346201729,59.455714244368693],[9.1363368217205334,59.406726549845786],[9.10436900722982,59.370859061452222],[9.0272014921662844,59.347563393084528],[8.8300280230486123,59.411941272913623]]],"type":"Polygon"},"properties":{"name":"Bø Telemark","owner":"Føre","description":"Eika transformatorstasjon ligger i et regionalt overskuddsområde, Men pr i dag mangler det ned transformering. I kuldeperioder er den fullastet. Dette medfører at det ikke er mulig med nye større forbruks tilknytninger. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE skal investeres økt trafo kapasitet i Eika, og ser også på flaskehalser i regionalt nett.","shortDescription":"Bø sentrum og omegn forsynes fra Eika trafo, med kapasitet  på 25 MVA. Denne transformatoren er fullastet i de kaldeste periodene på vinteren.","capacityDate":"2025-12-01T14:19:19.1721595+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":0}},{"id":"urn:uuid:ab323a4e-561e-11ef-96d4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:47357611-0a51-442d-a545-9d045e75652f","geometry":{"coordinates":[[[9.21675601872613,59.444716100794807],[9.1349446260685738,59.404296683231024],[9.113715259458445,59.374612559338914],[9.1956259484028635,59.32775791769788],[9.229171862167874,59.336775551326383],[9.2348081120800032,59.366148385477771],[9.2277593061680818,59.391281099047831],[9.21675601872613,59.444716100794807]]],"type":"Polygon"},"properties":{"name":"Gvarv","owner":"Føre","description":"Det er mulig med noe forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.","shortDescription":"Gvarv sentrum og omegn forsynes fra Gvarv trafo, med kapasitet på 15 MVA.","capacityDate":"2025-12-01T14:19:19.1721595+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":5,"availableProd":0}},{"id":"urn:uuid:ab323a4f-561e-11ef-8ecb-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4fafcf63-7fb3-4f88-856a-dc44f50e49ab","geometry":{"coordinates":[[[8.86053263986966,59.323618875056155],[8.8714978990491886,59.287973032815557],[8.9638369237200664,59.291804542800548],[9.1623658267629082,59.2655648024585],[9.2062268634811062,59.320379887531118],[9.1217872852185451,59.369649734348741],[9.0290425114579591,59.345856221959338],[8.86053263986966,59.323618875056155]]],"type":"Polygon"},"properties":{"name":"Lunde","owner":"Føre","description":"Det er ledig kapasitet til forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.","shortDescription":"Lunde sentrum og omegn er forsynt fra Lunde og Vrangfoss.","capacityDate":"2025-12-01T14:19:19.1721595+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":8,"availableProd":0}},{"id":"urn:uuid:ab323a50-561e-11ef-bdaa-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:9eab52e8-73c0-4fca-97df-5190b6f374ab","geometry":{"coordinates":[[[9.2042303941341856,59.317605731201667],[9.1789458776209756,59.267740209627618],[9.3765971684963176,59.187803156018276],[9.4502575858679165,59.230494620488855],[9.35529252179657,59.281662793549941],[9.2472192616128837,59.336375945578396],[9.2042303941341856,59.317605731201667]]],"type":"Polygon"},"properties":{"name":"Ulefoss","owner":"Føre","description":"Det er ledig kapasitet til forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.","shortDescription":"Ulefoss og omegn er forsynt fra Holla og Vrangfoss. ","capacityDate":"2025-12-01T14:19:19.1721595+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":15,"availableProd":0}}],"@context":{"@version":1.1,"geojson":"https://purl.org/geojson/vocab#","feature":"geojson:Feature","featureCollection":"geojson:FeatureCollection","geometryCollection":"geojson:GeometryCollection","lineString":"geojson:LineString","multiLineString":"geojson:MultiLineString","multiPoint":"geojson:MultiPoint","multiPolygon":"geojson:MultiPolygon","point":"geojson:Point","polygon":"geojson:Polygon","bbox":{"@container":"@list","@id":"geojson:bbox"},"coordinates":{"@container":"@list","@id":"geojson:coordinates"},"features":{"@container":"@set","@id":"geojson:features"},"geometry":"geojson:geometry","properties":"geojson:properties","type":"@type","cim":"http://iec.ch/TC57/CIM100#","nc":"http://entsoe.eu/ns/nc#","rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","dcterms":"http://purl.org/dc/terms/","dct":"http://www.w3.org/ns/dcat#","prov":"http://www.w3.org/ns/prov#","wattapp":"https://wattapp.no"},"type":"FeatureCollection","@id":"urn:uuid:5f7e5b37-cff5-4e5d-b29b-6e46b7ee5bee","_comment":"The identifier above referes to md:FullModel rdf:about","prov:generatedAt":[{"@value":"2025-12-01T14:19:19.172Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment2":"The time the distribution (instance file) was generated.","dcterms:created":[{"@value":"2025-12-01T14:19:19.172Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment3":"The time the dataset was issued/created.","dcterms:title":"DIGIN10-30-GridCapacity-GL-WattAppGenerated","dcterms:description":[{"@value":"Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09FøreMAS1","@language":"en"},{"@value":"Stedsdata NettkapasitetFøreMAS1","@language":"no"}],"dcat:version":"1","dcterms:publisher":[{"@id":"urn:uuid:9e771879-8a86-447f-958d-48fcd262ba18","dcterms:title":"Føre"}],"dcterms:rights":"@2025 Copyright","dcterms:rightsHolder":"925549738","dcterms:rightHolder":"Føre","dcterms:license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","dcterms:accessRights":"http://publications.europa.eu/resource/authority/access-right/PUBLIC","dcat:isVersionOf":"https://www.wattapp.no/","dcat:keyword":"GL","dcterms:locationPeriodOrJurisdiction":"http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway","dcterms:conformsTo":"http://entsoe.eu/CIM/GeographicalLocation/3/0","dcterms:references":[{"@id":"urn:uuid:5cd01cd8-b000-436e-af9a-afc025c3ac81","dcterms:title":"Føre-30-GridCapacity-GL-WattAppGenerated"}]}]
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:ab321bdb-561e-11ef-b948-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:15ebe541-ffc4-490b-8b05-726eaf07796b",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                8.830028023048612,
+                59.41194127291362
+              ],
+              [
+                8.871235070717802,
+                59.45106023644294
+              ],
+              [
+                9.07910173339991,
+                59.554228568250124
+              ],
+              [
+                9.16701010175808,
+                59.504542665104935
+              ],
+              [
+                9.214627134620173,
+                59.45571424436869
+              ],
+              [
+                9.136336821720533,
+                59.406726549845786
+              ],
+              [
+                9.10436900722982,
+                59.37085906145222
+              ],
+              [
+                9.027201492166284,
+                59.34756339308453
+              ],
+              [
+                8.830028023048612,
+                59.41194127291362
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {
+          "name": "Bø Telemark",
+          "owner": "Føre",
+          "description": "Eika transformatorstasjon ligger i et regionalt overskuddsområde, Men pr i dag mangler det ned transformering. I kuldeperioder er den fullastet. Dette medfører at det ikke er mulig med nye større forbruks tilknytninger. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE skal investeres økt trafo kapasitet i Eika, og ser også på flaskehalser i regionalt nett.",
+          "shortDescription": "Bø sentrum og omegn forsynes fra Eika trafo, med kapasitet  på 25 MVA. Denne transformatoren er fullastet i de kaldeste periodene på vinteren.",
+          "capacityDate": "2025-12-01T14:19:19.1721595+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": 0
+        }
+      },
+      {
+        "id": "urn:uuid:ab323a4e-561e-11ef-96d4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:47357611-0a51-442d-a545-9d045e75652f",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                9.21675601872613,
+                59.44471610079481
+              ],
+              [
+                9.134944626068574,
+                59.404296683231024
+              ],
+              [
+                9.113715259458445,
+                59.374612559338914
+              ],
+              [
+                9.195625948402864,
+                59.32775791769788
+              ],
+              [
+                9.229171862167874,
+                59.33677555132638
+              ],
+              [
+                9.234808112080003,
+                59.36614838547777
+              ],
+              [
+                9.227759306168082,
+                59.39128109904783
+              ],
+              [
+                9.21675601872613,
+                59.44471610079481
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {
+          "name": "Gvarv",
+          "owner": "Føre",
+          "description": "Det er mulig med noe forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.",
+          "shortDescription": "Gvarv sentrum og omegn forsynes fra Gvarv trafo, med kapasitet på 15 MVA.",
+          "capacityDate": "2025-12-01T14:19:19.1721595+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": 0
+        }
+      },
+      {
+        "id": "urn:uuid:ab323a4f-561e-11ef-8ecb-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4fafcf63-7fb3-4f88-856a-dc44f50e49ab",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                8.86053263986966,
+                59.323618875056155
+              ],
+              [
+                8.871497899049189,
+                59.28797303281556
+              ],
+              [
+                8.963836923720066,
+                59.29180454280055
+              ],
+              [
+                9.162365826762908,
+                59.2655648024585
+              ],
+              [
+                9.206226863481106,
+                59.32037988753112
+              ],
+              [
+                9.121787285218545,
+                59.36964973434874
+              ],
+              [
+                9.029042511457959,
+                59.34585622195934
+              ],
+              [
+                8.86053263986966,
+                59.323618875056155
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {
+          "name": "Lunde",
+          "owner": "Føre",
+          "description": "Det er ledig kapasitet til forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.",
+          "shortDescription": "Lunde sentrum og omegn er forsynt fra Lunde og Vrangfoss.",
+          "capacityDate": "2025-12-01T14:19:19.1721595+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 8,
+          "availableProd": 0
+        }
+      },
+      {
+        "id": "urn:uuid:ab323a50-561e-11ef-bdaa-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:9eab52e8-73c0-4fca-97df-5190b6f374ab",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                9.204230394134186,
+                59.31760573120167
+              ],
+              [
+                9.178945877620976,
+                59.26774020962762
+              ],
+              [
+                9.376597168496318,
+                59.187803156018276
+              ],
+              [
+                9.450257585867917,
+                59.230494620488855
+              ],
+              [
+                9.35529252179657,
+                59.28166279354994
+              ],
+              [
+                9.247219261612884,
+                59.336375945578396
+              ],
+              [
+                9.204230394134186,
+                59.31760573120167
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {
+          "name": "Ulefoss",
+          "owner": "Føre",
+          "description": "Det er ledig kapasitet til forbruks tilknytting. Regionalt er det flaskehalser som medfører at tilknytting av ny produksjon ikke er mulig. Det er derimot mulig med tilknytning på vilkår. Dersom kunden har last eller produksjon som kan kobles ut ved behov enkelte deler av året så er det mulig å få tilknytning.  Regional netteier LEDE ser på flaskehalser i regionalt nett.",
+          "shortDescription": "Ulefoss og omegn er forsynt fra Holla og Vrangfoss. ",
+          "capacityDate": "2025-12-01T14:19:19.1721595+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 15,
+          "availableProd": 0
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:5f7e5b37-cff5-4e5d-b29b-6e46b7ee5bee",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T14:19:19.172Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T14:19:19.172Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09FøreMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetFøreMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:9e771879-8a86-447f-958d-48fcd262ba18",
+        "dcterms:title": "Føre"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "925549738",
+    "dcterms:rightHolder": "Føre",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:5cd01cd8-b000-436e-af9a-afc025c3ac81",
+        "dcterms:title": "Føre-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]

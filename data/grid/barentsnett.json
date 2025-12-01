@@ -1,1 +1,579 @@
-[{"features":[{"id":"wattadmgen:urn:uuid:f5571c97-69be-4d1b-8180-ee19b77dcdaf","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:06d69f37-8a88-4156-9668-f9ecd525af5e","geometry":{"coordinates":[30.005443,69.665596],"type":"Point"},"properties":{"name":"Bjørnevatn","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":4,"availableCons":4,"availableProd":-24}},{"id":"wattadmgen:urn:uuid:fcde08ea-1aa2-4866-bde5-8a1dae726e0b","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:df3bd4ce-8dd4-4aff-9402-b8e98e743dcc","geometry":{"coordinates":[29.713211,70.639784],"type":"Point"},"properties":{"name":"Båtsfjord Transformatorstasjon","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":14,"availableProd":0}},{"id":"wattadmgen:urn:uuid:010e57d1-6f81-41b6-a64a-63a2358e5046","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:a5736391-7864-4a00-b418-70d2a1b681fb","geometry":{"coordinates":[29.121376,70.008611],"type":"Point"},"properties":{"name":"Gandvik","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":2,"availableProd":-6}},{"id":"wattadmgen:urn:uuid:ed625dee-777d-404b-b5c2-d1924b1a9337","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:da451eb2-3642-43bb-8ace-bb041dc72319","geometry":{"coordinates":[30.033445,69.722792],"type":"Point"},"properties":{"name":"Kirkenes","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":26,"availableCons":22,"availableProd":-105}},{"id":"wattadmgen:urn:uuid:9fec099d-4514-430b-8b3c-6fb1ea5949d6","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:804ab5e2-f32c-4075-913f-cd4d983a8e79","geometry":{"coordinates":[29.285897367112028,70.71211510134489],"type":"Point"},"properties":{"name":"Kobbkroken","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":6,"availableProd":0}},{"id":"wattadmgen:urn:uuid:c3268781-f344-46d8-8ae7-00a15aa4c535","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:82154799-11d1-4dfe-8c2d-aace46e6b59b","geometry":{"coordinates":[28.522208,70.426678],"type":"Point"},"properties":{"name":"Leirpollen","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":2,"availableProd":0}},{"id":"wattadmgen:urn:uuid:499271b9-5437-4ded-8a8a-453529a26f36","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:d36249af-666c-48a6-bce7-88bfaf3be02c","geometry":{"coordinates":[29.78702,69.399451],"type":"Point"},"properties":{"name":"Melkefoss","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":5,"availableProd":-5}},{"id":"wattadmgen:urn:uuid:5ff5cf56-4ef5-493f-8fc1-5410331ce1f3","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:7fb459b8-b797-4a34-af16-107042d55885","geometry":{"coordinates":[29.348763,69.703356],"type":"Point"},"properties":{"name":"Neiden","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":3,"availableProd":-10}},{"id":"wattadmgen:urn:uuid:61e58b87-0455-420e-b228-9913e74f6f37","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:e88612f5-e4a5-446a-b300-bcbadcc7c486","geometry":{"coordinates":[31.013653,70.385109],"type":"Point"},"properties":{"name":"Smelror Transformatorstasjon","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":14,"availableProd":0}},{"id":"wattadmgen:urn:uuid:3aeceb57-14a1-453c-b2b0-73095b75e140","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:62aa298d-c5ea-4f7d-a96b-9d91f2345a57","geometry":{"coordinates":[29.085242,70.763064],"type":"Point"},"properties":{"name":"Storvarden/Raggovidda","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":1,"availableProd":0}},{"id":"wattadmgen:urn:uuid:9e163ba4-5f9d-4bf5-8edd-3dd447df7867","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:46f2aeef-e550-4a8a-b09b-6794d595af76","geometry":{"coordinates":[28.187957,70.194317],"type":"Point"},"properties":{"name":"Tana Bru","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":11,"availableProd":-78}},{"id":"wattadmgen:urn:uuid:3c2b79c4-964f-4e1b-bb39-598d5c14ce2d","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:b2e83fb9-c2c0-4226-9266-ffc9bd411d0d","geometry":{"coordinates":[29.764237,70.078486],"type":"Point"},"properties":{"name":"Vadsø","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":1,"availableProd":-35}},{"id":"wattadmgen:urn:uuid:611373c3-2e62-43c4-a6b0-43503d0c00a9","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:2364561d-4b0f-4f95-a89c-0161de9bea50","geometry":{"coordinates":[28.542137,70.172213],"type":"Point"},"properties":{"name":"Varangerbotn","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":1,"availableProd":-5}},{"id":"wattadmgen:urn:uuid:36574573-3139-4442-abb7-0e06c1411671","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"wattadmgen:urn:uuid:7b9403bd-447d-4377-be21-75527aaf5cfc","geometry":{"coordinates":[[[29.936431665781726,70.04351093534328],[30.386677361501512,70.10516250989087],[30.579639802524582,70.20478654400304],[30.832903006366138,70.23335671518822],[31.130386769610283,70.28088571703952],[31.291188803796388,70.3850635264993],[30.94546443029776,70.46587434177269],[30.50727888714033,70.57312454023776],[30.378637259792697,70.57847216490296],[30.306276344408502,70.64786261836952],[30.18969486962328,70.70771955724359],[29.87211085210626,70.71037572826992],[29.707288767066558,70.75415179210862],[29.490206020922187,70.72763226707161],[29.36558444442818,70.82029708420339],[29.140461596568315,70.88359070496188],[28.979659562382153,70.89543585522028],[28.77463696879508,70.86383307610015],[28.774636968796273,70.70771955724035],[28.70459375210541,70.55727799949341],[28.374949582024357,70.52245663882087],[28.298568615786564,70.43917903506312],[28.51967141279124,70.363666580549],[28.507611260228828,70.19682483429892],[29.936431665781726,70.04351093534328]]],"type":"Polygon"},"properties":{"name":"Varangerhalvøya","owner":"Barentsnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"\"Varangerringen\" er forsynt fra Varangerbotn og forsyner Varangerhalvøya. Ledig kapasitet avhenger av hvilke transformatorstasjoner som blir belastet.","capacityDate":"2025-12-01T14:20:23.3983141+00:00","capacityUnit":"MW","reservedCons":120,"availableCons":130,"availableProd":170}}],"@context":{"@version":1.1,"geojson":"https://purl.org/geojson/vocab#","feature":"geojson:Feature","featureCollection":"geojson:FeatureCollection","geometryCollection":"geojson:GeometryCollection","lineString":"geojson:LineString","multiLineString":"geojson:MultiLineString","multiPoint":"geojson:MultiPoint","multiPolygon":"geojson:MultiPolygon","point":"geojson:Point","polygon":"geojson:Polygon","bbox":{"@container":"@list","@id":"geojson:bbox"},"coordinates":{"@container":"@list","@id":"geojson:coordinates"},"features":{"@container":"@set","@id":"geojson:features"},"geometry":"geojson:geometry","properties":"geojson:properties","type":"@type","cim":"http://iec.ch/TC57/CIM100#","nc":"http://entsoe.eu/ns/nc#","rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","dcterms":"http://purl.org/dc/terms/","dct":"http://www.w3.org/ns/dcat#","prov":"http://www.w3.org/ns/prov#","wattapp":"https://wattapp.no"},"type":"FeatureCollection","@id":"wattadmgen:urn:uuid:d3cea3e2-3c85-4a7f-a3b2-2c6a7d112e9b","_comment":"The identifier above referes to md:FullModel rdf:about","prov:generatedAt":[{"@value":"2025-12-01T14:20:23.398Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment2":"The time the distribution (instance file) was generated.","dcterms:created":[{"@value":"2025-12-01T14:20:23.398Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment3":"The time the dataset was issued/created.","dcterms:title":"DIGIN10-30-GridCapacity-GL-WattAppGenerated","dcterms:description":[{"@value":"Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09BarentsnettMAS1","@language":"en"},{"@value":"Stedsdata NettkapasitetBarentsnettMAS1","@language":"no"}],"dcat:version":"1","dcterms:publisher":[{"@id":"","dcterms:title":"Barentsnett"}],"dcterms:rights":"@2025 Copyright","dcterms:rightsHolder":"971058854","dcterms:rightHolder":"Barentsnett","dcterms:license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","dcterms:accessRights":"http://publications.europa.eu/resource/authority/access-right/PUBLIC","dcat:isVersionOf":"https://www.wattapp.no/","dcat:keyword":"GL","dcterms:locationPeriodOrJurisdiction":"http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway","dcterms:conformsTo":"http://entsoe.eu/CIM/GeographicalLocation/3/0","dcterms:references":[{"@id":"","dcterms:title":"Barentsnett-30-GridCapacity-GL-WattAppGenerated"}]}]
+[
+  {
+    "features": [
+      {
+        "id": "wattadmgen:urn:uuid:f5571c97-69be-4d1b-8180-ee19b77dcdaf",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:06d69f37-8a88-4156-9668-f9ecd525af5e",
+        "geometry": {
+          "coordinates": [
+            30.005443,
+            69.665596
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Bjørnevatn",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 4,
+          "availableProd": -24,
+          "kommune": "Sør-Varanger",
+          "kommune_nr": "5605",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:fcde08ea-1aa2-4866-bde5-8a1dae726e0b",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:df3bd4ce-8dd4-4aff-9402-b8e98e743dcc",
+        "geometry": {
+          "coordinates": [
+            29.713211,
+            70.639784
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Båtsfjord Transformatorstasjon",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 14,
+          "availableProd": 0,
+          "kommune": "Båtsfjord",
+          "kommune_nr": "5632",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:010e57d1-6f81-41b6-a64a-63a2358e5046",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:a5736391-7864-4a00-b418-70d2a1b681fb",
+        "geometry": {
+          "coordinates": [
+            29.121376,
+            70.008611
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Gandvik",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -6,
+          "kommune": "Unjárga",
+          "kommune_nr": "5636",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:ed625dee-777d-404b-b5c2-d1924b1a9337",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:da451eb2-3642-43bb-8ace-bb041dc72319",
+        "geometry": {
+          "coordinates": [
+            30.033445,
+            69.722792
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kirkenes",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 26,
+          "availableCons": 22,
+          "availableProd": -105,
+          "kommune": "Sør-Varanger",
+          "kommune_nr": "5605",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:9fec099d-4514-430b-8b3c-6fb1ea5949d6",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:804ab5e2-f32c-4075-913f-cd4d983a8e79",
+        "geometry": {
+          "coordinates": [
+            29.285897367112028,
+            70.71211510134489
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kobbkroken",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": 0,
+          "kommune": "Berlevåg",
+          "kommune_nr": "5630",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:c3268781-f344-46d8-8ae7-00a15aa4c535",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:82154799-11d1-4dfe-8c2d-aace46e6b59b",
+        "geometry": {
+          "coordinates": [
+            28.522208,
+            70.426678
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Leirpollen",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": 0,
+          "kommune": "Deatnu",
+          "kommune_nr": "5628",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:499271b9-5437-4ded-8a8a-453529a26f36",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:d36249af-666c-48a6-bce7-88bfaf3be02c",
+        "geometry": {
+          "coordinates": [
+            29.78702,
+            69.399451
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Melkefoss",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": -5,
+          "kommune": "Sør-Varanger",
+          "kommune_nr": "5605",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:5ff5cf56-4ef5-493f-8fc1-5410331ce1f3",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:7fb459b8-b797-4a34-af16-107042d55885",
+        "geometry": {
+          "coordinates": [
+            29.348763,
+            69.703356
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Neiden",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 3,
+          "availableProd": -10,
+          "kommune": "Sør-Varanger",
+          "kommune_nr": "5605",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:61e58b87-0455-420e-b228-9913e74f6f37",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:e88612f5-e4a5-446a-b300-bcbadcc7c486",
+        "geometry": {
+          "coordinates": [
+            31.013653,
+            70.385109
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Smelror Transformatorstasjon",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 14,
+          "availableProd": 0,
+          "kommune": "Vardø",
+          "kommune_nr": "5634",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:3aeceb57-14a1-453c-b2b0-73095b75e140",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:62aa298d-c5ea-4f7d-a96b-9d91f2345a57",
+        "geometry": {
+          "coordinates": [
+            29.085242,
+            70.763064
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Storvarden/Raggovidda",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": 0,
+          "kommune": "Berlevåg",
+          "kommune_nr": "5630",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:9e163ba4-5f9d-4bf5-8edd-3dd447df7867",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:46f2aeef-e550-4a8a-b09b-6794d595af76",
+        "geometry": {
+          "coordinates": [
+            28.187957,
+            70.194317
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tana Bru",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 11,
+          "availableProd": -78,
+          "kommune": "Deatnu",
+          "kommune_nr": "5628",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:3c2b79c4-964f-4e1b-bb39-598d5c14ce2d",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:b2e83fb9-c2c0-4226-9266-ffc9bd411d0d",
+        "geometry": {
+          "coordinates": [
+            29.764237,
+            70.078486
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vadsø",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -35,
+          "kommune": "Vadsø",
+          "kommune_nr": "5607",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:611373c3-2e62-43c4-a6b0-43503d0c00a9",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:2364561d-4b0f-4f95-a89c-0161de9bea50",
+        "geometry": {
+          "coordinates": [
+            28.542137,
+            70.172213
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Varangerbotn",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Ledig kapasitet er veiledende og kan i mange tilfeller økes med mindre eller større tiltak i nettet.\nDet er kjente begrensninger i transmisjonsnettet, og reservasjonskø for kunder med samlet effekt fra 5 MW/20 GWh. Angitt kapasitet hensyntar ikke tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Les mer om begreper og innhold under informasjonsknappen.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 1,
+          "availableProd": -5,
+          "kommune": "Unjárga",
+          "kommune_nr": "5636",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
+        }
+      },
+      {
+        "id": "wattadmgen:urn:uuid:36574573-3139-4442-abb7-0e06c1411671",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "wattadmgen:urn:uuid:7b9403bd-447d-4377-be21-75527aaf5cfc",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                29.936431665781726,
+                70.04351093534328
+              ],
+              [
+                30.386677361501512,
+                70.10516250989087
+              ],
+              [
+                30.579639802524582,
+                70.20478654400304
+              ],
+              [
+                30.832903006366138,
+                70.23335671518822
+              ],
+              [
+                31.130386769610283,
+                70.28088571703952
+              ],
+              [
+                31.291188803796388,
+                70.3850635264993
+              ],
+              [
+                30.94546443029776,
+                70.46587434177269
+              ],
+              [
+                30.50727888714033,
+                70.57312454023776
+              ],
+              [
+                30.378637259792697,
+                70.57847216490296
+              ],
+              [
+                30.306276344408502,
+                70.64786261836952
+              ],
+              [
+                30.18969486962328,
+                70.70771955724359
+              ],
+              [
+                29.87211085210626,
+                70.71037572826992
+              ],
+              [
+                29.707288767066558,
+                70.75415179210862
+              ],
+              [
+                29.490206020922187,
+                70.72763226707161
+              ],
+              [
+                29.36558444442818,
+                70.82029708420339
+              ],
+              [
+                29.140461596568315,
+                70.88359070496188
+              ],
+              [
+                28.979659562382153,
+                70.89543585522028
+              ],
+              [
+                28.77463696879508,
+                70.86383307610015
+              ],
+              [
+                28.774636968796273,
+                70.70771955724035
+              ],
+              [
+                28.70459375210541,
+                70.55727799949341
+              ],
+              [
+                28.374949582024357,
+                70.52245663882087
+              ],
+              [
+                28.298568615786564,
+                70.43917903506312
+              ],
+              [
+                28.51967141279124,
+                70.363666580549
+              ],
+              [
+                28.507611260228828,
+                70.19682483429892
+              ],
+              [
+                29.936431665781726,
+                70.04351093534328
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {
+          "name": "Varangerhalvøya",
+          "owner": "Barentsnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts omrÃ¥deplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "\"Varangerringen\" er forsynt fra Varangerbotn og forsyner Varangerhalvøya. Ledig kapasitet avhenger av hvilke transformatorstasjoner som blir belastet.",
+          "capacityDate": "2025-12-01T14:20:23.3983141+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 120,
+          "availableCons": 130,
+          "availableProd": 170
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "wattadmgen:urn:uuid:d3cea3e2-3c85-4a7f-a3b2-2c6a7d112e9b",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T14:20:23.398Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T14:20:23.398Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09BarentsnettMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetBarentsnettMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "",
+        "dcterms:title": "Barentsnett"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "971058854",
+    "dcterms:rightHolder": "Barentsnett",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "",
+        "dcterms:title": "Barentsnett-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]

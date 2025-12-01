@@ -199,9 +199,11 @@ function MaruTab({ data }) {
 function GridTab({ data }) {
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("capacity");
+  const [filterKommune, setFilterKommune] = useState("all");
+  const [filterFylke, setFilterFylke] = useState("all");
 
-  const { operators, allLocations, totals } = useMemo(() => {
-    if (!data?.grid_operators) return { operators: [], allLocations: [], totals: {} };
+  const { operators, allLocations, totals, kommuner, fylker } = useMemo(() => {
+    if (!data?.grid_operators) return { operators: [], allLocations: [], totals: {}, kommuner: [], fylker: [] };
 
     const ops = Object.entries(data.grid_operators).map(([id, op]) => ({
       id,
@@ -215,6 +217,12 @@ function GridTab({ data }) {
       op.locations.map((loc) => ({ ...loc, operator: op.name }))
     );
 
+    // Get unique kommuner and fylker
+    const kommuneSet = new Set(allLocations.map(l => l.kommune).filter(Boolean));
+    const fylkeSet = new Set(allLocations.map(l => l.fylke).filter(Boolean));
+    const kommuner = [...kommuneSet].sort();
+    const fylker = [...fylkeSet].sort();
+
     const totals = {
       locations: allLocations.length,
       operators: ops.length,
@@ -222,22 +230,30 @@ function GridTab({ data }) {
       totalReserved: allLocations.reduce((s, l) => s + (l.reserved_consumption || 0), 0),
     };
 
-    return { operators: ops, allLocations, totals };
+    return { operators: ops, allLocations, totals, kommuner, fylker };
   }, [data]);
 
   const filteredLocations = useMemo(() => {
     let locs = allLocations;
     if (search) {
       const s = search.toLowerCase();
-      locs = locs.filter((l) => l.name?.toLowerCase().includes(s) || l.operator?.toLowerCase().includes(s));
+      locs = locs.filter((l) => l.name?.toLowerCase().includes(s) || l.operator?.toLowerCase().includes(s) || l.kommune?.toLowerCase().includes(s));
+    }
+    if (filterFylke !== "all") {
+      locs = locs.filter((l) => l.fylke === filterFylke);
+    }
+    if (filterKommune !== "all") {
+      locs = locs.filter((l) => l.kommune === filterKommune);
     }
     if (sortBy === "capacity") {
       locs = [...locs].sort((a, b) => (b.available_consumption || 0) - (a.available_consumption || 0));
     } else if (sortBy === "name") {
       locs = [...locs].sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+    } else if (sortBy === "kommune") {
+      locs = [...locs].sort((a, b) => (a.kommune || "").localeCompare(b.kommune || ""));
     }
     return locs;
-  }, [allLocations, search, sortBy]);
+  }, [allLocations, search, sortBy, filterFylke, filterKommune]);
 
   return (
     <div>
@@ -261,26 +277,48 @@ function GridTab({ data }) {
         </div>
       </div>
 
-      {/* Search and sort */}
-      <div className="flex gap-4 mb-4 items-end">
-        <div className="flex-1">
+      {/* Filters */}
+      <div className="flex flex-wrap gap-3 mb-4 items-end text-sm">
+        <div className="flex-1 min-w-48">
           <label className="block text-xs text-gray-500 mb-1">Søk</label>
           <input
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Søk etter stasjon eller nettselskap..."
-            className="w-full border border-gray-300 rounded px-3 py-1.5 text-sm"
+            placeholder="Søk stasjon, nettselskap, kommune..."
+            className="w-full border border-gray-300 rounded px-3 py-1.5"
           />
+        </div>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Fylke</label>
+          <select value={filterFylke} onChange={(e) => { setFilterFylke(e.target.value); setFilterKommune("all"); }}
+            className="border border-gray-300 rounded px-2 py-1.5 bg-white">
+            <option value="all">Alle fylker</option>
+            {fylker.map((f) => <option key={f} value={f}>{f}</option>)}
+          </select>
+        </div>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Kommune</label>
+          <select value={filterKommune} onChange={(e) => setFilterKommune(e.target.value)}
+            className="border border-gray-300 rounded px-2 py-1.5 bg-white">
+            <option value="all">Alle kommuner</option>
+            {kommuner.filter(k => filterFylke === "all" || allLocations.some(l => l.kommune === k && l.fylke === filterFylke))
+              .map((k) => <option key={k} value={k}>{k}</option>)}
+          </select>
         </div>
         <div>
           <label className="block text-xs text-gray-500 mb-1">Sorter</label>
           <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}
-            className="border border-gray-300 rounded px-2 py-1.5 text-sm bg-white">
-            <option value="capacity">Kapasitet (høyest først)</option>
-            <option value="name">Navn (A-Å)</option>
+            className="border border-gray-300 rounded px-2 py-1.5 bg-white">
+            <option value="capacity">Kapasitet</option>
+            <option value="kommune">Kommune</option>
+            <option value="name">Navn</option>
           </select>
         </div>
+        {(filterFylke !== "all" || filterKommune !== "all") && (
+          <button onClick={() => { setFilterFylke("all"); setFilterKommune("all"); }}
+            className="text-xs text-blue-600 hover:underline">Nullstill</button>
+        )}
       </div>
 
       {/* Table */}
@@ -289,17 +327,19 @@ function GridTab({ data }) {
           <thead>
             <tr className="border-b-2 border-gray-300">
               <th className="text-left py-2 pr-3 font-semibold text-gray-700">Stasjon</th>
+              <th className="text-left py-2 px-3 font-semibold text-gray-700">Kommune</th>
               <th className="text-left py-2 px-3 font-semibold text-gray-700">Nettselskap</th>
-              <th className="text-right py-2 px-3 font-semibold text-gray-700">Tilgjengelig (MW)</th>
-              <th className="text-right py-2 px-3 font-semibold text-gray-700">Reservert (MW)</th>
-              <th className="text-right py-2 pl-3 font-semibold text-gray-700">Produksjon (MW)</th>
+              <th className="text-right py-2 px-3 font-semibold text-gray-700">Tilgj. (MW)</th>
+              <th className="text-right py-2 px-3 font-semibold text-gray-700">Reserv. (MW)</th>
+              <th className="text-right py-2 pl-3 font-semibold text-gray-700">Prod. (MW)</th>
             </tr>
           </thead>
           <tbody>
             {filteredLocations.slice(0, 100).map((loc, i) => (
               <tr key={`${loc.operator}-${loc.name}-${i}`} className={i % 2 ? "bg-gray-50" : ""}>
                 <td className="py-1.5 pr-3 text-gray-800">{loc.name}</td>
-                <td className="py-1.5 px-3 text-gray-600">{loc.operator}</td>
+                <td className="py-1.5 px-3 text-gray-600">{loc.kommune || "–"}</td>
+                <td className="py-1.5 px-3 text-gray-500">{loc.operator}</td>
                 <td className={`py-1.5 px-3 text-right tabular-nums ${(loc.available_consumption || 0) > 10 ? "text-green-700 font-medium" : "text-gray-600"}`}>
                   {nb(loc.available_consumption || 0, 1)}
                 </td>

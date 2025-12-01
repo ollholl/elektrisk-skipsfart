@@ -1,1 +1,1407 @@
-[{"features":[{"id":"urn:uuid:593b7eaa-5573-11ef-80fc-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:569dd44d-e63d-4f59-9569-4285a6f7f066","geometry":{"coordinates":[5.715594913,58.97731862],"type":"Point"},"properties":{"name":"Alsteinsgata trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":26,"availableCons":0,"availableProd":-54}},{"id":"urn:uuid:593b7eab-5573-11ef-b46c-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1bd00f6e-2a16-4b37-9818-ef1e3a97270d","geometry":{"coordinates":[5.731694369,58.99113007],"type":"Point"},"properties":{"name":"Buøy trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":42,"availableProd":-73}},{"id":"urn:uuid:593b7eac-5573-11ef-a7a6-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:D4BDE39B-F244-485B-9DC6-E28F255E3FEF","geometry":{"coordinates":[5.766913506,58.54841763],"type":"Point"},"properties":{"name":"Bø trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":6,"availableProd":-8}},{"id":"urn:uuid:593b7ead-5573-11ef-995e-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:52188a52-8777-4a27-a783-396402b951e1","geometry":{"coordinates":[5.600732213,58.93224457],"type":"Point"},"properties":{"name":"Båtstad trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":33,"availableProd":-58}},{"id":"urn:uuid:593b7eae-5573-11ef-b5c9-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:40dbf275-1712-44bc-be39-6c3c467a1791","geometry":{"coordinates":[6.068589257,59.02297989],"type":"Point"},"properties":{"name":"Dalen trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":80,"availableCons":0,"availableProd":-13}},{"id":"urn:uuid:593b7eaf-5573-11ef-9f1d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1beac9cf-0580-4d3a-8ad5-293a9df595e3","geometry":{"coordinates":[5.664203147,58.99494501],"type":"Point"},"properties":{"name":"Dusavika trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":29,"availableProd":-59}},{"id":"urn:uuid:593b7eb0-5573-11ef-ba5b-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4847a622-7048-435e-a1ea-30c206516426","geometry":{"coordinates":[5.874866396,59.16572829],"type":"Point"},"properties":{"name":"Finnøy trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. Den oppgitte kapasiteten tar ikke hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar kun hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel forsyningsbegrensninger til stasjonen, er altså ikke hensyntatt. Den ledige kapasiteten er derfor kun et estimat. På Finnøy er det kjente spenningsutfordringer som påvirker muligheten for tilknytning av forbruk. Les mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":22,"availableProd":-39}},{"id":"urn:uuid:593b7eb1-5573-11ef-b0dd-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:4e10a84f-3eaf-4d92-b06e-9417093e48fd","geometry":{"coordinates":[6.023302032,59.0317682],"type":"Point"},"properties":{"name":"Fjelde trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":19,"availableProd":-31}},{"id":"urn:uuid:593b7eb2-5573-11ef-8ffb-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:DA52C18B-3135-48E3-83C2-9F9BF29CDEC3","geometry":{"coordinates":[6.435008266,59.01310057],"type":"Point"},"properties":{"name":"Flørli kraftstasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":0,"availableProd":0}},{"id":"urn:uuid:593b7eb3-5573-11ef-8f05-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:B81B1988-AE80-494E-B577-11222248876D","geometry":{"coordinates":[6.121173576,58.89785296],"type":"Point"},"properties":{"name":"Forsand trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":1,"availableProd":-6}},{"id":"urn:uuid:593b7eb4-5573-11ef-a805-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:10dbe415-b294-4b78-bb35-a27dc7b6cebe","geometry":{"coordinates":[5.731928917,58.89288408],"type":"Point"},"properties":{"name":"Forus trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":52,"availableProd":-79}},{"id":"urn:uuid:593b7eb5-5573-11ef-9909-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:09654A02-244C-43B8-95CE-2AB5B03C7534","geometry":{"coordinates":[6.252694753,58.80649903],"type":"Point"},"properties":{"name":"Gilja trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":18,"availableProd":0}},{"id":"urn:uuid:593b7eb6-5573-11ef-b1cd-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:33c83281-d21a-462a-9d7b-20f17e9edfe0","geometry":{"coordinates":[5.66035191,58.77872184],"type":"Point"},"properties":{"name":"Hatteland trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":12,"availableCons":0,"availableProd":-42}},{"id":"urn:uuid:593b7eb7-5573-11ef-8028-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0a5fd3d2-c26c-4934-84bb-d7e67958b1aa","geometry":{"coordinates":[5.752928237,58.96789077],"type":"Point"},"properties":{"name":"Haugesundsgata trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":27,"availableProd":-54}},{"id":"urn:uuid:593b7eb8-5573-11ef-aef9-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:46bafab5-fe15-4620-9914-4144e016a068","geometry":{"coordinates":[5.836137858,58.52395839],"type":"Point"},"properties":{"name":"Hetland trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":2,"availableProd":-3}},{"id":"urn:uuid:593cf50d-5573-11ef-80a0-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:10a64f67-c7b3-4627-a640-6b410541ccb5","geometry":{"coordinates":[5.749446835,58.94464997],"type":"Point"},"properties":{"name":"Hillevåg trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":41,"availableProd":-70}},{"id":"urn:uuid:593cf50e-5573-11ef-b8c4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:50913592-cbb1-4c69-a8ee-95c8aa2d252d","geometry":{"coordinates":[6.219305492,59.22384162],"type":"Point"},"properties":{"name":"Hjelmeland kraftstasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":6,"availableProd":-4}},{"id":"urn:uuid:593cf9ab-5573-11ef-bdf5-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2a1402e1-f91d-42ff-a6ac-43bda297fbeb","geometry":{"coordinates":[6.15416678408438,59.228986818768],"type":"Point"},"properties":{"name":"Hjelmeland trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":11,"availableCons":9,"availableProd":-28}},{"id":"urn:uuid:593cf9ac-5573-11ef-a06d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6cb3dedf-178d-42bc-bf24-86d5df3b0b8b","geometry":{"coordinates":[5.691346482,58.73594962],"type":"Point"},"properties":{"name":"Holen trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":12,"availableProd":-22}},{"id":"urn:uuid:593cf9ad-5573-11ef-8cb7-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3bce3039-0fd4-4b84-8075-f04ae5ecf336","geometry":{"coordinates":[5.66149454093929,58.7176978456178],"type":"Point"},"properties":{"name":"Håland trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":3,"availableCons":68,"availableProd":-87}},{"id":"urn:uuid:593cf9ae-5573-11ef-a6c4-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:55586160-8850-4c2c-ae96-831a2c08167c","geometry":{"coordinates":[5.706295726,58.90084539],"type":"Point"},"properties":{"name":"Jåttå trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":30,"availableCons":49,"availableProd":-117}},{"id":"urn:uuid:593cf9af-5573-11ef-a729-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1d9362ea-26fa-4713-954e-cc7778c45a99","geometry":{"coordinates":[5.737506876,58.78564596],"type":"Point"},"properties":{"name":"Kalberg trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":22,"availableProd":-28}},{"id":"urn:uuid:593cf9b0-5573-11ef-8855-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:1d3bab1e-ab76-4345-9210-b24441b1870a","geometry":{"coordinates":[5.616663041,58.78615486],"type":"Point"},"properties":{"name":"Kleppemarka trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":3,"availableProd":-15}},{"id":"urn:uuid:593cf9b1-5573-11ef-8487-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:68d1e331-64d1-4f2d-b756-4d8fc9201c56","geometry":{"coordinates":[5.734905915,58.96626956],"type":"Point"},"properties":{"name":"Kongsgaten trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":44,"availableProd":-74}},{"id":"urn:uuid:593cf9b2-5573-11ef-916f-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:417ba54f-651e-4713-8a7a-b3af033f4640","geometry":{"coordinates":[5.724169956,58.87626847],"type":"Point"},"properties":{"name":"Lura trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":5,"availableCons":19,"availableProd":-66}},{"id":"urn:uuid:593cf9b3-5573-11ef-acd8-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:348e5b55-eea5-46b2-a191-06bd299a7b50","geometry":{"coordinates":[5.672922919,58.95369485],"type":"Point"},"properties":{"name":"Madla trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":2,"availableCons":16,"availableProd":-63}},{"id":"urn:uuid:593cf9b5-5573-11ef-b4b8-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:12b926e9-0fde-486d-ba21-1178fbe9da01","geometry":{"coordinates":[6.6639918,59.05971276],"type":"Point"},"properties":{"name":"Moen trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":2,"availableProd":0}},{"id":"urn:uuid:593cf9b6-5573-11ef-9fb0-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:04156b5f-d17d-4df3-86bd-befaccdc3249","geometry":{"coordinates":[5.723566652,58.95790107],"type":"Point"},"properties":{"name":"Mosvannet trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":35,"availableProd":-68}},{"id":"urn:uuid:593cf9b7-5573-11ef-99db-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:573808a4-777d-4f9d-95ba-3182b98134bf","geometry":{"coordinates":[5.698394632,59.11020125],"type":"Point"},"properties":{"name":"Nordbø trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":26,"availableCons":0,"availableProd":-19}},{"id":"urn:uuid:593cf9b8-5573-11ef-993d-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:7e3e8ba3-bed6-466d-bd7a-70f17cadb938","geometry":{"coordinates":[5.644064625,58.66896083],"type":"Point"},"properties":{"name":"Nærbø trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":17,"availableProd":-36}},{"id":"urn:uuid:593cf9b9-5573-11ef-a011-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:22eba713-d52f-4eb5-92b1-f5f881e5fea3","geometry":{"coordinates":[6.05568664,58.82844107],"type":"Point"},"properties":{"name":"Oltedal trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":8,"availableProd":-2}},{"id":"urn:uuid:593cf9ba-5573-11ef-8de3-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3b38ffca-faa5-4b73-9907-2e7731ed8410","geometry":{"coordinates":[6.12312762,58.85199248],"type":"Point"},"properties":{"name":"Oltesvik kraftstasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":5,"availableProd":0}},{"id":"urn:uuid:593cf9bb-5573-11ef-9342-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:81f02fdc-7513-4910-8255-c061ab8c76e0","geometry":{"coordinates":[5.670041412,58.6429355],"type":"Point"},"properties":{"name":"Opstad transformatorstasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":136,"availableCons":0,"availableProd":-58}},{"id":"urn:uuid:593cf9bc-5573-11ef-a42b-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:7705775c-c7c0-4def-ae3c-1aa956fb6bc0","geometry":{"coordinates":[5.60202522,59.01328354],"type":"Point"},"properties":{"name":"Randaberg trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":13,"availableCons":17,"availableProd":-50}},{"id":"urn:uuid:593cf9bd-5573-11ef-8c52-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:22631fd2-4d95-4264-83ba-b32fff44d783","geometry":{"coordinates":[5.591862181,58.91119857],"type":"Point"},"properties":{"name":"Risavika trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":3,"availableCons":17,"availableProd":-43}},{"id":"urn:uuid:593cf9be-5573-11ef-ae1b-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6cd8f156-5a33-4f85-bd4f-d7ddb6d6cc9c","geometry":{"coordinates":[5.838292302,58.91147312],"type":"Point"},"properties":{"name":"Riska trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":12,"availableProd":-36}},{"id":"urn:uuid:593cf9bf-5573-11ef-80f0-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6b397170-8cd5-48e3-ab9f-22b6d7ae53b6","geometry":{"coordinates":[5.647989322,58.89344875],"type":"Point"},"properties":{"name":"Sande trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":4,"availableCons":12,"availableProd":-57}},{"id":"urn:uuid:593cf9c0-5573-11ef-a89c-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:2dba54ac-1cef-4b8d-a5e5-2c2fee676b54","geometry":{"coordinates":[5.720388858,58.8440457],"type":"Point"},"properties":{"name":"Skeiane trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":5,"availableCons":48,"availableProd":-109}},{"id":"urn:uuid:593d2c1e-5573-11ef-b37a-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:15b4bb5c-414b-4e10-9b30-37ea097b3b4d","geometry":{"coordinates":[5.932194892,59.06458102],"type":"Point"},"properties":{"name":"Tau trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":45,"availableCons":6,"availableProd":-63}},{"id":"urn:uuid:593d2c1f-5573-11ef-a5f1-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:00e7d24c-db99-4c6e-b4d2-bdff2de149bf","geometry":{"coordinates":[5.701302505,58.95224005],"type":"Point"},"properties":{"name":"Tjensvoll trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":24,"availableProd":-48}},{"id":"urn:uuid:593d2c20-5573-11ef-b640-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:705d6520-7022-43db-ae93-66d53762dbce","geometry":{"coordinates":[5.65873273,58.74480264],"type":"Point"},"properties":{"name":"Tu trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":10,"availableProd":-23}},{"id":"urn:uuid:593d2c21-5573-11ef-b107-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:7042cf97-2947-42f8-879e-626a1135e7f9","geometry":{"coordinates":[5.716818358,58.94212151],"type":"Point"},"properties":{"name":"Ullandhaug trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":8,"availableCons":50,"availableProd":-92}},{"id":"urn:uuid:593d2c22-5573-11ef-bda9-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:27c92532-4608-4723-8278-836ecc00915e","geometry":{"coordinates":[5.730071556,58.80922872],"type":"Point"},"properties":{"name":"Vagle trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":31,"availableCons":0,"availableProd":-43}},{"id":"urn:uuid:593d2c23-5573-11ef-836f-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:3f6492b8-e3ac-4206-929b-96595e381d3c","geometry":{"coordinates":[5.780410146,58.85413451],"type":"Point"},"properties":{"name":"Vatne trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":6,"availableProd":-4}},{"id":"urn:uuid:593d2c24-5573-11ef-a96f-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:6dc40e39-9153-4bfb-8cf4-e36b4588909b","geometry":{"coordinates":[6.01119737288195,59.1005590256459],"type":"Point"},"properties":{"name":"Veland trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":0,"availableCons":26,"availableProd":-24}},{"id":"urn:uuid:593d2c25-5573-11ef-9231-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:0a4ef128-4d9f-40a8-aa9a-9e77c1c1199e","geometry":{"coordinates":[5.851933243,58.77307507],"type":"Point"},"properties":{"name":"Ålgård trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":1,"availableCons":1,"availableProd":-4}},{"id":"urn:uuid:593d2c26-5573-11ef-b461-2c8db1f43cb4","type":"Feature","comment":"The identifier above referes to cim:Location.mRID","elbitsSubstationId":"urn:uuid:49e7dddc-3a78-464b-a8b3-93ba3cc3e0ab","geometry":{"coordinates":[6.173593863,59.14794322],"type":"Point"},"properties":{"name":"Årdal trafostasjon","owner":"Lnett","description":"Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/","shortDescription":"Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ","capacityDate":"2025-12-01T14:21:26.7288138+00:00","capacityUnit":"MW","reservedCons":10,"availableCons":15,"availableProd":-10}}],"@context":{"@version":1.1,"geojson":"https://purl.org/geojson/vocab#","feature":"geojson:Feature","featureCollection":"geojson:FeatureCollection","geometryCollection":"geojson:GeometryCollection","lineString":"geojson:LineString","multiLineString":"geojson:MultiLineString","multiPoint":"geojson:MultiPoint","multiPolygon":"geojson:MultiPolygon","point":"geojson:Point","polygon":"geojson:Polygon","bbox":{"@container":"@list","@id":"geojson:bbox"},"coordinates":{"@container":"@list","@id":"geojson:coordinates"},"features":{"@container":"@set","@id":"geojson:features"},"geometry":"geojson:geometry","properties":"geojson:properties","type":"@type","cim":"http://iec.ch/TC57/CIM100#","nc":"http://entsoe.eu/ns/nc#","rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","dcterms":"http://purl.org/dc/terms/","dct":"http://www.w3.org/ns/dcat#","prov":"http://www.w3.org/ns/prov#","wattapp":"https://wattapp.no"},"type":"FeatureCollection","@id":"urn:uuid:96e52ef3-3e47-43ae-9d98-3c588c6a1abc","_comment":"The identifier above referes to md:FullModel rdf:about","prov:generatedAt":[{"@value":"2025-12-01T14:21:26.728Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment2":"The time the distribution (instance file) was generated.","dcterms:created":[{"@value":"2025-12-01T14:21:26.728Z","@type":"http://www.w3.org/2001/XMLSchema#date"}],"_comment3":"The time the dataset was issued/created.","dcterms:title":"DIGIN10-30-GridCapacity-GL-WattAppGenerated","dcterms:description":[{"@value":"Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09LnettMAS1","@language":"en"},{"@value":"Stedsdata NettkapasitetLnettMAS1","@language":"no"}],"dcat:version":"1","dcterms:publisher":[{"@id":"urn:uuid:5a640620-b0f7-496b-9176-912510770053","dcterms:title":"Lnett"}],"dcterms:rights":"@2025 Copyright","dcterms:rightsHolder":"980038408","dcterms:rightHolder":"Lnett","dcterms:license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","dcterms:accessRights":"http://publications.europa.eu/resource/authority/access-right/PUBLIC","dcat:isVersionOf":"https://www.wattapp.no/","dcat:keyword":"GL","dcterms:locationPeriodOrJurisdiction":"http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway","dcterms:conformsTo":"http://entsoe.eu/CIM/GeographicalLocation/3/0","dcterms:references":[{"@id":"urn:uuid:3f925d7a-aac7-4708-b52e-42574f3ee7e8","dcterms:title":"Lnett-30-GridCapacity-GL-WattAppGenerated"}]}]
+[
+  {
+    "features": [
+      {
+        "id": "urn:uuid:593b7eaa-5573-11ef-80fc-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:569dd44d-e63d-4f59-9569-4285a6f7f066",
+        "geometry": {
+          "coordinates": [
+            5.715594913,
+            58.97731862
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Alsteinsgata trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 26,
+          "availableCons": 0,
+          "availableProd": -54,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eab-5573-11ef-b46c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1bd00f6e-2a16-4b37-9818-ef1e3a97270d",
+        "geometry": {
+          "coordinates": [
+            5.731694369,
+            58.99113007
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Buøy trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 42,
+          "availableProd": -73,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eac-5573-11ef-a7a6-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:D4BDE39B-F244-485B-9DC6-E28F255E3FEF",
+        "geometry": {
+          "coordinates": [
+            5.766913506,
+            58.54841763
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Bø trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -8,
+          "kommune": "Hå",
+          "kommune_nr": "1119",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7ead-5573-11ef-995e-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:52188a52-8777-4a27-a783-396402b951e1",
+        "geometry": {
+          "coordinates": [
+            5.600732213,
+            58.93224457
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Båtstad trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 33,
+          "availableProd": -58,
+          "kommune": "Sola",
+          "kommune_nr": "1124",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eae-5573-11ef-b5c9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:40dbf275-1712-44bc-be39-6c3c467a1791",
+        "geometry": {
+          "coordinates": [
+            6.068589257,
+            59.02297989
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Dalen trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 80,
+          "availableCons": 0,
+          "availableProd": -13,
+          "kommune": "Strand",
+          "kommune_nr": "1130",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eaf-5573-11ef-9f1d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1beac9cf-0580-4d3a-8ad5-293a9df595e3",
+        "geometry": {
+          "coordinates": [
+            5.664203147,
+            58.99494501
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Dusavika trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 29,
+          "availableProd": -59,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb0-5573-11ef-ba5b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4847a622-7048-435e-a1ea-30c206516426",
+        "geometry": {
+          "coordinates": [
+            5.874866396,
+            59.16572829
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Finnøy trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. Den oppgitte kapasiteten tar ikke hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar kun hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel forsyningsbegrensninger til stasjonen, er altså ikke hensyntatt. Den ledige kapasiteten er derfor kun et estimat. På Finnøy er det kjente spenningsutfordringer som påvirker muligheten for tilknytning av forbruk. Les mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 22,
+          "availableProd": -39,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb1-5573-11ef-b0dd-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:4e10a84f-3eaf-4d92-b06e-9417093e48fd",
+        "geometry": {
+          "coordinates": [
+            6.023302032,
+            59.0317682
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Fjelde trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 19,
+          "availableProd": -31,
+          "kommune": "Strand",
+          "kommune_nr": "1130",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb2-5573-11ef-8ffb-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:DA52C18B-3135-48E3-83C2-9F9BF29CDEC3",
+        "geometry": {
+          "coordinates": [
+            6.435008266,
+            59.01310057
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Flørli kraftstasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 0,
+          "availableProd": 0,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb3-5573-11ef-8f05-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:B81B1988-AE80-494E-B577-11222248876D",
+        "geometry": {
+          "coordinates": [
+            6.121173576,
+            58.89785296
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Forsand trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 1,
+          "availableProd": -6,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb4-5573-11ef-a805-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:10dbe415-b294-4b78-bb35-a27dc7b6cebe",
+        "geometry": {
+          "coordinates": [
+            5.731928917,
+            58.89288408
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Forus trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 52,
+          "availableProd": -79,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb5-5573-11ef-9909-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:09654A02-244C-43B8-95CE-2AB5B03C7534",
+        "geometry": {
+          "coordinates": [
+            6.252694753,
+            58.80649903
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Gilja trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 18,
+          "availableProd": 0,
+          "kommune": "Gjesdal",
+          "kommune_nr": "1122",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb6-5573-11ef-b1cd-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:33c83281-d21a-462a-9d7b-20f17e9edfe0",
+        "geometry": {
+          "coordinates": [
+            5.66035191,
+            58.77872184
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hatteland trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 12,
+          "availableCons": 0,
+          "availableProd": -42,
+          "kommune": "Klepp",
+          "kommune_nr": "1120",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb7-5573-11ef-8028-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0a5fd3d2-c26c-4934-84bb-d7e67958b1aa",
+        "geometry": {
+          "coordinates": [
+            5.752928237,
+            58.96789077
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Haugesundsgata trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 27,
+          "availableProd": -54,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593b7eb8-5573-11ef-aef9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:46bafab5-fe15-4620-9914-4144e016a068",
+        "geometry": {
+          "coordinates": [
+            5.836137858,
+            58.52395839
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hetland trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": -3,
+          "kommune": "Hå",
+          "kommune_nr": "1119",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf50d-5573-11ef-80a0-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:10a64f67-c7b3-4627-a640-6b410541ccb5",
+        "geometry": {
+          "coordinates": [
+            5.749446835,
+            58.94464997
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hillevåg trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 41,
+          "availableProd": -70,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf50e-5573-11ef-b8c4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:50913592-cbb1-4c69-a8ee-95c8aa2d252d",
+        "geometry": {
+          "coordinates": [
+            6.219305492,
+            59.22384162
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hjelmeland kraftstasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 6,
+          "availableProd": -4,
+          "kommune": "Hjelmeland",
+          "kommune_nr": "1133",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9ab-5573-11ef-bdf5-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2a1402e1-f91d-42ff-a6ac-43bda297fbeb",
+        "geometry": {
+          "coordinates": [
+            6.15416678408438,
+            59.228986818768
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Hjelmeland trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 11,
+          "availableCons": 9,
+          "availableProd": -28,
+          "kommune": "Hjelmeland",
+          "kommune_nr": "1133",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9ac-5573-11ef-a06d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6cb3dedf-178d-42bc-bf24-86d5df3b0b8b",
+        "geometry": {
+          "coordinates": [
+            5.691346482,
+            58.73594962
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Holen trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 12,
+          "availableProd": -22,
+          "kommune": "Time",
+          "kommune_nr": "1121",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9ad-5573-11ef-8cb7-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3bce3039-0fd4-4b84-8075-f04ae5ecf336",
+        "geometry": {
+          "coordinates": [
+            5.66149454093929,
+            58.7176978456178
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Håland trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 68,
+          "availableProd": -87,
+          "kommune": "Time",
+          "kommune_nr": "1121",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9ae-5573-11ef-a6c4-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:55586160-8850-4c2c-ae96-831a2c08167c",
+        "geometry": {
+          "coordinates": [
+            5.706295726,
+            58.90084539
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Jåttå trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 30,
+          "availableCons": 49,
+          "availableProd": -117,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9af-5573-11ef-a729-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1d9362ea-26fa-4713-954e-cc7778c45a99",
+        "geometry": {
+          "coordinates": [
+            5.737506876,
+            58.78564596
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kalberg trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 22,
+          "availableProd": -28,
+          "kommune": "Time",
+          "kommune_nr": "1121",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b0-5573-11ef-8855-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:1d3bab1e-ab76-4345-9210-b24441b1870a",
+        "geometry": {
+          "coordinates": [
+            5.616663041,
+            58.78615486
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kleppemarka trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 3,
+          "availableProd": -15,
+          "kommune": "Klepp",
+          "kommune_nr": "1120",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b1-5573-11ef-8487-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:68d1e331-64d1-4f2d-b756-4d8fc9201c56",
+        "geometry": {
+          "coordinates": [
+            5.734905915,
+            58.96626956
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Kongsgaten trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 44,
+          "availableProd": -74,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b2-5573-11ef-916f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:417ba54f-651e-4713-8a7a-b3af033f4640",
+        "geometry": {
+          "coordinates": [
+            5.724169956,
+            58.87626847
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Lura trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 5,
+          "availableCons": 19,
+          "availableProd": -66,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b3-5573-11ef-acd8-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:348e5b55-eea5-46b2-a191-06bd299a7b50",
+        "geometry": {
+          "coordinates": [
+            5.672922919,
+            58.95369485
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Madla trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 2,
+          "availableCons": 16,
+          "availableProd": -63,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b5-5573-11ef-b4b8-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:12b926e9-0fde-486d-ba21-1178fbe9da01",
+        "geometry": {
+          "coordinates": [
+            6.6639918,
+            59.05971276
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Moen trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 2,
+          "availableProd": 0,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b6-5573-11ef-9fb0-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:04156b5f-d17d-4df3-86bd-befaccdc3249",
+        "geometry": {
+          "coordinates": [
+            5.723566652,
+            58.95790107
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Mosvannet trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 35,
+          "availableProd": -68,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b7-5573-11ef-99db-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:573808a4-777d-4f9d-95ba-3182b98134bf",
+        "geometry": {
+          "coordinates": [
+            5.698394632,
+            59.11020125
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Nordbø trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 26,
+          "availableCons": 0,
+          "availableProd": -19,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b8-5573-11ef-993d-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7e3e8ba3-bed6-466d-bd7a-70f17cadb938",
+        "geometry": {
+          "coordinates": [
+            5.644064625,
+            58.66896083
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Nærbø trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 17,
+          "availableProd": -36,
+          "kommune": "Hå",
+          "kommune_nr": "1119",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9b9-5573-11ef-a011-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:22eba713-d52f-4eb5-92b1-f5f881e5fea3",
+        "geometry": {
+          "coordinates": [
+            6.05568664,
+            58.82844107
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Oltedal trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 8,
+          "availableProd": -2,
+          "kommune": "Gjesdal",
+          "kommune_nr": "1122",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9ba-5573-11ef-8de3-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3b38ffca-faa5-4b73-9907-2e7731ed8410",
+        "geometry": {
+          "coordinates": [
+            6.12312762,
+            58.85199248
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Oltesvik kraftstasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 5,
+          "availableProd": 0,
+          "kommune": "Gjesdal",
+          "kommune_nr": "1122",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9bb-5573-11ef-9342-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:81f02fdc-7513-4910-8255-c061ab8c76e0",
+        "geometry": {
+          "coordinates": [
+            5.670041412,
+            58.6429355
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Opstad transformatorstasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 136,
+          "availableCons": 0,
+          "availableProd": -58,
+          "kommune": "Hå",
+          "kommune_nr": "1119",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9bc-5573-11ef-a42b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7705775c-c7c0-4def-ae3c-1aa956fb6bc0",
+        "geometry": {
+          "coordinates": [
+            5.60202522,
+            59.01328354
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Randaberg trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 13,
+          "availableCons": 17,
+          "availableProd": -50,
+          "kommune": "Randaberg",
+          "kommune_nr": "1127",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9bd-5573-11ef-8c52-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:22631fd2-4d95-4264-83ba-b32fff44d783",
+        "geometry": {
+          "coordinates": [
+            5.591862181,
+            58.91119857
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Risavika trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 3,
+          "availableCons": 17,
+          "availableProd": -43,
+          "kommune": "Sola",
+          "kommune_nr": "1124",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9be-5573-11ef-ae1b-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6cd8f156-5a33-4f85-bd4f-d7ddb6d6cc9c",
+        "geometry": {
+          "coordinates": [
+            5.838292302,
+            58.91147312
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Riska trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 12,
+          "availableProd": -36,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9bf-5573-11ef-80f0-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6b397170-8cd5-48e3-ab9f-22b6d7ae53b6",
+        "geometry": {
+          "coordinates": [
+            5.647989322,
+            58.89344875
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Sande trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 4,
+          "availableCons": 12,
+          "availableProd": -57,
+          "kommune": "Sola",
+          "kommune_nr": "1124",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593cf9c0-5573-11ef-a89c-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:2dba54ac-1cef-4b8d-a5e5-2c2fee676b54",
+        "geometry": {
+          "coordinates": [
+            5.720388858,
+            58.8440457
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Skeiane trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 5,
+          "availableCons": 48,
+          "availableProd": -109,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c1e-5573-11ef-b37a-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:15b4bb5c-414b-4e10-9b30-37ea097b3b4d",
+        "geometry": {
+          "coordinates": [
+            5.932194892,
+            59.06458102
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tau trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 45,
+          "availableCons": 6,
+          "availableProd": -63,
+          "kommune": "Strand",
+          "kommune_nr": "1130",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c1f-5573-11ef-a5f1-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:00e7d24c-db99-4c6e-b4d2-bdff2de149bf",
+        "geometry": {
+          "coordinates": [
+            5.701302505,
+            58.95224005
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tjensvoll trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 24,
+          "availableProd": -48,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c20-5573-11ef-b640-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:705d6520-7022-43db-ae93-66d53762dbce",
+        "geometry": {
+          "coordinates": [
+            5.65873273,
+            58.74480264
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Tu trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 10,
+          "availableProd": -23,
+          "kommune": "Klepp",
+          "kommune_nr": "1120",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c21-5573-11ef-b107-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:7042cf97-2947-42f8-879e-626a1135e7f9",
+        "geometry": {
+          "coordinates": [
+            5.716818358,
+            58.94212151
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ullandhaug trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 8,
+          "availableCons": 50,
+          "availableProd": -92,
+          "kommune": "Stavanger",
+          "kommune_nr": "1103",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c22-5573-11ef-bda9-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:27c92532-4608-4723-8278-836ecc00915e",
+        "geometry": {
+          "coordinates": [
+            5.730071556,
+            58.80922872
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vagle trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 31,
+          "availableCons": 0,
+          "availableProd": -43,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c23-5573-11ef-836f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:3f6492b8-e3ac-4206-929b-96595e381d3c",
+        "geometry": {
+          "coordinates": [
+            5.780410146,
+            58.85413451
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Vatne trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 6,
+          "availableProd": -4,
+          "kommune": "Sandnes",
+          "kommune_nr": "1108",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c24-5573-11ef-a96f-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:6dc40e39-9153-4bfb-8cf4-e36b4588909b",
+        "geometry": {
+          "coordinates": [
+            6.01119737288195,
+            59.1005590256459
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Veland trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 0,
+          "availableCons": 26,
+          "availableProd": -24,
+          "kommune": "Strand",
+          "kommune_nr": "1130",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c25-5573-11ef-9231-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:0a4ef128-4d9f-40a8-aa9a-9e77c1c1199e",
+        "geometry": {
+          "coordinates": [
+            5.851933243,
+            58.77307507
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ålgård trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 1,
+          "availableCons": 1,
+          "availableProd": -4,
+          "kommune": "Gjesdal",
+          "kommune_nr": "1122",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      },
+      {
+        "id": "urn:uuid:593d2c26-5573-11ef-b461-2c8db1f43cb4",
+        "type": "Feature",
+        "comment": "The identifier above referes to cim:Location.mRID",
+        "elbitsSubstationId": "urn:uuid:49e7dddc-3a78-464b-a8b3-93ba3cc3e0ab",
+        "geometry": {
+          "coordinates": [
+            6.173593863,
+            59.14794322
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Årdal trafostasjon",
+          "owner": "Lnett",
+          "description": "Kapasiteten i nettselskapets nett er avhengig av kapasiteten i overliggende nett og eventuelt tilliggende nett hos andre nettselskaper. Tilknytninger av større punktlaster må alltid vurderes individuelt og det er kun ved henvendelser til nettselskapet at det kan beregnes hvilken kapasitet som faktisk kan tilbys, til hvilken kostnad og tidsramme. Dette vil til enhver tid påvirkes i stor grad av Statnetts områdeplaner. Disse finner du her: https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+          "shortDescription": "Det er kjente begrensninger i transmisjonsnettet, og det er en reservasjonskø for kunder med en samlet effekt på 5 MW/20GWh eller mer. \n\nDen oppgitte kapasiteten tar IKKE hensyn til tilgjengelig kapasitet i overliggende nett, og det er ikke gjort en vurdering av driftsmessig forsvarlighet. Kapasiteten tar KUN hensyn til ledig effekt i transformatorene. Andre faktorer, som for eksempel begrensninger i forbindelsene frem til stasjonen, er altså IKKE hensyntatt. Den ledige kapasiteten er derfor KUN et grovt estimat.\n\nLes mer om begreper og innhold under informasjonsknappen. ",
+          "capacityDate": "2025-12-01T14:21:26.7288138+00:00",
+          "capacityUnit": "MW",
+          "reservedCons": 10,
+          "availableCons": 15,
+          "availableProd": -10,
+          "kommune": "Hjelmeland",
+          "kommune_nr": "1133",
+          "fylke": "Rogaland",
+          "fylke_nr": "11"
+        }
+      }
+    ],
+    "@context": {
+      "@version": 1.1,
+      "geojson": "https://purl.org/geojson/vocab#",
+      "feature": "geojson:Feature",
+      "featureCollection": "geojson:FeatureCollection",
+      "geometryCollection": "geojson:GeometryCollection",
+      "lineString": "geojson:LineString",
+      "multiLineString": "geojson:MultiLineString",
+      "multiPoint": "geojson:MultiPoint",
+      "multiPolygon": "geojson:MultiPolygon",
+      "point": "geojson:Point",
+      "polygon": "geojson:Polygon",
+      "bbox": {
+        "@container": "@list",
+        "@id": "geojson:bbox"
+      },
+      "coordinates": {
+        "@container": "@list",
+        "@id": "geojson:coordinates"
+      },
+      "features": {
+        "@container": "@set",
+        "@id": "geojson:features"
+      },
+      "geometry": "geojson:geometry",
+      "properties": "geojson:properties",
+      "type": "@type",
+      "cim": "http://iec.ch/TC57/CIM100#",
+      "nc": "http://entsoe.eu/ns/nc#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "dct": "http://www.w3.org/ns/dcat#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "wattapp": "https://wattapp.no"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:96e52ef3-3e47-43ae-9d98-3c588c6a1abc",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [
+      {
+        "@value": "2025-12-01T14:21:26.728Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment2": "The time the distribution (instance file) was generated.",
+    "dcterms:created": [
+      {
+        "@value": "2025-12-01T14:21:26.728Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-GL-WattAppGenerated",
+    "dcterms:description": [
+      {
+        "@value": "Geospatial GridCapacity0c7005f7-9802-4673-8410-40f39d6e4a09LnettMAS1",
+        "@language": "en"
+      },
+      {
+        "@value": "Stedsdata NettkapasitetLnettMAS1",
+        "@language": "no"
+      }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [
+      {
+        "@id": "urn:uuid:5a640620-b0f7-496b-9176-912510770053",
+        "dcterms:title": "Lnett"
+      }
+    ],
+    "dcterms:rights": "@2025 Copyright",
+    "dcterms:rightsHolder": "980038408",
+    "dcterms:rightHolder": "Lnett",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "https://www.wattapp.no/",
+    "dcat:keyword": "GL",
+    "dcterms:locationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [
+      {
+        "@id": "urn:uuid:3f925d7a-aac7-4708-b52e-42574f3ee7e8",
+        "dcterms:title": "Lnett-30-GridCapacity-GL-WattAppGenerated"
+      }
+    ]
+  }
+]
