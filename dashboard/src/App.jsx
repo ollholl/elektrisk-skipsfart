@@ -162,29 +162,34 @@ function GridTab({ data }) {
   const [search, setSearch] = useState("");
   const [fylke, setFylke] = useState("all");
   const [kommune, setKommune] = useState("all");
-  const [sortBy, setSortBy] = useState("ledig");
+  const [sortBy, setSortBy] = useState("ledigForbruk");
   const [sortDir, setSortDir] = useState("desc");
 
   const { stations, fylker, kommuner, totals } = useMemo(() => {
     if (!data?.grid_operators) return { stations: [], fylker: [], kommuner: [], totals: {} };
 
     const stations = Object.entries(data.grid_operators).flatMap(([id, o]) =>
-      (o.locations || []).map(l => ({ 
-        name: l.name,
-        kommune: l.kommune || "–",
-        fylke: l.fylke || "–",
-        nettselskap: o.publisher || id.toUpperCase(),
-        ledig: l.available_consumption || 0,
-        reservert: l.reserved_consumption || 0,
-        produksjon: Math.abs(l.available_production || 0),
-      }))
+      (o.locations || []).map(l => {
+        const prod = l.available_production || 0;
+        return { 
+          name: l.name,
+          kommune: l.kommune || "–",
+          fylke: l.fylke || "–",
+          nettselskap: o.publisher || id.toUpperCase(),
+          ledigForbruk: l.available_consumption || 0,  // Plass til nytt forbruk
+          reservert: l.reserved_consumption || 0,       // Allerede reservert
+          // availableProd: positiv = kan ta ny produksjon, negativ = har overskudd (bra for forbruk!)
+          ledigProduksjon: prod > 0 ? prod : 0,         // Plass til ny produksjon
+          overskudd: prod < 0 ? Math.abs(prod) : 0,     // Eksisterende overskuddsproduksjon
+        };
+      })
     );
 
     const totals = {
       n: stations.length,
-      ledig: stations.reduce((s, l) => s + l.ledig, 0),
+      ledigForbruk: stations.reduce((s, l) => s + l.ledigForbruk, 0),
       reservert: stations.reduce((s, l) => s + l.reservert, 0),
-      produksjon: stations.reduce((s, l) => s + l.produksjon, 0),
+      overskudd: stations.reduce((s, l) => s + l.overskudd, 0),
     };
 
     return { 
@@ -226,9 +231,9 @@ function GridTab({ data }) {
 
   const filteredTotals = useMemo(() => ({
     n: filtered.length,
-    ledig: filtered.reduce((s, l) => s + l.ledig, 0),
+    ledigForbruk: filtered.reduce((s, l) => s + l.ledigForbruk, 0),
     reservert: filtered.reduce((s, l) => s + l.reservert, 0),
-    produksjon: filtered.reduce((s, l) => s + l.produksjon, 0),
+    overskudd: filtered.reduce((s, l) => s + l.overskudd, 0),
   }), [filtered]);
 
   const isFiltered = search || fylke !== "all" || kommune !== "all";
@@ -238,8 +243,8 @@ function GridTab({ data }) {
       {/* Summary */}
       <div className="flex gap-6 text-sm border-b border-gray-100 pb-3">
         <div><span className="text-2xl tabular-nums">{n(isFiltered ? filteredTotals.n : totals.n)}</span> <span className="text-gray-500">stasjoner</span></div>
-        <div><span className="text-2xl tabular-nums">{n(isFiltered ? filteredTotals.ledig : totals.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
-        <div><span className="text-2xl tabular-nums text-gray-400">{n(isFiltered ? filteredTotals.reservert : totals.reservert)}</span> <span className="text-gray-400">reservert</span></div>
+        <div><span className="text-2xl tabular-nums text-emerald-700">{n(isFiltered ? filteredTotals.ledigForbruk : totals.ledigForbruk)}</span> <span className="text-gray-500">MW ledig for forbruk</span></div>
+        <div><span className="text-2xl tabular-nums text-blue-600">{n(isFiltered ? filteredTotals.overskudd : totals.overskudd)}</span> <span className="text-gray-500">MW overskuddskraft</span></div>
       </div>
 
       {/* Filters */}
@@ -270,9 +275,9 @@ function GridTab({ data }) {
               <th onClick={() => handleSort("nettselskap")} className={`text-left font-normal px-2 py-2 cursor-pointer hover:bg-gray-50 ${sortBy === "nettselskap" ? "text-gray-900" : "text-gray-500"}`}>
                 Nettselskap {sortBy === "nettselskap" && (sortDir === "desc" ? "↓" : "↑")}
               </th>
-              <SortHeader label="Ledig MW" field="ledig" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
+              <SortHeader label="Ledig forbruk" field="ledigForbruk" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
               <SortHeader label="Reservert" field="reservert" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
-              <SortHeader label="Produksjon" field="produksjon" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
+              <SortHeader label="Overskudd" field="overskudd" sortBy={sortBy} sortDir={sortDir} onSort={handleSort} />
             </tr>
           </thead>
           <tbody className="tabular-nums">
@@ -282,14 +287,14 @@ function GridTab({ data }) {
                 <td className="px-2 py-1 text-gray-600">{s.kommune}</td>
                 <td className="px-2 py-1 text-gray-500">{s.fylke}</td>
                 <td className="px-2 py-1 text-gray-500">{s.nettselskap}</td>
-                <td className={`px-2 py-1 text-right ${s.ledig > 10 ? "text-emerald-700 font-medium" : s.ledig > 0 ? "text-gray-700" : "text-gray-300"}`}>
-                  {n(s.ledig, 1)}
+                <td className={`px-2 py-1 text-right ${s.ledigForbruk > 10 ? "text-emerald-700 font-medium" : s.ledigForbruk > 0 ? "text-gray-700" : "text-gray-300"}`}>
+                  {s.ledigForbruk > 0 ? n(s.ledigForbruk, 1) : "–"}
                 </td>
                 <td className={`px-2 py-1 text-right ${s.reservert > 0 ? "text-amber-600" : "text-gray-300"}`}>
                   {s.reservert > 0 ? n(s.reservert, 1) : "–"}
                 </td>
-                <td className={`px-2 py-1 text-right ${s.produksjon > 10 ? "text-blue-600" : "text-gray-400"}`}>
-                  {s.produksjon > 0 ? n(s.produksjon, 1) : "–"}
+                <td className={`px-2 py-1 text-right ${s.overskudd > 10 ? "text-blue-600 font-medium" : s.overskudd > 0 ? "text-blue-500" : "text-gray-300"}`}>
+                  {s.overskudd > 0 ? n(s.overskudd, 1) : "–"}
                 </td>
               </tr>
             ))}
@@ -301,10 +306,10 @@ function GridTab({ data }) {
       </div>
 
       {/* Legend */}
-      <div className="text-xs text-gray-400 space-x-4">
-        <span><span className="text-emerald-700">■</span> Ledig = kapasitet for nytt forbruk</span>
-        <span><span className="text-amber-600">■</span> Reservert = allerede booket</span>
-        <span><span className="text-blue-600">■</span> Produksjon = kapasitet for ny kraftproduksjon</span>
+      <div className="text-xs text-gray-500 space-y-1 bg-gray-50 p-3 rounded">
+        <div><span className="text-emerald-700 font-medium">Ledig forbruk</span> = Kapasitet for nytt strømforbruk (f.eks. landstrøm til skip)</div>
+        <div><span className="text-amber-600 font-medium">Reservert</span> = Allerede booket kapasitet</div>
+        <div><span className="text-blue-600 font-medium">Overskudd</span> = Området har overskuddsproduksjon – gunstig for nytt forbruk!</div>
       </div>
     </div>
   );
