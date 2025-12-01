@@ -187,65 +187,122 @@ function MaruTab({ data }) {
 }
 
 // ============================================
-// GRID TAB - Network capacity
+// GRID TAB - Network capacity (organized by geography)
 // ============================================
 
 function GridTab({ data }) {
   const [search, setSearch] = useState("");
   const [fylke, setFylke] = useState("all");
   const [kommune, setKommune] = useState("all");
-  const [expanded, setExpanded] = useState(new Set());
+  const [expandedFylker, setExpandedFylker] = useState(new Set());
+  const [expandedKommuner, setExpandedKommuner] = useState(new Set());
 
-  const { ops, locs, fylker, kommuner, totals } = useMemo(() => {
-    if (!data?.grid_operators) return { ops: [], locs: [], fylker: [], kommuner: [], totals: {} };
+  const { locs, fylker, kommuner, totals, byGeo } = useMemo(() => {
+    if (!data?.grid_operators) return { locs: [], fylker: [], kommuner: [], totals: {}, byGeo: {} };
 
-    const ops = Object.entries(data.grid_operators)
-      .map(([id, o]) => ({
-        id, name: o.publisher || id.toUpperCase(), count: o.feature_count,
-        locs: (o.locations || []).sort((a, b) => (b.available_consumption || 0) - (a.available_consumption || 0)),
-        mw: (o.locations || []).reduce((s, l) => s + (l.available_consumption || 0), 0),
-      }))
-      .sort((a, b) => b.mw - a.mw);
+    // Flatten all locations with operator info
+    const locs = Object.entries(data.grid_operators).flatMap(([id, o]) =>
+      (o.locations || []).map(l => ({ ...l, nettselskap: o.publisher || id.toUpperCase() }))
+    );
 
-    const locs = ops.flatMap(o => o.locs.map(l => ({ ...l, op: o.name, opId: o.id })));
     const fylker = [...new Set(locs.map(l => l.fylke).filter(Boolean))].sort();
     const kommuner = [...new Set(locs.map(l => l.kommune).filter(Boolean))].sort();
-    const totals = { n: locs.length, ops: ops.length, mw: locs.reduce((s, l) => s + (l.available_consumption || 0), 0) };
+    const totals = { 
+      n: locs.length, 
+      mw: locs.reduce((s, l) => s + (l.available_consumption || 0), 0),
+      nettselskaper: new Set(locs.map(l => l.nettselskap)).size
+    };
 
-    return { ops, locs, fylker, kommuner, totals };
+    // Group by fylke → kommune
+    const byGeo = {};
+    locs.forEach(l => {
+      const f = l.fylke || "Ukjent";
+      const k = l.kommune || "Ukjent";
+      if (!byGeo[f]) byGeo[f] = { kommuner: {}, mw: 0, count: 0 };
+      if (!byGeo[f].kommuner[k]) byGeo[f].kommuner[k] = { stasjoner: [], mw: 0 };
+      byGeo[f].kommuner[k].stasjoner.push(l);
+      byGeo[f].kommuner[k].mw += l.available_consumption || 0;
+      byGeo[f].mw += l.available_consumption || 0;
+      byGeo[f].count++;
+    });
+
+    // Sort stations within each kommune by capacity
+    Object.values(byGeo).forEach(f => {
+      Object.values(f.kommuner).forEach(k => {
+        k.stasjoner.sort((a, b) => (b.available_consumption || 0) - (a.available_consumption || 0));
+      });
+    });
+
+    return { locs, fylker, kommuner, totals, byGeo };
   }, [data]);
 
-  const filtered = useMemo(() => {
-    let f = locs;
-    if (search) { const s = search.toLowerCase(); f = f.filter(l => l.name?.toLowerCase().includes(s) || l.kommune?.toLowerCase().includes(s)); }
-    if (fylke !== "all") f = f.filter(l => l.fylke === fylke);
-    if (kommune !== "all") f = f.filter(l => l.kommune === kommune);
-    return f;
-  }, [locs, search, fylke, kommune]);
+  // Filter
+  const filteredGeo = useMemo(() => {
+    let result = {};
+    const searchLower = search.toLowerCase();
 
-  const opsFiltered = useMemo(() => {
-    return ops.map(o => {
-      const fl = filtered.filter(l => l.opId === o.id);
-      return { ...o, fl, fmw: fl.reduce((s, l) => s + (l.available_consumption || 0), 0) };
-    }).filter(o => o.fl.length > 0);
-  }, [ops, filtered]);
+    Object.entries(byGeo).forEach(([fName, fData]) => {
+      if (fylke !== "all" && fName !== fylke) return;
 
-  const toggle = id => setExpanded(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n; });
+      const filteredKommuner = {};
+      Object.entries(fData.kommuner).forEach(([kName, kData]) => {
+        if (kommune !== "all" && kName !== kommune) return;
+
+        let stasjoner = kData.stasjoner;
+        if (search) {
+          stasjoner = stasjoner.filter(s => 
+            s.name?.toLowerCase().includes(searchLower) ||
+            s.nettselskap?.toLowerCase().includes(searchLower)
+          );
+        }
+        if (stasjoner.length > 0) {
+          filteredKommuner[kName] = { 
+            stasjoner, 
+            mw: stasjoner.reduce((s, l) => s + (l.available_consumption || 0), 0) 
+          };
+        }
+      });
+
+      if (Object.keys(filteredKommuner).length > 0) {
+        result[fName] = {
+          kommuner: filteredKommuner,
+          mw: Object.values(filteredKommuner).reduce((s, k) => s + k.mw, 0),
+          count: Object.values(filteredKommuner).reduce((s, k) => s + k.stasjoner.length, 0)
+        };
+      }
+    });
+
+    return result;
+  }, [byGeo, fylke, kommune, search]);
+
+  const filteredTotals = useMemo(() => {
+    const count = Object.values(filteredGeo).reduce((s, f) => s + f.count, 0);
+    const mw = Object.values(filteredGeo).reduce((s, f) => s + f.mw, 0);
+    return { count, mw };
+  }, [filteredGeo]);
+
+  const toggleFylke = f => setExpandedFylker(p => { const n = new Set(p); n.has(f) ? n.delete(f) : n.add(f); return n; });
+  const toggleKommune = k => setExpandedKommuner(p => { const n = new Set(p); n.has(k) ? n.delete(k) : n.add(k); return n; });
+
+  const expandAll = () => {
+    setExpandedFylker(new Set(Object.keys(filteredGeo)));
+    setExpandedKommuner(new Set(Object.values(filteredGeo).flatMap(f => Object.keys(f.kommuner))));
+  };
 
   return (
     <div className="space-y-6">
       {/* Key figures */}
       <div className="flex gap-8 text-sm">
         <div><span className="text-2xl tabular-nums font-light">{n(totals.n)}</span> <span className="text-gray-500">stasjoner</span></div>
-        <div><span className="text-2xl tabular-nums font-light">{n(totals.mw)}</span> <span className="text-gray-500">MW tilgjengelig</span></div>
-        <div><span className="text-2xl tabular-nums font-light">{n(totals.ops)}</span> <span className="text-gray-500">nettselskaper</span></div>
+        <div><span className="text-2xl tabular-nums font-light">{n(totals.mw)}</span> <span className="text-gray-500">MW</span></div>
+        <div><span className="text-2xl tabular-nums font-light">{n(totals.nettselskaper)}</span> <span className="text-gray-500">nettselskaper</span></div>
       </div>
 
-      {/* Filters - minimal */}
+      {/* Filters */}
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 text-sm">
         <input
           value={search} onChange={e => setSearch(e.target.value)}
-          placeholder="Søk..."
+          placeholder="Søk stasjon..."
           className="bg-transparent border-b border-gray-300 focus:border-gray-500 outline-none px-0 py-1 w-48"
         />
         <SearchSelect
@@ -264,7 +321,7 @@ function GridTab({ data }) {
         />
         {(search || fylke !== "all" || kommune !== "all") && (
           <>
-            <span className="text-gray-400">→ {filtered.length} stasjoner, {n(filtered.reduce((s, l) => s + (l.available_consumption || 0), 0))} MW</span>
+            <span className="text-gray-400">→ {filteredTotals.count} stasjoner, {n(filteredTotals.mw)} MW</span>
             <button onClick={() => { setSearch(""); setFylke("all"); setKommune("all"); }} className="text-gray-400 hover:text-gray-600">×</button>
           </>
         )}
@@ -272,37 +329,64 @@ function GridTab({ data }) {
 
       {/* Expand controls */}
       <div className="text-xs text-gray-400 space-x-3">
-        <button onClick={() => setExpanded(new Set(ops.map(o => o.id)))} className="hover:text-gray-600">Vis alle</button>
-        <button onClick={() => setExpanded(new Set())} className="hover:text-gray-600">Skjul</button>
+        <button onClick={expandAll} className="hover:text-gray-600">Vis alle</button>
+        <button onClick={() => { setExpandedFylker(new Set()); setExpandedKommuner(new Set()); }} className="hover:text-gray-600">Skjul</button>
       </div>
 
-      {/* Operators list - Tufte: data-dense, minimal chrome */}
+      {/* Geographic hierarchy: Fylke → Kommune → Stasjoner */}
       <div className="space-y-1">
-        {opsFiltered.map(o => (
-          <div key={o.id}>
-            <button onClick={() => toggle(o.id)} className="w-full flex items-baseline gap-2 py-1 text-left hover:bg-gray-50 -mx-2 px-2 rounded">
-              <span className="text-gray-400 text-xs w-4">{expanded.has(o.id) ? "−" : "+"}</span>
-              <span className="font-medium text-gray-800">{o.name}</span>
-              <span className="text-gray-400 text-sm">{o.fl.length}</span>
+        {Object.entries(filteredGeo)
+          .sort(([,a], [,b]) => b.mw - a.mw)
+          .map(([fName, fData]) => (
+          <div key={fName}>
+            {/* Fylke row */}
+            <button 
+              onClick={() => toggleFylke(fName)} 
+              className="w-full flex items-baseline gap-2 py-1.5 text-left hover:bg-gray-50 -mx-2 px-2 rounded"
+            >
+              <span className="text-gray-400 text-xs w-4">{expandedFylker.has(fName) ? "−" : "+"}</span>
+              <span className="font-medium text-gray-900">{fName}</span>
+              <span className="text-gray-400 text-xs">{fData.count} stasjoner</span>
               <span className="flex-1" />
-              <span className="tabular-nums text-gray-600">{n(o.fmw)} <span className="text-gray-400 text-xs">MW</span></span>
+              <span className="tabular-nums text-gray-600">{n(fData.mw)} <span className="text-gray-400 text-xs">MW</span></span>
             </button>
-            
-            {expanded.has(o.id) && (
-              <div className="ml-6 mb-3 text-sm">
-                <table className="w-full">
-                  <tbody className="tabular-nums">
-                    {o.fl.map((l, i) => (
-                      <tr key={i} className="border-b border-gray-100">
-                        <td className="py-0.5 text-gray-700">{l.name}</td>
-                        <td className="py-0.5 text-gray-400 text-xs">{l.kommune}</td>
-                        <td className={`py-0.5 text-right ${l.available_consumption > 10 ? "text-emerald-700" : "text-gray-500"}`}>
-                          {n(l.available_consumption || 0, 1)}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+
+            {/* Kommuner under fylke */}
+            {expandedFylker.has(fName) && (
+              <div className="ml-4 space-y-0.5">
+                {Object.entries(fData.kommuner)
+                  .sort(([,a], [,b]) => b.mw - a.mw)
+                  .map(([kName, kData]) => (
+                  <div key={kName}>
+                    {/* Kommune row */}
+                    <button 
+                      onClick={() => toggleKommune(kName)} 
+                      className="w-full flex items-baseline gap-2 py-1 text-left hover:bg-gray-50 -mx-2 px-2 rounded text-sm"
+                    >
+                      <span className="text-gray-300 text-xs w-4">{expandedKommuner.has(kName) ? "−" : "+"}</span>
+                      <span className="text-gray-700">{kName}</span>
+                      <span className="text-gray-400 text-xs">{kData.stasjoner.length}</span>
+                      <span className="flex-1" />
+                      <span className="tabular-nums text-gray-500">{n(kData.mw)}</span>
+                    </button>
+
+                    {/* Stasjoner under kommune */}
+                    {expandedKommuner.has(kName) && (
+                      <div className="ml-6 mb-2 text-sm border-l border-gray-100 pl-3">
+                        {kData.stasjoner.map((s, i) => (
+                          <div key={i} className="flex items-baseline py-0.5 gap-2">
+                            <span className="text-gray-700">{s.name}</span>
+                            <span className="text-gray-400 text-xs">{s.nettselskap}</span>
+                            <span className="flex-1" />
+                            <span className={`tabular-nums ${s.available_consumption > 10 ? "text-emerald-600" : "text-gray-400"}`}>
+                              {n(s.available_consumption || 0, 1)}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             )}
           </div>
