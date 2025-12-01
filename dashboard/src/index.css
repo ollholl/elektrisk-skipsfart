@@ -2,49 +2,16 @@
 
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Print styles */
+/* Tabular numbers for data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
 @media print {
-  body {
-    font-size: 11pt;
-    line-height: 1.4;
-  }
-  
-  button,
-  input,
-  select,
-  .no-print {
-    display: none !important;
-  }
-  
-  table tbody tr {
-    page-break-inside: avoid;
-  }
-  
-  section {
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    border: 1px solid #3b5998 !important;
-    margin-bottom: 1rem;
-    page-break-inside: avoid;
-  }
-  
-  .recharts-wrapper {
-    page-break-inside: avoid;
-  }
-  
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-  
-  header {
-    page-break-after: avoid;
-  }
-  
-  footer {
-    page-break-before: avoid;
-  }
+  body { font-size: 10pt; }
+  section { page-break-inside: avoid; }
 }
-
