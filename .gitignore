@@ -44,6 +44,8 @@ Thumbs.db
 # Large data files (keep locally, don't commit)
 data/maru/*.xlsx
 data/maru/*.pdf
+data/maru/maru_dashboard_data.json
+dashboard/public/maru_data.json
 
 # External cloned repositories
 external/kystverket-maru/
