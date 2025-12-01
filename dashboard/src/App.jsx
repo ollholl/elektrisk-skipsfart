@@ -1,9 +1,66 @@
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 
 // --- Minimal helpers ---
 function n(val, decimals = 0) {
   if (val === undefined || val === null || isNaN(val)) return "–";
   return val.toLocaleString("nb-NO", { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+}
+
+// Searchable select component
+function SearchSelect({ value, onChange, options, placeholder, allLabel = "Alle" }) {
+  const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const ref = useRef(null);
+
+  const filtered = options.filter(o => o.toLowerCase().includes(search.toLowerCase()));
+  const display = value === "all" ? allLabel : value;
+
+  useEffect(() => {
+    const handleClick = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => { setOpen(!open); setSearch(""); }}
+        className="text-left bg-transparent text-gray-600 hover:text-gray-900"
+      >
+        {display} <span className="text-gray-400 text-xs">▾</span>
+      </button>
+      
+      {open && (
+        <div className="absolute z-50 mt-1 bg-white border border-gray-200 rounded shadow-lg min-w-48 max-h-64 overflow-hidden">
+          <input
+            autoFocus
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder={placeholder}
+            className="w-full px-3 py-2 border-b border-gray-100 text-sm outline-none"
+          />
+          <div className="overflow-y-auto max-h-48">
+            <button
+              onClick={() => { onChange("all"); setOpen(false); }}
+              className={`w-full text-left px-3 py-1.5 text-sm hover:bg-gray-50 ${value === "all" ? "font-medium text-gray-900" : "text-gray-600"}`}
+            >
+              {allLabel}
+            </button>
+            {filtered.map(o => (
+              <button
+                key={o}
+                onClick={() => { onChange(o); setOpen(false); }}
+                className={`w-full text-left px-3 py-1.5 text-sm hover:bg-gray-50 ${value === o ? "font-medium text-gray-900" : "text-gray-600"}`}
+              >
+                {o}
+              </button>
+            ))}
+            {filtered.length === 0 && <div className="px-3 py-2 text-sm text-gray-400">Ingen treff</div>}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 // ============================================
@@ -82,10 +139,13 @@ function MaruTab({ data }) {
           <option value="all">Alle faser</option>
           {(f.phases || []).map(p => <option key={p} value={p}>{PHASE[p] || p}</option>)}
         </select>
-        <select value={county} onChange={e => setCounty(e.target.value)} className="bg-transparent text-gray-500">
-          <option value="all">Alle fylker</option>
-          {(f.counties || []).map(c => <option key={c} value={c}>{c}</option>)}
-        </select>
+        <SearchSelect
+          value={county}
+          onChange={setCounty}
+          options={f.counties || []}
+          placeholder="Søk fylke..."
+          allLabel="Alle fylker"
+        />
         {activeFilters > 0 && <button onClick={() => { setVoyage("all"); setPhase("all"); setCounty("all"); }} className="text-gray-400 hover:text-gray-600">×</button>}
       </div>
 
@@ -188,14 +248,20 @@ function GridTab({ data }) {
           placeholder="Søk..."
           className="bg-transparent border-b border-gray-300 focus:border-gray-500 outline-none px-0 py-1 w-48"
         />
-        <select value={fylke} onChange={e => { setFylke(e.target.value); setKommune("all"); }} className="bg-transparent text-gray-600">
-          <option value="all">Alle fylker</option>
-          {fylker.map(f => <option key={f}>{f}</option>)}
-        </select>
-        <select value={kommune} onChange={e => setKommune(e.target.value)} className="bg-transparent text-gray-600">
-          <option value="all">Alle kommuner</option>
-          {kommuner.filter(k => fylke === "all" || locs.some(l => l.kommune === k && l.fylke === fylke)).map(k => <option key={k}>{k}</option>)}
-        </select>
+        <SearchSelect
+          value={fylke}
+          onChange={v => { setFylke(v); setKommune("all"); }}
+          options={fylker}
+          placeholder="Søk fylke..."
+          allLabel="Alle fylker"
+        />
+        <SearchSelect
+          value={kommune}
+          onChange={setKommune}
+          options={kommuner.filter(k => fylke === "all" || locs.some(l => l.kommune === k && l.fylke === fylke))}
+          placeholder="Søk kommune..."
+          allLabel="Alle kommuner"
+        />
         {(search || fylke !== "all" || kommune !== "all") && (
           <>
             <span className="text-gray-400">→ {filtered.length} stasjoner, {n(filtered.reduce((s, l) => s + (l.available_consumption || 0), 0))} MW</span>
