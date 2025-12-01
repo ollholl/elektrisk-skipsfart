@@ -8,6 +8,22 @@ import time
 from pathlib import Path
 import urllib.request
 
+def get_centroid(coords):
+    """Calculate centroid of a polygon (average of all points)."""
+    # Handle nested polygon arrays: [[[lon,lat], [lon,lat], ...]]
+    if isinstance(coords, list) and len(coords) > 0:
+        # Unwrap nested arrays until we get to coordinate pairs
+        while isinstance(coords[0], list) and isinstance(coords[0][0], list):
+            coords = coords[0]
+        
+        # Now coords should be [[lon,lat], [lon,lat], ...]
+        if isinstance(coords[0], list) and len(coords[0]) >= 2:
+            lons = [p[0] for p in coords if isinstance(p, list) and len(p) >= 2]
+            lats = [p[1] for p in coords if isinstance(p, list) and len(p) >= 2]
+            if lons and lats:
+                return sum(lons) / len(lons), sum(lats) / len(lats)
+    return None, None
+
 def get_municipality(lon, lat):
     """Get municipality name from coordinates using Kartverket API."""
     try:
@@ -46,8 +62,20 @@ def process_grid_file(filepath):
             updated += 1
             continue
         
-        if len(coords) >= 2:
+        # Determine coordinates - either Point [lon, lat] or Polygon [[[lon,lat],...]]
+        geom_type = geom.get('type', '')
+        lon, lat = None, None
+        
+        if geom_type == 'Point' and len(coords) >= 2:
             lon, lat = coords[0], coords[1]
+        elif geom_type == 'Polygon' or (isinstance(coords, list) and len(coords) > 0 and isinstance(coords[0], list)):
+            # It's a polygon - calculate centroid
+            lon, lat = get_centroid(coords)
+        elif len(coords) >= 2 and isinstance(coords[0], (int, float)):
+            # Simple [lon, lat] without type specified
+            lon, lat = coords[0], coords[1]
+        
+        if lon is not None and lat is not None:
             result = get_municipality(lon, lat)
             if result and result.get('kommune'):
                 props['kommune'] = result['kommune']

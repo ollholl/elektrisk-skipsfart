@@ -58,7 +58,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Midt-Telemark",
+          "kommune_nr": "4020",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -114,7 +118,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 5,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Midt-Telemark",
+          "kommune_nr": "4020",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -170,7 +178,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 8,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Nome",
+          "kommune_nr": "4018",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -222,7 +234,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 15,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Nome",
+          "kommune_nr": "4018",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       }
     ],

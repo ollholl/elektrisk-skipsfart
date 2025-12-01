@@ -134,7 +134,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 3,
-          "availableProd": 1
+          "availableProd": 1,
+          "kommune": "Notodden",
+          "kommune_nr": "4005",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -234,7 +238,11 @@
           "capacityUnit": "MW",
           "reservedCons": 45,
           "availableCons": 50,
-          "availableProd": 1
+          "availableProd": 1,
+          "kommune": "Notodden",
+          "kommune_nr": "4005",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       }
     ],

@@ -54,7 +54,11 @@
           "capacityUnit": "MW",
           "reservedCons": 20,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Tinn",
+          "kommune_nr": "4026",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -98,7 +102,11 @@
           "capacityUnit": "MW",
           "reservedCons": 30,
           "availableCons": 10,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Tinn",
+          "kommune_nr": "4026",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -146,7 +154,11 @@
           "capacityUnit": "MW",
           "reservedCons": 21,
           "availableCons": 25,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Tinn",
+          "kommune_nr": "4026",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       }
     ],

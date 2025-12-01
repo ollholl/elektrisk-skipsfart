@@ -2558,7 +2558,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 5.5,
-          "availableProd": 6.25
+          "availableProd": 6.25,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -6702,7 +6706,11 @@
           "capacityUnit": "MW",
           "reservedCons": 7,
           "availableCons": 10,
-          "availableProd": 11
+          "availableProd": 11,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -10890,7 +10898,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 12,
-          "availableProd": 2
+          "availableProd": 2,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -12546,7 +12558,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 7.5,
-          "availableProd": 10.5
+          "availableProd": 10.5,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -15562,7 +15578,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 12,
-          "availableProd": 16
+          "availableProd": 16,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -17194,7 +17214,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 6,
-          "availableProd": 5
+          "availableProd": 5,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -21006,7 +21030,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 12,
-          "availableProd": 16
+          "availableProd": 16,
+          "kommune": "Bjørnafjorden",
+          "kommune_nr": "4624",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       }
     ],

@@ -90,7 +90,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0.5,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -174,7 +178,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 1,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -222,7 +230,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 1,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -286,7 +298,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 1,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -362,7 +378,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 5,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -454,7 +474,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0.5,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -502,7 +526,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 1,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -554,7 +582,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 1,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -610,7 +642,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0.5,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Austevoll",
+          "kommune_nr": "4625",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       }
     ],

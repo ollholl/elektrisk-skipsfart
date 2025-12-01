@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-01T19:29:04.096132",
+    "generated_at": "2025-12-01T19:50:42.514044",
     "description": "Index of Norwegian electrical grid capacity data with municipality info",
     "total_files": 34,
     "total_features": 855
@@ -955,8 +955,8 @@
           "available_consumption": 130,
           "available_production": 170,
           "reserved_consumption": 120,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Båtsfjord",
+          "fylke": "Finnmark"
         }
       ]
     },
@@ -4812,8 +4812,8 @@
           "available_consumption": 3,
           "available_production": 1,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Notodden",
+          "fylke": "Telemark"
         },
         {
           "name": "Jerpetjønn / Meheia hyttefelt",
@@ -4884,8 +4884,8 @@
           "available_consumption": 50,
           "available_production": 1,
           "reserved_consumption": 45,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Notodden",
+          "fylke": "Telemark"
         }
       ]
     },
@@ -5565,8 +5565,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Midt-Telemark",
+          "fylke": "Telemark"
         },
         {
           "name": "Gvarv",
@@ -5609,8 +5609,8 @@
           "available_consumption": 5,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Midt-Telemark",
+          "fylke": "Telemark"
         },
         {
           "name": "Lunde",
@@ -5653,8 +5653,8 @@
           "available_consumption": 8,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Nome",
+          "fylke": "Telemark"
         },
         {
           "name": "Ulefoss",
@@ -5693,8 +5693,8 @@
           "available_consumption": 15,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Nome",
+          "fylke": "Telemark"
         }
       ]
     },
@@ -7042,8 +7042,8 @@
           "available_consumption": 0.5,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Hundvåkøy",
@@ -7114,8 +7114,8 @@
           "available_consumption": 1,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Haukanes – Storebø – Hufthammar ",
@@ -7150,8 +7150,8 @@
           "available_consumption": 1,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Kolbeinsvik",
@@ -7202,8 +7202,8 @@
           "available_consumption": 1,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Søre Haukanes – Husavik",
@@ -7266,8 +7266,8 @@
           "available_consumption": 5,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Stolmen – Møkster",
@@ -7346,8 +7346,8 @@
           "available_consumption": 0.5,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Salthella – Rabben",
@@ -7382,8 +7382,8 @@
           "available_consumption": 1,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Drivenes – Bekkjarvik",
@@ -7422,8 +7422,8 @@
           "available_consumption": 1,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         },
         {
           "name": "Gauksheim",
@@ -7466,8 +7466,8 @@
           "available_consumption": 0.5,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Austevoll",
+          "fylke": "Vestland"
         }
       ]
     },
@@ -11746,8 +11746,8 @@
           "available_consumption": 5.5,
           "available_production": 6.25,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Eikelandsosen - Holsund",
@@ -15878,8 +15878,8 @@
           "available_consumption": 10,
           "available_production": 11,
           "reserved_consumption": 7,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Sævareid - Hålandsdalen - Eikelandsosen ",
@@ -20054,8 +20054,8 @@
           "available_consumption": 12,
           "available_production": 2,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Eikelandsosen - Fusa",
@@ -21698,8 +21698,8 @@
           "available_consumption": 7.5,
           "available_production": 10.5,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Sævareid - Fusa",
@@ -24702,8 +24702,8 @@
           "available_consumption": 12,
           "available_production": 16,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Lygre",
@@ -26322,8 +26322,8 @@
           "available_consumption": 6,
           "available_production": 5,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         },
         {
           "name": "Stussvik - Sævareid",
@@ -30122,8 +30122,8 @@
           "available_consumption": 12,
           "available_production": 16,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Bjørnafjorden",
+          "fylke": "Vestland"
         }
       ]
     },
@@ -30604,8 +30604,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 20,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Tinn",
+          "fylke": "Telemark"
         },
         {
           "name": "Moflåt",
@@ -30636,8 +30636,8 @@
           "available_consumption": 10,
           "available_production": 0,
           "reserved_consumption": 30,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Tinn",
+          "fylke": "Telemark"
         },
         {
           "name": "Rjukan Næringspark",
@@ -30672,8 +30672,8 @@
           "available_consumption": 25,
           "available_production": 0,
           "reserved_consumption": 21,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Tinn",
+          "fylke": "Telemark"
         }
       ]
     },
@@ -31883,8 +31883,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Indre Østfold",
+          "fylke": "Østfold"
         },
         {
           "name": "Sør-Rogaland og Agder",
@@ -32175,8 +32175,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Sirdal",
+          "fylke": "Agder"
         },
         {
           "name": "Nord",
@@ -34719,8 +34719,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Kárášjohka",
+          "fylke": "Finnmark"
         },
         {
           "name": "Trøndelag og Nordmøre",
@@ -35959,8 +35959,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Melhus",
+          "fylke": "Trøndelag"
         },
         {
           "name": "Innlandet",
@@ -38075,8 +38075,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Gausdal",
+          "fylke": "Innlandet"
         },
         {
           "name": "Nordland",
@@ -38695,8 +38695,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Rana",
+          "fylke": "Nordland"
         },
         {
           "name": "Sogn og Sunnmøre",
@@ -39659,8 +39659,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Luster",
+          "fylke": "Vestland"
         },
         {
           "name": "Telemark og Vestfold",
@@ -40383,8 +40383,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Hjartdal",
+          "fylke": "Telemark"
         },
         {
           "name": "Bergen og Haugalandet",
@@ -40983,8 +40983,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Ullensvang",
+          "fylke": "Vestland"
         },
         {
           "name": "Hallingdalen og Ringerike",
@@ -42179,8 +42179,8 @@
           "available_consumption": 0,
           "available_production": 0,
           "reserved_consumption": 0,
-          "kommune": null,
-          "fylke": null
+          "kommune": "Flå",
+          "fylke": "Buskerud"
         }
       ]
     },

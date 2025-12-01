@@ -1214,7 +1214,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Indre Østfold",
+          "kommune_nr": "3118",
+          "fylke": "Østfold",
+          "fylke_nr": "31"
         }
       },
       {
@@ -1518,7 +1522,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Sirdal",
+          "kommune_nr": "4228",
+          "fylke": "Agder",
+          "fylke_nr": "42"
         }
       },
       {
@@ -4074,7 +4082,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Kárášjohka",
+          "kommune_nr": "5610",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
         }
       },
       {
@@ -5326,7 +5338,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Melhus",
+          "kommune_nr": "5028",
+          "fylke": "Trøndelag",
+          "fylke_nr": "50"
         }
       },
       {
@@ -7454,7 +7470,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Gausdal",
+          "kommune_nr": "3441",
+          "fylke": "Innlandet",
+          "fylke_nr": "34"
         }
       },
       {
@@ -8086,7 +8106,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Rana",
+          "kommune_nr": "1833",
+          "fylke": "Nordland",
+          "fylke_nr": "18"
         }
       },
       {
@@ -9062,7 +9086,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Luster",
+          "kommune_nr": "4644",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -9798,7 +9826,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Hjartdal",
+          "kommune_nr": "4024",
+          "fylke": "Telemark",
+          "fylke_nr": "40"
         }
       },
       {
@@ -10410,7 +10442,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Ullensvang",
+          "kommune_nr": "4618",
+          "fylke": "Vestland",
+          "fylke_nr": "46"
         }
       },
       {
@@ -11618,7 +11654,11 @@
           "capacityUnit": "MW",
           "reservedCons": 0,
           "availableCons": 0,
-          "availableProd": 0
+          "availableProd": 0,
+          "kommune": "Flå",
+          "kommune_nr": "3320",
+          "fylke": "Buskerud",
+          "fylke_nr": "33"
         }
       }
     ],

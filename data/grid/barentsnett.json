@@ -486,7 +486,11 @@
           "capacityUnit": "MW",
           "reservedCons": 120,
           "availableCons": 130,
-          "availableProd": 170
+          "availableProd": 170,
+          "kommune": "Båtsfjord",
+          "kommune_nr": "5632",
+          "fylke": "Finnmark",
+          "fylke_nr": "56"
         }
       }
     ],
