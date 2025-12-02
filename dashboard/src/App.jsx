@@ -270,7 +270,7 @@ export default function App() {
       {tab === "nett" && <Nett data={grid} />}
 
       <footer className="mt-8 pt-4 border-t border-gray-100 text-xs text-gray-400">
-        Data: <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a> · <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a>
+        Data: <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a> · <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a> · per 1. des 2025
       </footer>
     </div>
   );
