@@ -211,8 +211,8 @@ function Nett({ data }) {
 
       {isFiltered && <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {fmt(fStats.forbruk)} MW forbruk · {fmt(fStats.prod)} MW prod</p>}
 
-      <table className="w-full text-sm">
-        <thead className="text-xs">
+      <table className="w-full text-xs">
+        <thead>
           <tr className="border-b border-gray-200">
             <Th col="name" left>Område</Th>
             <Th col="kommune" left>Kommune</Th>
@@ -270,7 +270,7 @@ export default function App() {
       {tab === "nett" && <Nett data={grid} />}
 
       <footer className="mt-8 pt-4 border-t border-gray-100 text-xs text-gray-400">
-        Data: <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a> · <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a>
+        Data: <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a> · <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a>
       </footer>
     </div>
   );
