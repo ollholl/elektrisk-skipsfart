@@ -46,14 +46,12 @@ const GT = ["gt1, 0-399", "gt2, 400-999", "gt3, 1000-2999", "gt4, 3000-4999", "g
 const GTL = ["<400", "4–1k", "1–3k", "3–5k", "5–10k", "10–25k", "25–50k", "50–100k", ">100k"];
 
 const VOYAGE = { domestic: "Innenriks", international_in: "Fra utland", international_out: "Til utland", berthed: "Ved kai", transit: "Gjennomfart", ncs_facility_proximate: "Offshore" };
-const PHASE = { "Node (berth)": "Ved kai", Cruise: "Seilas", Maneuver: "Manøver", Anchor: "Ankring", Fishing: "Fiske", Aquacultur: "Havbruk", "Dynamic positioning offshore": "DP offshore" };
 
 function Skipsfart({ data }) {
   const [year, setYear] = useState(2024);
   const [m, setM] = useState("sum_kwh");
   const [county, setCounty] = useState("all");
   const [voyage, setVoyage] = useState("all");
-  const [phase, setPhase] = useState("all");
   const f = data?.filters || {};
   const [label, unit, div] = M[m];
 
@@ -62,7 +60,6 @@ function Skipsfart({ data }) {
     let r = data.data.filter(d => d.year === year);
     if (county !== "all") r = r.filter(d => d.county_name === county);
     if (voyage !== "all") r = r.filter(d => d.voyage_type === voyage);
-    if (phase !== "all") r = r.filter(d => d.phase === phase);
 
     const agg = {};
     r.forEach(d => {
@@ -76,9 +73,9 @@ function Skipsfart({ data }) {
     const cols = {};
     GT.forEach(g => { cols[g] = rows.reduce((s, r) => s + (r.c[g] || 0), 0); });
     return { rows, cols, total: rows.reduce((s, r) => s + r.s, 0) };
-  }, [data, year, m, county, voyage, phase, div]);
+  }, [data, year, m, county, voyage, div]);
 
-  const hasFilters = county !== "all" || voyage !== "all" || phase !== "all";
+  const hasFilters = county !== "all" || voyage !== "all";
 
   return (
     <div>
@@ -95,11 +92,7 @@ function Skipsfart({ data }) {
           <option value="all">Alle reisetyper</option>
           {(f.voyage_types || []).map(v => <option key={v} value={v}>{VOYAGE[v] || v}</option>)}
         </select>
-        <select value={phase} onChange={e => setPhase(e.target.value)} className="bg-transparent text-gray-500">
-          <option value="all">Alle faser</option>
-          {(f.phases || []).map(p => <option key={p} value={p}>{PHASE[p] || p}</option>)}
-        </select>
-        {hasFilters && <button onClick={() => { setCounty("all"); setVoyage("all"); setPhase("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
+        {hasFilters && <button onClick={() => { setCounty("all"); setVoyage("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
       </div>
 
       {/* Total */}
@@ -284,7 +277,7 @@ export default function App() {
   return (
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">
       <header className="mb-5">
-        <h1 className="text-base font-medium">Den Elektriske Kysten</h1>
+        <h1 className="text-base font-medium">Fra landstrøm til ladestrøm</h1>
         <p className="text-sm text-gray-500">Skipsfart og nettkapasitet i Norge</p>
       </header>
 
