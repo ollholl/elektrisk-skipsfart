@@ -122,11 +122,11 @@ function Nett({ data }) {
   const [q, setQ] = useState("");
   const [fylke, setFylke] = useState("all");
   const [kommune, setKommune] = useState("all");
-  const [sort, setSort] = useState("ledig");
+  const [sort, setSort] = useState("forbruk");
   const [dir, setDir] = useState("desc");
 
   const { rows, fylker, kommuner, stats } = useMemo(() => {
-    if (!data?.grid_operators) return { rows: [], fylker: [], kommuner: [], stats: {} };
+    if (!data?.grid_operators) return { rows: [], fylker: [], kommuner: [], stats: { n: 0, forbruk: 0, prod: 0 } };
 
     const rows = Object.entries(data.grid_operators).flatMap(([id, o]) =>
       (o.locations || []).map(l => ({
@@ -134,7 +134,9 @@ function Nett({ data }) {
         kommune: l.kommune || "–",
         fylke: l.fylke || "–",
         nett: o.publisher || id.toUpperCase(),
-        ledig: l.available_consumption || 0
+        forbruk: l.available_consumption || 0,
+        prod: Math.abs(l.available_production || 0),
+        reservert: l.reserved_consumption || 0,
       }))
     );
 
@@ -142,7 +144,11 @@ function Nett({ data }) {
       rows,
       fylker: [...new Set(rows.map(r => r.fylke).filter(f => f !== "–"))].sort(),
       kommuner: [...new Set(rows.map(r => r.kommune).filter(k => k !== "–"))].sort(),
-      stats: { n: rows.length, ledig: rows.reduce((s, r) => s + r.ledig, 0) }
+      stats: {
+        n: rows.length,
+        forbruk: rows.reduce((s, r) => s + r.forbruk, 0),
+        prod: rows.reduce((s, r) => s + r.prod, 0),
+      }
     };
   }, [data]);
 
@@ -174,14 +180,22 @@ function Nett({ data }) {
     </th>
   );
 
-  const fStats = useMemo(() => ({ n: filtered.length, ledig: filtered.reduce((s, r) => s + r.ledig, 0) }), [filtered]);
+  const fStats = useMemo(() => ({
+    n: filtered.length,
+    forbruk: filtered.reduce((s, r) => s + r.forbruk, 0),
+    prod: filtered.reduce((s, r) => s + r.prod, 0),
+  }), [filtered]);
+
   const isFiltered = q || fylke !== "all" || kommune !== "all";
+
+  const cell = (v, color) => v > 0 ? <span className={color}>{fmt(v, 1)}</span> : <span className="text-gray-300">–</span>;
 
   return (
     <div>
       <div className="flex gap-6 text-sm mb-4">
         <div><span className="text-2xl tabular-nums">{fmt(stats.n)}</span> <span className="text-gray-500">områder</span></div>
-        <div><span className="text-2xl tabular-nums text-emerald-700">{fmt(stats.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
+        <div><span className="text-2xl tabular-nums text-emerald-600">{fmt(stats.forbruk)}</span> <span className="text-gray-500">MW ledig forbruk</span></div>
+        <div><span className="text-2xl tabular-nums text-sky-600">{fmt(stats.prod)}</span> <span className="text-gray-500">MW ledig produksjon</span></div>
       </div>
 
       <p className="text-sm mb-3">
@@ -195,16 +209,17 @@ function Nett({ data }) {
         {isFiltered && <button onClick={() => { setQ(""); setFylke("all"); setKommune("all"); }} className="ml-2 text-gray-400 hover:text-gray-600">×</button>}
       </p>
 
-      {isFiltered && <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {fmt(fStats.ledig)} MW ledig</p>}
+      {isFiltered && <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {fmt(fStats.forbruk)} MW forbruk · {fmt(fStats.prod)} MW prod</p>}
 
       <table className="w-full text-sm">
         <thead className="text-xs">
           <tr className="border-b border-gray-200">
             <Th col="name" left>Område</Th>
             <Th col="kommune" left>Kommune</Th>
-            <Th col="fylke" left>Fylke</Th>
-            <Th col="nett" left>Nettselskap</Th>
-            <Th col="ledig">Ledig MW</Th>
+            <Th col="nett" left>Nett</Th>
+            <Th col="forbruk">Forbruk</Th>
+            <Th col="prod">Prod</Th>
+            <Th col="reservert">Res</Th>
           </tr>
         </thead>
         <tbody className="tabular-nums">
@@ -212,18 +227,19 @@ function Nett({ data }) {
             <tr key={i} className={i % 2 ? "bg-gray-50/50" : ""}>
               <td className="py-1 px-1 text-gray-800">{r.name}</td>
               <td className="py-1 px-1 text-gray-600">{r.kommune}</td>
-              <td className="py-1 px-1 text-gray-500">{r.fylke}</td>
               <td className="py-1 px-1 text-gray-400">{r.nett}</td>
-              <td className={`py-1 px-1 text-right ${r.ledig >= 10 ? "text-emerald-700 font-medium" : r.ledig >= 5 ? "text-emerald-600" : r.ledig > 0 ? "text-gray-600" : "text-gray-300"}`}>
-                {r.ledig > 0 ? fmt(r.ledig, 1) : "–"}
-              </td>
+              <td className="py-1 px-1 text-right">{cell(r.forbruk, r.forbruk >= 10 ? "text-emerald-600 font-medium" : "text-emerald-600")}</td>
+              <td className="py-1 px-1 text-right">{cell(r.prod, "text-sky-600")}</td>
+              <td className="py-1 px-1 text-right">{cell(r.reservert, "text-gray-500")}</td>
             </tr>
           ))}
         </tbody>
       </table>
 
       {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length}. Bruk filtre.</p>}
-      <p className="text-xs text-gray-400 mt-4"><span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk</p>
+      <p className="text-xs text-gray-400 mt-4">
+        <span className="text-emerald-600">Forbruk</span> = ledig for nytt forbruk. <span className="text-sky-600">Prod</span> = ledig for ny produksjon. Alle tall i MW.
+      </p>
     </div>
   );
 }
@@ -232,15 +248,11 @@ export default function App() {
   const [tab, setTab] = useState("skip");
   const [maru, setMaru] = useState(null);
   const [grid, setGrid] = useState(null);
-  const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    Promise.all([fetch("/maru_data.json").then(r => r.json()), fetch("/grid_index.json").then(r => r.json())])
-      .then(([m, g]) => { setMaru(m); setGrid(g); setReady(true); })
-      .catch(() => setReady(true));
+    fetch("/maru_data.json").then(r => r.json()).then(setMaru);
+    fetch("/grid_index.json").then(r => r.json()).then(setGrid);
   }, []);
-
-  if (!ready) return <p className="p-8 text-gray-400">Laster...</p>;
 
   return (
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">
@@ -254,8 +266,8 @@ export default function App() {
         <button onClick={() => setTab("nett")} className={tab === "nett" ? "font-medium" : "text-gray-400"}>Nettkapasitet</button>
       </nav>
 
-      {tab === "skip" && maru && <Skipsfart data={maru} />}
-      {tab === "nett" && grid && <Nett data={grid} />}
+      {tab === "skip" && <Skipsfart data={maru} />}
+      {tab === "nett" && <Nett data={grid} />}
 
       <footer className="mt-8 pt-4 border-t border-gray-100 text-xs text-gray-400">
         Data: <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a> · <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a>
