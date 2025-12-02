@@ -1,9 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from "react";
 
-// --- Helpers ---
-const n = (v, d = 0) => v == null || isNaN(v) ? "–" : v.toLocaleString("nb-NO", { minimumFractionDigits: d, maximumFractionDigits: d });
+const fmt = (v, d = 0) => v == null || isNaN(v) ? "–" : v.toLocaleString("nb-NO", { minimumFractionDigits: d, maximumFractionDigits: d });
 
-// Searchable select - compact
 function Select({ value, onChange, options, all = "Alle" }) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
@@ -11,9 +9,9 @@ function Select({ value, onChange, options, all = "Alle" }) {
   const filtered = options.filter(o => o.toLowerCase().includes(q.toLowerCase()));
 
   useEffect(() => {
-    const h = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
-    document.addEventListener("mousedown", h);
-    return () => document.removeEventListener("mousedown", h);
+    const handler = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
   }, []);
 
   return (
@@ -37,73 +35,65 @@ function Select({ value, onChange, options, all = "Alle" }) {
   );
 }
 
-// ============================================
-// SKIPSFART - Compact matrix
-// ============================================
-
-const M = { sum_kwh: ["Energi", "GWh", 1e6], sum_fuel_mdo_equivalent_tonnes: ["Drivstoff", "kt", 1e3], sum_co2_tonnes: ["CO₂", "kt", 1e3], sum_kwh_battery: ["Batteri", "GWh", 1e6] };
+const METRICS = { sum_kwh: ["Energi", "GWh", 1e6], sum_fuel_mdo_equivalent_tonnes: ["Drivstoff", "kt", 1e3], sum_co2_tonnes: ["CO₂", "kt", 1e3], sum_kwh_battery: ["Batteri", "GWh", 1e6] };
 const GT = ["gt1, 0-399", "gt2, 400-999", "gt3, 1000-2999", "gt4, 3000-4999", "gt5, 5000-9999", "gt6, 10000-24999", "gt7, 25000-49999", "gt8, 50000-99999", "gt9, >=100 000"];
-const GTL = ["<400", "4–1k", "1–3k", "3–5k", "5–10k", "10–25k", "25–50k", "50–100k", ">100k"];
-
+const GT_LABELS = ["<400", "4–1k", "1–3k", "3–5k", "5–10k", "10–25k", "25–50k", "50–100k", ">100k"];
 const VOYAGE = { domestic: "Innenriks", international_in: "Fra utland", international_out: "Til utland", berthed: "Ved kai", transit: "Gjennomfart", ncs_facility_proximate: "Offshore" };
 
 function Skipsfart({ data }) {
   const [year, setYear] = useState(2024);
-  const [m, setM] = useState("sum_kwh");
+  const [metric, setMetric] = useState("sum_kwh");
   const [county, setCounty] = useState("all");
   const [voyage, setVoyage] = useState("all");
-  const f = data?.filters || {};
-  const [label, unit, div] = M[m];
+  const filters = data?.filters || {};
+  const [label, unit, divisor] = METRICS[metric];
 
   const { rows, cols, total } = useMemo(() => {
     if (!data?.data) return { rows: [], cols: {}, total: 0 };
-    let r = data.data.filter(d => d.year === year);
-    if (county !== "all") r = r.filter(d => d.county_name === county);
-    if (voyage !== "all") r = r.filter(d => d.voyage_type === voyage);
+    let filtered = data.data.filter(d => d.year === year);
+    if (county !== "all") filtered = filtered.filter(d => d.county_name === county);
+    if (voyage !== "all") filtered = filtered.filter(d => d.voyage_type === voyage);
 
-    const agg = {};
-    r.forEach(d => {
-      const t = d.vessel_type, g = d.gt_group, v = (d[m] || 0) / div;
-      if (!agg[t]) agg[t] = { t, c: {}, s: 0 };
-      agg[t].c[g] = (agg[t].c[g] || 0) + v;
-      agg[t].s += v;
+    const byType = {};
+    filtered.forEach(d => {
+      const t = d.vessel_type, g = d.gt_group, v = (d[metric] || 0) / divisor;
+      if (!byType[t]) byType[t] = { t, c: {}, s: 0 };
+      byType[t].c[g] = (byType[t].c[g] || 0) + v;
+      byType[t].s += v;
     });
 
-    const rows = Object.values(agg).sort((a, b) => b.s - a.s);
+    const rows = Object.values(byType).sort((a, b) => b.s - a.s);
     const cols = {};
     GT.forEach(g => { cols[g] = rows.reduce((s, r) => s + (r.c[g] || 0), 0); });
     return { rows, cols, total: rows.reduce((s, r) => s + r.s, 0) };
-  }, [data, year, m, county, voyage, div]);
+  }, [data, year, metric, county, voyage, divisor]);
 
   const hasFilters = county !== "all" || voyage !== "all";
 
   return (
     <div>
-      {/* Controls */}
       <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600 mb-4">
         <select value={year} onChange={e => setYear(+e.target.value)} className="bg-transparent font-medium text-gray-900">
-          {(f.years || []).map(y => <option key={y}>{y}</option>)}
+          {(filters.years || []).map(y => <option key={y}>{y}</option>)}
         </select>
-        <select value={m} onChange={e => setM(e.target.value)} className="bg-transparent">
-          {Object.entries(M).map(([k, [l]]) => <option key={k} value={k}>{l}</option>)}
+        <select value={metric} onChange={e => setMetric(e.target.value)} className="bg-transparent">
+          {Object.entries(METRICS).map(([k, [l]]) => <option key={k} value={k}>{l}</option>)}
         </select>
-        <Select value={county} onChange={setCounty} options={f.counties || []} all="Alle fylker" />
+        <Select value={county} onChange={setCounty} options={filters.counties || []} all="Alle fylker" />
         <select value={voyage} onChange={e => setVoyage(e.target.value)} className="bg-transparent text-gray-500">
           <option value="all">Alle reisetyper</option>
-          {(f.voyage_types || []).map(v => <option key={v} value={v}>{VOYAGE[v] || v}</option>)}
+          {(filters.voyage_types || []).map(v => <option key={v} value={v}>{VOYAGE[v] || v}</option>)}
         </select>
         {hasFilters && <button onClick={() => { setCounty("all"); setVoyage("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
       </div>
 
-      {/* Total */}
-      <p className="text-2xl tabular-nums mb-3">{n(total, 0)} <span className="text-sm text-gray-500">{unit} {label.toLowerCase()}</span></p>
+      <p className="text-2xl tabular-nums mb-3">{fmt(total, 0)} <span className="text-sm text-gray-500">{unit} {label.toLowerCase()}</span></p>
 
-      {/* Matrix - ultra compact */}
       <table className="w-full text-xs tabular-nums">
         <thead>
           <tr className="text-gray-400">
             <th className="text-left font-normal py-0.5 pr-2">Skipstype</th>
-            {GTL.map((g, i) => <th key={i} className="text-right font-normal px-0.5 w-12">{g}</th>)}
+            {GT_LABELS.map((g, i) => <th key={i} className="text-right font-normal px-0.5 w-12">{g}</th>)}
             <th className="text-right font-normal pl-1 w-14">Sum</th>
           </tr>
         </thead>
@@ -111,26 +101,22 @@ function Skipsfart({ data }) {
           {rows.map(r => (
             <tr key={r.t} className="border-t border-gray-50">
               <td className="py-0.5 pr-2 text-gray-600 truncate max-w-32">{r.t}</td>
-              {GT.map((g, i) => <td key={i} className="text-right px-0.5 text-gray-400">{r.c[g] ? n(r.c[g], 0) : "·"}</td>)}
-              <td className="text-right pl-1 text-gray-700">{n(r.s, 0)}</td>
+              {GT.map((g, i) => <td key={i} className="text-right px-0.5 text-gray-400">{r.c[g] ? fmt(r.c[g], 0) : "·"}</td>)}
+              <td className="text-right pl-1 text-gray-700">{fmt(r.s, 0)}</td>
             </tr>
           ))}
         </tbody>
         <tfoot>
           <tr className="border-t border-gray-200 text-gray-600">
             <td className="py-0.5 pr-2">Sum</td>
-            {GT.map((g, i) => <td key={i} className="text-right px-0.5">{n(cols[g], 0)}</td>)}
-            <td className="text-right pl-1 font-medium text-gray-900">{n(total, 0)}</td>
+            {GT.map((g, i) => <td key={i} className="text-right px-0.5">{fmt(cols[g], 0)}</td>)}
+            <td className="text-right pl-1 font-medium text-gray-900">{fmt(total, 0)}</td>
           </tr>
         </tfoot>
       </table>
     </div>
   );
 }
-
-// ============================================
-// NETTKAPASITET - Focus on what matters for shore power
-// ============================================
 
 function Nett({ data }) {
   const [q, setQ] = useState("");
@@ -144,84 +130,73 @@ function Nett({ data }) {
 
     const rows = Object.entries(data.grid_operators).flatMap(([id, o]) =>
       (o.locations || []).map(l => ({
-        name: l.name, kommune: l.kommune || "–", fylke: l.fylke || "–",
+        name: l.name,
+        kommune: l.kommune || "–",
+        fylke: l.fylke || "–",
         nett: o.publisher || id.toUpperCase(),
         ledig: l.available_consumption || 0
       }))
     );
 
-    const stats = {
-      n: rows.length,
-      ledig: rows.reduce((s, r) => s + r.ledig, 0),
-    };
-
     return {
       rows,
       fylker: [...new Set(rows.map(r => r.fylke).filter(f => f !== "–"))].sort(),
       kommuner: [...new Set(rows.map(r => r.kommune).filter(k => k !== "–"))].sort(),
-      stats
+      stats: { n: rows.length, ledig: rows.reduce((s, r) => s + r.ledig, 0) }
     };
   }, [data]);
 
   const filtered = useMemo(() => {
     let f = rows;
-    if (q) { const s = q.toLowerCase(); f = f.filter(r => r.name.toLowerCase().includes(s) || r.kommune.toLowerCase().includes(s) || r.nett.toLowerCase().includes(s)); }
+    if (q) {
+      const search = q.toLowerCase();
+      f = f.filter(r => r.name.toLowerCase().includes(search) || r.kommune.toLowerCase().includes(search) || r.nett.toLowerCase().includes(search));
+    }
     if (fylke !== "all") f = f.filter(r => r.fylke === fylke);
     if (kommune !== "all") f = f.filter(r => r.kommune === kommune);
-    
-    f = [...f].sort((a, b) => {
+
+    return [...f].sort((a, b) => {
       const av = a[sort], bv = b[sort];
       if (typeof av === "number") return dir === "desc" ? bv - av : av - bv;
       return dir === "desc" ? String(bv).localeCompare(String(av)) : String(av).localeCompare(String(bv));
     });
-    return f;
   }, [rows, q, fylke, kommune, sort, dir]);
 
-  const handleSort = (col) => {
+  const handleSort = col => {
     if (sort === col) setDir(d => d === "desc" ? "asc" : "desc");
     else { setSort(col); setDir("desc"); }
   };
 
   const Th = ({ col, children, left }) => (
-    <th onClick={() => handleSort(col)} 
+    <th onClick={() => handleSort(col)}
       className={`font-normal py-1.5 px-1 cursor-pointer hover:bg-gray-50 whitespace-nowrap ${sort === col ? "text-gray-900" : "text-gray-400"} ${left ? "text-left" : "text-right"}`}>
       {children}{sort === col && (dir === "desc" ? " ↓" : " ↑")}
     </th>
   );
 
-  const fStats = useMemo(() => ({
-    n: filtered.length,
-    ledig: filtered.reduce((s, r) => s + r.ledig, 0),
-  }), [filtered]);
-
+  const fStats = useMemo(() => ({ n: filtered.length, ledig: filtered.reduce((s, r) => s + r.ledig, 0) }), [filtered]);
   const isFiltered = q || fylke !== "all" || kommune !== "all";
 
   return (
     <div>
-      {/* Summary */}
       <div className="flex gap-6 text-sm mb-4">
-        <div><span className="text-2xl tabular-nums">{n(stats.n)}</span> <span className="text-gray-500">områder</span></div>
-        <div><span className="text-2xl tabular-nums text-emerald-700">{n(stats.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
+        <div><span className="text-2xl tabular-nums">{fmt(stats.n)}</span> <span className="text-gray-500">områder</span></div>
+        <div><span className="text-2xl tabular-nums text-emerald-700">{fmt(stats.ledig)}</span> <span className="text-gray-500">MW ledig</span></div>
       </div>
 
-      {/* Filters - sentence style */}
       <p className="text-sm mb-3">
         <input value={q} onChange={e => setQ(e.target.value)} placeholder="Søk område..."
           className="border-b border-gray-300 focus:border-gray-500 outline-none w-40 mr-3" />
         <Select value={fylke} onChange={v => { setFylke(v); setKommune("all"); }} options={fylker} all="Alle fylker" />
         {" · "}
-        <Select value={kommune} onChange={setKommune} 
-          options={kommuner.filter(k => fylke === "all" || rows.some(r => r.kommune === k && r.fylke === fylke))} 
+        <Select value={kommune} onChange={setKommune}
+          options={kommuner.filter(k => fylke === "all" || rows.some(r => r.kommune === k && r.fylke === fylke))}
           all="Alle kommuner" />
         {isFiltered && <button onClick={() => { setQ(""); setFylke("all"); setKommune("all"); }} className="ml-2 text-gray-400 hover:text-gray-600">×</button>}
       </p>
 
-      {/* Filtered result */}
-      {isFiltered && (
-        <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {n(fStats.ledig)} MW ledig</p>
-      )}
+      {isFiltered && <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {fmt(fStats.ledig)} MW ledig</p>}
 
-      {/* Table */}
       <table className="w-full text-sm">
         <thead className="text-xs">
           <tr className="border-b border-gray-200">
@@ -240,39 +215,32 @@ function Nett({ data }) {
               <td className="py-1 px-1 text-gray-500">{r.fylke}</td>
               <td className="py-1 px-1 text-gray-400">{r.nett}</td>
               <td className={`py-1 px-1 text-right ${r.ledig >= 10 ? "text-emerald-700 font-medium" : r.ledig >= 5 ? "text-emerald-600" : r.ledig > 0 ? "text-gray-600" : "text-gray-300"}`}>
-                {r.ledig > 0 ? n(r.ledig, 1) : "–"}
+                {r.ledig > 0 ? fmt(r.ledig, 1) : "–"}
               </td>
             </tr>
           ))}
         </tbody>
       </table>
-      {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length} områder. Bruk filtre for å begrense.</p>}
 
-      {/* Compact legend */}
-      <p className="text-xs text-gray-400 mt-4">
-        <span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk (f.eks. landstrøm)
-      </p>
+      {filtered.length > 100 && <p className="text-xs text-gray-400 mt-2">Viser 100 av {filtered.length}. Bruk filtre.</p>}
+      <p className="text-xs text-gray-400 mt-4"><span className="text-emerald-600">Ledig</span> = kapasitet for nytt forbruk</p>
     </div>
   );
 }
-
-// ============================================
-// APP
-// ============================================
 
 export default function App() {
   const [tab, setTab] = useState("skip");
   const [maru, setMaru] = useState(null);
   const [grid, setGrid] = useState(null);
-  const [ok, setOk] = useState(false);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     Promise.all([fetch("/maru_data.json").then(r => r.json()), fetch("/grid_index.json").then(r => r.json())])
-      .then(([m, g]) => { setMaru(m); setGrid(g); setOk(true); })
-      .catch(() => setOk(true));
+      .then(([m, g]) => { setMaru(m); setGrid(g); setReady(true); })
+      .catch(() => setReady(true));
   }, []);
 
-  if (!ok) return <p className="p-8 text-gray-400">Laster...</p>;
+  if (!ready) return <p className="p-8 text-gray-400">Laster...</p>;
 
   return (
     <div className="max-w-5xl mx-auto px-5 py-6 text-gray-900">

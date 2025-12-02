@@ -1,92 +1,35 @@
-# Norwegian Grid Data Summary
+# Norwegian Grid Data
 
-## Overview
+29 grid operators, 734 locations across Norway.
 
-This directory contains electrical grid capacity data for 29 Norwegian grid operators, totaling 734 locations across Norway.
+## Operators by Size
 
-## Data Quality
+| Operator | Locations | Region |
+|----------|-----------|--------|
+| ELVIA | 241 | Eastern |
+| TENSIO-TS | 57 | Northern |
+| ARVA | 56 | Northern |
+| BKK | 54 | Western (Bergen) |
+| LEDE | 54 | Eastern |
+| Lnett | 47 | Western |
+| GlitreNettOst | 46 | Eastern |
+| FAGNE | 43 | Central |
+| Linja | 40 | Various |
+| Barentsnett | 14 | Northern |
+| Mellom | 12 | Central |
+| Statnett | 10 | National (transmission) |
+| Havnett | 9 | Coastal |
+| Others | <10 each | Various |
 
-- **Total Files**: 29
-- **Valid JSON Files**: 29/29 (100%)
-- **Total Locations**: 734
-- **Geometry Types**:
-  - Point geometries: Most locations (representing specific substations/points)
-  - Polygon geometries: Some locations (representing service areas)
+## Data Fields
 
-## Grid Operators by Location Count
+- `availableCons`: Available capacity for consumption (MW)
+- `availableProd`: Available capacity for production (MW)
+- `reservedCons`: Reserved capacity (MW)
+- `kommune`, `fylke`: Municipality and county (added via Kartverket API)
 
-| Rank | Operator | Locations | Coverage |
-|------|----------|-----------|----------|
-| 1 | ELVIA | 241 | Largest operator |
-| 2 | TENSIO-TS | 57 | Northern Norway |
-| 3 | ARVA | 56 | Northern Norway |
-| 4 | BKK | 54 | Western Norway (Bergen area) |
-| 5 | LEDE | 54 | Eastern Norway |
-| 6 | Lnett | 47 | Western Norway |
-| 7 | GlitreNettOst | 46 | Eastern Norway |
-| 8 | FAGNE | 43 | Central Norway |
-| 9 | Linja | 40 | Various regions |
-| 10 | Barentsnett | 14 | Northern Norway (Barents Sea region) |
-| 11 | Mellom | 12 | Central Norway |
-| 12 | Statnett | 10 | National transmission grid |
-| 13 | Havnett | 9 | Coastal areas |
-| 14 | Elinett | 8 | Northern Norway |
-| 15 | Fjellnett | 8 | Mountain regions |
-| 16 | Lysna | 7 | Western Norway |
-| 17 | Vevig | 7 | Western Norway |
-| 18 | Vestall | 5 | Western Norway |
-| 19 | Everket Notodden | 4 | Telemark region |
-| 20 | Føre | 4 | Western Norway |
-| 21 | Midtnett | 3 | Central Norway |
-| 22 | Stannum | 3 | Western Norway |
-| 23 | Romsdalsnett | 2 | Møre og Romsdal |
-| 24-29 | Others | 0 | Empty files (no locations) |
+## Format
 
-## Geographic Distribution
-
-The data covers all of Norway:
-- **Northern Norway**: ARVA, Barentsnett, Elinett, TENSIO-TS
-- **Western Norway**: BKK, Lnett, Havnett, Lysna, Vevig, Vestall, Føre, Stannum
-- **Eastern Norway**: ELVIA, LEDE, GlitreNettOst
-- **Central Norway**: FAGNE, Mellom, Midtnett, Romsdalsnett
-- **National**: Statnett (transmission grid)
-
-## Data Characteristics
-
-### Capacity Information
-
-Each location includes:
-- **Available Consumption** (`availableCons`): Capacity available for consumption (MW)
-- **Available Production** (`availableProd`): Capacity available for production (MW, negative values)
-- **Reserved Consumption** (`reservedCons`): Reserved capacity (MW)
-
-### Geometry Types
-
-- **Point**: Exact location of substations/connection points
-- **Polygon**: Service areas or regions (found in Statnett, Havnett, and some regional operators)
-
-## Notes
-
-1. Some operators have empty feature arrays (0 locations) - these files are kept for completeness
-2. Polygon geometries represent service areas rather than specific connection points
-3. All data follows CIM (Common Information Model) standards
-4. Data is sourced from WattApp and updated regularly
-5. Coordinates are in WGS84 (EPSG:4326)
-
-## Integration Readiness
-
-The data is ready for integration with:
-- Shipping/port data from Kystverket
-- Geographic analysis tools (GIS)
-- Capacity planning systems
-- Shore power feasibility studies
-
-## Next Steps
-
-1. ✅ Grid data organized and indexed
-2. ⏳ Add Kystverket shipping data
-3. ⏳ Create spatial analysis tools
-4. ⏳ Build integration layer for combined analysis
-
-
-
+- GeoJSON with Point or Polygon geometries
+- Coordinates: WGS84 (EPSG:4326)
+- Source: [WattApp](https://www.wattapp.no/)
