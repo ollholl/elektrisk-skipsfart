@@ -41,7 +41,7 @@ function Select({ value, onChange, options, all = "Alle" }) {
 // SKIPSFART - Compact matrix
 // ============================================
 
-const M = { sum_kwh: ["Energi", "GWh", 1e6], sum_kwh_shore_power: ["Landstrøm", "GWh", 1e6], sum_co2_tonnes: ["CO₂", "kt", 1e3], sum_nox_tonnes: ["NOx", "t", 1] };
+const M = { sum_kwh: ["Energi", "GWh", 1e6], sum_fuel_mdo_equivalent_tonnes: ["Drivstoff", "kt", 1e3], sum_co2_tonnes: ["CO₂", "kt", 1e3], sum_kwh_battery: ["Batteri", "GWh", 1e6] };
 const GT = ["gt1, 0-399", "gt2, 400-999", "gt3, 1000-2999", "gt4, 3000-4999", "gt5, 5000-9999", "gt6, 10000-24999", "gt7, 25000-49999", "gt8, 50000-99999", "gt9, >=100 000"];
 const GTL = ["<400", "4–1k", "1–3k", "3–5k", "5–10k", "10–25k", "25–50k", "50–100k", ">100k"];
 
