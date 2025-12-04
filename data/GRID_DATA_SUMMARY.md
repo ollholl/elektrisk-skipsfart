@@ -33,3 +33,4 @@
 - GeoJSON with Point or Polygon geometries
 - Coordinates: WGS84 (EPSG:4326)
 - Source: [WattApp](https://www.wattapp.no/)
+
