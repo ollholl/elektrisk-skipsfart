@@ -198,16 +198,15 @@ function Nett({ data }) {
         <div><span className="text-2xl tabular-nums text-sky-600">{fmt(stats.prod)}</span> <span className="text-gray-500">MW ledig produksjon</span></div>
       </div>
 
-      <p className="text-sm mb-3">
-        <input value={q} onChange={e => setQ(e.target.value)} placeholder="Søk område..."
-          className="border-b border-gray-300 focus:border-gray-500 outline-none w-40 mr-3" />
+      <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600 mb-4">
+        <input value={q} onChange={e => setQ(e.target.value)} placeholder="Søk..."
+          className="bg-transparent border-b border-gray-300 focus:border-gray-500 outline-none w-32" />
         <Select value={fylke} onChange={v => { setFylke(v); setKommune("all"); }} options={fylker} all="Alle fylker" />
-        {" · "}
         <Select value={kommune} onChange={setKommune}
           options={kommuner.filter(k => fylke === "all" || rows.some(r => r.kommune === k && r.fylke === fylke))}
           all="Alle kommuner" />
-        {isFiltered && <button onClick={() => { setQ(""); setFylke("all"); setKommune("all"); }} className="ml-2 text-gray-400 hover:text-gray-600">×</button>}
-      </p>
+        {isFiltered && <button onClick={() => { setQ(""); setFylke("all"); setKommune("all"); }} className="text-gray-400 hover:text-gray-600">× Nullstill</button>}
+      </div>
 
       {isFiltered && <p className="text-xs text-gray-500 mb-2">{fStats.n} områder · {fmt(fStats.forbruk)} MW forbruk · {fmt(fStats.prod)} MW prod</p>}
 
@@ -266,8 +265,8 @@ export default function App() {
         <button onClick={() => setTab("nett")} className={tab === "nett" ? "font-medium" : "text-gray-400"}>Nettkapasitet</button>
       </nav>
 
-      {tab === "skip" && <Skipsfart data={maru} />}
-      {tab === "nett" && <Nett data={grid} />}
+      <div className={tab !== "skip" ? "hidden" : ""}><Skipsfart data={maru} /></div>
+      <div className={tab !== "nett" ? "hidden" : ""}><Nett data={grid} /></div>
 
       <footer className="mt-8 pt-4 border-t border-gray-100 text-xs text-gray-400">
         Data: <a href="https://www.kystverket.no/klima-og-barekraft/maru/" className="hover:text-gray-600">Kystverket MarU</a> · <a href="https://www.wattapp.no/" className="hover:text-gray-600">WattApp</a> · per 1. des 2025
